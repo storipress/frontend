@@ -1,0 +1,44 @@
+query GetSite {
+  site {
+    id
+    name
+    description
+    favicon
+    workspace
+    socials
+    logo {
+      token
+      url
+      name
+      mime
+      size
+      width
+      height
+      title
+      caption
+      description
+      transformation
+    }
+    timezone
+    site_domain
+    mail_domain
+    custom_domain
+    customer_site_domain
+    customer_site_storipress_url
+    custom_domain_email {
+      hostname
+      type
+      value
+    }
+    subscription_setup
+    subscription
+    newsletter
+    email
+    currency
+    monthly_price
+    yearly_price
+    plan
+    lang
+    paywall_config
+  }
+}

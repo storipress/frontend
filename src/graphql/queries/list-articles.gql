@@ -1,0 +1,7 @@
+#import "../fragments/article.gql"
+
+query ListArticles($range: DateRange, $unscheduled: Boolean) {
+  articles: articlesAll(range: $range, unscheduled: $unscheduled) {
+    ...SchedulableArticle
+  }
+}

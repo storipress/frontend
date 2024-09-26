@@ -1,0 +1,22 @@
+query SubscriptionOverview {
+  subscriptionOverview {
+    current {
+      subscribers
+      paid_subscribers
+      active_subscribers
+      email_sends
+      email_opens
+      email_clicks
+      revenue
+    }
+    previous {
+      subscribers
+      paid_subscribers
+      active_subscribers
+      email_sends
+      email_opens
+      email_clicks
+      revenue
+    }
+  }
+}

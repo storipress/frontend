@@ -1,0 +1,3 @@
+mutation CreateWebflowCollection($input: CreateWebflowCollectionInput!) {
+  createWebflowCollection(input: $input)
+}

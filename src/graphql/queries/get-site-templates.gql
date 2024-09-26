@@ -1,0 +1,9 @@
+query GetSiteTemplates {
+  siteTemplates {
+    key
+    type
+    url
+    name
+    description
+  }
+}

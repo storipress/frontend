@@ -1,0 +1,7 @@
+mutation AddSlackChannels($input: AddSlackChannelsInput!) {
+  addSlackChannels(input: $input) {
+    key
+    data
+    activated_at
+  }
+}

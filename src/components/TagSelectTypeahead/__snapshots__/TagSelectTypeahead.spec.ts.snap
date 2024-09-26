@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`options list can trigger 1`] = `
+[
+  "World",
+  "Business",
+  "Opinion",
+  "Tech",
+  "Science",
+  "Health",
+  "Sports",
+  "Arts",
+  "Books",
+  "Style",
+  "Food",
+  "Video",
+]
+`;

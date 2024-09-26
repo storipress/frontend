@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`options list can trigger 1`] = `
+[
+  "Storipress Helper",
+  "Michae Jackson",
+  "Test Testerson",
+  "Gary Chu",
+  "Google Pie",
+  "David Peng",
+  "Ariel Lin",
+  "Harvey Liu",
+  "harvey author",
+  "harvey contributor",
+]
+`;

@@ -1,0 +1,9 @@
+#import "../fragments/thread.gql"
+
+query ListThreads($id: ID!) {
+  article(id: $id) {
+    threads {
+      ...Thread
+    }
+  }
+}

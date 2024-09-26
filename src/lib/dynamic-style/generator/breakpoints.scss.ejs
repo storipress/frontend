@@ -1,0 +1,9 @@
+{{~ E.include('styles', {styles: it, breakpoint: 'xs'})  }}
+
+@media (min-width: 768px) {
+  {{~ E.include('styles', {styles: it, breakpoint: 'md'})  }}
+}
+
+@media (min-width: 1070px) {
+  {{~ E.include('styles', {styles: it, breakpoint: 'lg'})  }}
+}

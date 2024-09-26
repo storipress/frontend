@@ -1,0 +1,15 @@
+query ListInvitations {
+  invitations {
+    id
+    role
+    email
+    desks {
+      id
+      name
+      desk {
+        id
+        name
+      }
+    }
+  }
+}

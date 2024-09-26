@@ -1,0 +1,6 @@
+query GetMeMeta {
+  me {
+    id
+    meta
+  }
+}

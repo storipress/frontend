@@ -1,0 +1,6 @@
+query ListWebflowCollections {
+  webflowCollections {
+    id
+    displayName
+  }
+}

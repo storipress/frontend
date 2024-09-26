@@ -1,0 +1,8 @@
+mutation UpdateCustomField($input: UpdateCustomFieldInput!) {
+  updateCustomField(input: $input) {
+    id
+    key
+    name
+    description
+  }
+}

@@ -1,0 +1,7 @@
+mutation DisconnectIntegration($key: ID!) {
+  disconnectIntegration(key: $key) {
+    key
+    data
+    activated_at
+  }
+}

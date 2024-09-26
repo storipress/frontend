@@ -1,0 +1,9 @@
+mutation DeleteCustomField($id: ID!) {
+  deleteCustomField(id: $id) {
+    id
+    key
+    type
+    name
+    description
+  }
+}

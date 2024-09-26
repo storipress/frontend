@@ -1,0 +1,35 @@
+import { defineGraphQLMock } from '../define-graphql-mock'
+import { GetBillingDocument } from '~/graphql-operations'
+
+export default defineGraphQLMock(GetBillingDocument, {
+  billing: {
+    id: '1',
+    on_trial: false,
+    canceled: false,
+    credit_balance: '0',
+    has_historical_subscriptions: false,
+    has_pm: true,
+    next_pm_discounts: [],
+    next_pm_taxes: [],
+    on_grace_period: false,
+    publications_count: 1,
+    publications_quota: 99,
+    seats_in_use: 1,
+    subscribed: true,
+    next_pm_date: '2020-01-01',
+    trial_ends_at: null,
+    ends_at: null,
+    source: 'stripe',
+    interval: 'monthly',
+    next_pm_subtotal: '0',
+    next_pm_tax: '0',
+    next_pm_total: '0',
+    plan: 'publisher',
+    plan_id: '1',
+    pm_last_four: '0000',
+    pm_type: 'visa',
+    quantity: 1,
+    referer: null,
+    has_prophet: false,
+  },
+})

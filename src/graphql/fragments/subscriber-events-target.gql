@@ -1,0 +1,38 @@
+fragment SubscriberEventArticle on Article {
+  id
+  title
+  published
+  slug
+  seo
+}
+
+fragment SubscriberEventPage on Page {
+  id
+  title
+  seo
+}
+
+fragment SubscriberEventDesk on Desk {
+  id
+  name
+  slug
+}
+
+fragment SubscriberEventUser on User {
+  id
+  full_name
+}
+
+fragment SubscriberEventEmail on Email {
+  id
+  subject
+  target {
+    ... on Article {
+      id
+      title
+      published
+      slug
+      seo
+    }
+  }
+}

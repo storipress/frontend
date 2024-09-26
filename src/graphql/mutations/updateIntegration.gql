@@ -1,0 +1,7 @@
+mutation UpdateIntegration($input: UpdateIntegrationInput!) {
+  updateIntegration(input: $input) {
+    key
+    data
+    activated_at
+  }
+}

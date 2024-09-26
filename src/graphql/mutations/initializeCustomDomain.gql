@@ -1,0 +1,28 @@
+mutation InitializeCustomDomain($input: InitializeCustomDomainInput!) {
+  initializeCustomDomain(input: $input) {
+    site {
+      domain
+      group
+      hostname
+      type
+      value
+      ok
+    }
+    mail {
+      domain
+      group
+      hostname
+      type
+      value
+      ok
+    }
+    redirect {
+      domain
+      group
+      hostname
+      type
+      value
+      ok
+    }
+  }
+}

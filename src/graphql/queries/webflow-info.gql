@@ -1,0 +1,6 @@
+query WebflowInfo{
+  webflowInfo {
+    site_id
+    domain
+  }
+}

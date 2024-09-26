@@ -1,0 +1,24 @@
+mutation CreateArticle($input: CreateArticleInput!) {
+  createArticle(input: $input) {
+    id
+    title
+    blurb
+    scheduled
+    published
+    published_at
+    desk {
+      id
+      name
+      slug
+    }
+    stage {
+      id
+      name
+      ready
+      default
+      order
+    }
+    seo
+    plan
+  }
+}

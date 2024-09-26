@@ -1,0 +1,7 @@
+mutation ActivateIntegration($key: ID!) {
+  activateIntegration(key: $key) {
+    key
+    data
+    activated_at
+  }
+}

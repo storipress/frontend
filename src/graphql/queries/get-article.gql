@@ -1,0 +1,83 @@
+query GetArticle($id: ID, $sid: ID, $slug: String) {
+  article(id: $id, sid: $sid, slug: $slug) {
+    id
+    seo
+    blurb
+    newsletter
+    newsletter_at
+    url
+    desk {
+      id
+      name
+      order
+      slug
+      desk {
+        id
+        name
+        slug
+        order
+        layout {
+          id
+          template
+          data
+        }
+      }
+      desks {
+        id
+        name
+        slug
+        order
+        layout {
+          id
+          template
+          data
+        }
+      }
+      layout {
+        id
+        template
+        data
+      }
+    }
+    slug
+    plan
+    title
+    seo
+    cover
+    published
+    published_at
+    auto_posting
+    scheduled
+    layout {
+      id
+      name
+      template
+      data
+    }
+    draft
+    stage {
+      id
+      name
+      icon
+      color
+      order
+      default
+    }
+    tags {
+      id
+      name
+    }
+    featured
+    authors {
+      id
+      full_name
+      email
+      avatar
+    }
+    relevances {
+      id
+      title
+      blurb
+    }
+  }
+}

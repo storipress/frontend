@@ -1,0 +1,7 @@
+query ListPublications {
+  publications {
+    id
+    name
+    workspace
+  }
+}

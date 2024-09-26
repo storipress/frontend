@@ -1,0 +1,11 @@
+query GetAppSubscriptionPlans {
+  appSubscriptionPlans {
+    id
+    group
+    currency
+    price
+    interval
+    interval_count
+    usage_type
+  }
+}

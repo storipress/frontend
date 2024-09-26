@@ -1,0 +1,6 @@
+query ListWebflowItems($collection_id: ID!) {
+  webflowItems(collection_id: $collection_id) {
+    id
+    name
+  }
+}

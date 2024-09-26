@@ -1,0 +1,23 @@
+query Scraper($token: String!) {
+  scraper(token: $token) {
+    id
+    state
+    data
+    selectors {
+      id
+      type
+      value
+      data
+    }
+    articles(first: 10, page: 1) {
+      data {
+        id
+        path
+        data
+        successful
+        scraped
+        scraped_at
+      }
+    }
+  }
+}

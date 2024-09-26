@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "incremental": false,
+    "target": "ES2020",
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    "paths": {
+      "~/*": ["src/*"],
+      "@assets/*": ["assets/*"],
+      "@test/*": ["test/*"],
+      "@core-component": ["@storipress/core-component"],
+      "@editor-core/*": ["editor-core/*"],
+      "@editor-core": ["editor-core/index.ts"],
+      "@article-templates/*": ["article-templates/*"],
+      "@builder-component": ["node_modules/@storipress/builder-component/dist/src/entry.d.ts"],
+      "@block/*": ["block/*"],
+      "@storipress/block/*": ["block/elements/*"],
+      "@storipress/block": ["block/elements/index.ts"],
+      "@storipress/custom-field": ["vendor/custom-field"]
+    },
+    "resolveJsonModule": true,
+    "types": [
+      "vite/client",
+      "vitest/importMeta",
+      "vitest/globals",
+      "node",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-layouts/client",
+      "@testing-library/jest-dom"
+    ],
+    "allowJs": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    ".storybook/**/*",
+    "assets/**/*",
+    "src/**/*",
+    "test/**/*",
+    "article-templates/templates/index.ts",
+    "article-templates/templates/fallback.ts",
+    "components.d.ts"
+  ],
+  "exclude": [
+    "**/*.stories.ts",
+    "**/*.stories.js",
+    "**/dist/**",
+    "**/node_modules/**",
+    "editor-core/core/tiptap/render-cursor.jsx",
+    "**/*.snap"
+  ]
+}

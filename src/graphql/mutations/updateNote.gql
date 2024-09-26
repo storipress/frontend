@@ -1,0 +1,11 @@
+#import "../fragments/note.gql"
+
+mutation UpdateNote($input: UpdateNoteInput!) {
+  updateNote(input: $input) {
+    id
+    content
+    thread(trashed: WITH) {
+      id
+    }
+  }
+}

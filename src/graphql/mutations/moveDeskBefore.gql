@@ -1,0 +1,22 @@
+mutation MoveDeskBefore($input: MoveDeskBeforeInput!) {
+  moveDeskBefore(input: $input) {
+    id
+    name
+    slug
+    order
+    desk {
+      id
+      name
+    }
+    desks {
+      id
+      name
+      slug
+      order
+      desk {
+        id
+        name
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+mutation ImportSubscribersFromCsvFile($file: Upload!) {
+  importSubscribersFromCsvFile(input: { file: $file })
+}

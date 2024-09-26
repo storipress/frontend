@@ -1,0 +1,3 @@
+mutation SubscribeSubscribers($ids: [ID!]!) {
+  subscribeSubscribers(ids: $ids)
+}

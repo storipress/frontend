@@ -1,0 +1,19 @@
+query ListSimpleUsers {
+  users {
+    id
+    full_name
+    avatar
+    suspended
+    status
+    role
+    email
+    desks {
+      id
+      name
+      desk {
+        id
+        name
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+mutation RemoveNote($id: ID!) {
+  deleteNote(id: $id) {
+    id
+    thread(trashed: WITH) {
+      id
+    }
+  }
+}

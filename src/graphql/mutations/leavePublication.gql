@@ -1,0 +1,3 @@
+mutation LeavePublication($id: ID!) {
+  leavePublication(id: $id)
+}

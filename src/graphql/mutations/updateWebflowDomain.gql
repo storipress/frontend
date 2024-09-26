@@ -1,0 +1,3 @@
+mutation UpdateWebflowDomain($input: UpdateWebflowDomainInput!) {
+  updateWebflowDomain(input: $input)
+}

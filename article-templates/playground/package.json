@@ -1,0 +1,22 @@
+{
+  "name": "@storipress/article-template-playground",
+  "packageManager": "yarn@4.4.1",
+  "scripts": {
+    "dev": "vite dev"
+  },
+  "dependencies": {
+    "@vueuse/core": "10.11.1",
+    "dayjs": "1.11.13",
+    "vue": "3.5.8"
+  },
+  "devDependencies": {
+    "@storipress/unplugin-eta": "0.0.2",
+    "@vitejs/plugin-vue": "5.1.4",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.47",
+    "tailwindcss": "3.4.13",
+    "typescript": "5.6.2",
+    "unplugin-auto-import": "0.18.3",
+    "vite": "5.4.7"
+  }
+}

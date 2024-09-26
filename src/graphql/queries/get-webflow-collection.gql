@@ -1,0 +1,17 @@
+query GetWebflowCollection($type: WebflowCollectionType!) {
+  webflowCollection(type: $type) {
+    id
+    displayName
+    fields {
+      id
+      displayName
+      isRequired
+      type
+      candidates {
+        name
+        value
+      }
+    }
+    mappings
+  }
+}

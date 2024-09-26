@@ -1,0 +1,9 @@
+mutation AssignUserToDesk($userId: ID!, $deskId: ID!) {
+  assignUserToDesk(input: { user_id: $userId, desk_id: $deskId }) {
+    id
+    desks {
+      id
+      name
+    }
+  }
+}

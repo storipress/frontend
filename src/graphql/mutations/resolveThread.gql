@@ -1,0 +1,6 @@
+mutation ResolveThread($id: ID!) {
+  resolveArticleThread(id: $id) {
+    id
+    resolved_at
+  }
+}

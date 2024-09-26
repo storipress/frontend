@@ -1,0 +1,17 @@
+mutation PublishArticle($id: ID!, $time: String, $now: Boolean, $useServerTime: Boolean) {
+  publishArticle(input: { id: $id, time: $time, now: $now, useServerCurrentTime: $useServerTime }) {
+    id
+    stage {
+      id
+      name
+      color
+      order
+      icon
+    }
+    url
+    published
+    published_at
+    scheduled
+    updated_at
+  }
+}

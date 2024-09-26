@@ -1,0 +1,11 @@
+mutation PullWebflowSites($refresh: Boolean) {
+  pullWebflowSites(refresh: $refresh) {
+    id
+    customDomains {
+      id
+      url
+    }
+    defaultDomain
+    displayName
+  }
+}

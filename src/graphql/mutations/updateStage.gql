@@ -1,0 +1,11 @@
+mutation UpdateStage($input: UpdateStageInput!) {
+  updateStage(input: $input) {
+    id
+    name
+    color
+    icon
+    order
+    ready
+    default
+  }
+}

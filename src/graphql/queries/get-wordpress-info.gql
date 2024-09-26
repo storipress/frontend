@@ -1,0 +1,9 @@
+query GetWordpressInfo {
+  wordPressInfo {
+    username
+    site_name
+    url
+    version
+    activated_at
+  }
+}

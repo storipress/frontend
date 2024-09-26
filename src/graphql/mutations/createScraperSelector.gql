@@ -1,0 +1,8 @@
+mutation CreateScraperSelector($input: CreateScraperSelectorInput!) {
+  createScraperSelector(input: $input) {
+    id
+    type
+    value
+    data
+  }
+}

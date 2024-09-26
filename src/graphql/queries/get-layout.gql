@@ -1,0 +1,11 @@
+query GetLayout {
+  layouts {
+    id
+    name
+    template
+    data
+    preview {
+      url
+    }
+  }
+}

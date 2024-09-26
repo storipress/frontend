@@ -1,0 +1,3 @@
+query UnsplashListPhotos($page: Int!) {
+  unsplashList(page: $page)
+}

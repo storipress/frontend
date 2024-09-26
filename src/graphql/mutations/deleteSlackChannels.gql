@@ -1,0 +1,7 @@
+mutation DeleteSlackChannels($input: DeleteSlackChannelsInput!) {
+  deleteSlackChannels(input: $input) {
+    key
+    data
+    activated_at
+  }
+}

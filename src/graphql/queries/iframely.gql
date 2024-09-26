@@ -1,0 +1,3 @@
+query Iframely($input: IframelyIframelyInput!) {
+  iframelyIframely(input: $input)
+}

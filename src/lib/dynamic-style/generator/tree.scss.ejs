@@ -1,0 +1,16 @@
+{{
+  const { root } = it
+}}
+
+{{ if (root.name !== E.STYLE_TREE_FRAGMENT) { }}
+  {{= E.ensureSelector(root.name) }} {
+    {{~ E.include('breakpoints', root.styles)  }}
+{{ } }}
+
+{{ for (const style of Object.values(root.children)) { }}
+ {{~ E.include('tree', { root: style }) }}
+{{ } }}
+
+{{ if (root.name !== E.STYLE_TREE_FRAGMENT) { }}
+  }
+{{ } }}

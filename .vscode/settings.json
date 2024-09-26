@@ -1,0 +1,68 @@
+{
+  "cSpell.words": ["Vitesse"],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.localesPaths": "locales",
+  "i18n-ally.sortKeys": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.associations": {
+    "*.css": "postcss",
+    "renovate.json": "jsonc"
+  },
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.lintTask.enable": true,
+  "eslint.lintTask.options": "-c ./.eslintrc.js --ext .vue,.ts,.js src test cypress",
+  "headwind.defaultSortOrder": [],
+  "headwind.runOnSave": false,
+  "jest.autoRun": "off",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "testing.automaticallyOpenPeekView": "never",
+  "vitest.commandLine": "yarn run vitest dev",
+  "vitest.exclude": ["**/node_modules/**", "**/dist/**", "**/playwright/**", "**/.{idea,git,cache,output,temp}/**"],
+  "githubPullRequests.ignoredPullRequestBranches": ["master"],
+
+  // Enable the ESlint flat config support
+  "eslint.experimental.useFlatConfig": true,
+
+  // Disable the default formatter, use eslint instead
+  "editor.formatOnSave": true,
+
+  // Auto fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "never"
+  },
+
+  // Silent the stylistic rules in you IDE, but still auto fix them
+  "eslint.rules.customizations": [
+    { "rule": "style/*", "severity": "off" },
+    { "rule": "*-indent", "severity": "off" },
+    { "rule": "*-spacing", "severity": "off" },
+    { "rule": "*-spaces", "severity": "off" },
+    { "rule": "*-order", "severity": "off" },
+    { "rule": "*-dangle", "severity": "off" },
+    { "rule": "*-newline", "severity": "off" },
+    { "rule": "*quotes", "severity": "off" },
+    { "rule": "*semi", "severity": "off" }
+  ],
+
+  // Enable eslint for all supported languages
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+  "vue.codeActions.enabled": false
+}

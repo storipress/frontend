@@ -1,0 +1,9 @@
+mutation PreviewAppSubscription($input: PreviewAppSubscriptionInput!) {
+  previewAppSubscription(input: $input) {
+    credit
+    discount
+    subtotal
+    tax
+    total
+  }
+}

@@ -1,0 +1,51 @@
+query ListIntegrations {
+  integrations {
+    key
+    data
+    activated_at
+    configuration {
+      ... on WebflowConfiguration {
+        name
+        email
+        user_id
+      }
+      ... on LinkedInConfiguration {
+        id
+        name
+        thumbnail
+        authors {
+          id
+          name
+          thumbnail
+        }
+      }
+      ... on FacebookConfiguration {
+        pages {
+          name
+          page_id
+          thumbnail
+        }
+      }
+      ... on ShopifyConfiguration {
+        domain
+        id
+        myshopify_domain
+        name
+        prefix
+      }
+      ... on SlackConfiguration {
+        id
+        name
+        thumbnail
+      }
+      ... on TwitterConfiguration {
+        name
+        thumbnail
+        user_id
+      }
+      ... on IntegrationIgnoreConfiguration {
+        key
+      }
+    }
+  }
+}

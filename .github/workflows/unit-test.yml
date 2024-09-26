@@ -1,0 +1,63 @@
+name: Unit Test
+
+on:
+  pull_request:
+
+jobs:
+  unit-test:
+    runs-on: ubuntu-22.04
+    name: Unit Test
+    env:
+      NODE_OPTIONS: --max-old-space-size=6144
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          submodules: recursive
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      - uses: moonrepo/setup-toolchain@v0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: yarn
+      - name: Cache Moonrepo
+        uses: actions/cache@v4
+        with:
+          path: |
+            .moon/cache/hashes
+            .moon/cache/outputs
+          key: cache-moon-${{ github.sha }}
+          restore-keys: |
+            cache-moon-
+      - run: moon ci :test-coverage
+      - uses: moonrepo/run-report-action@v1
+        if: success() || failure()
+        with:
+          access-token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/cache/restore@v4
+        with:
+          key: base-coverage-${{ github.run_id }}
+          path: |
+            ./coverage/base.info
+          restore-keys: |
+            base-coverage-
+            base-coverage
+      - name: Create Todo Comments
+        uses: gkampitakis/github-action-todo-commenter@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          ignore-pattern: '.js$|.snap$'
+          review-message: 'Please take a look :eyes:'
+          # optional, default is "TODO:,FIXME:,BUG:"
+          tags: 'TODO:,FIXME:,BUG:'
+      - name: Generate Code Coverage report
+        id: code-coverage
+        uses: barecheck/code-coverage-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          lcov-file: ./coverage/lcov.info
+          base-lcov-file: ./coverage/base.info
+          send-summary-comment: true
+          show-annotations: warning

@@ -1,0 +1,11 @@
+mutation RevokeInvitation($id: ID!) {
+  revokeInvitation(id: $id) {
+    id
+    email
+    role
+    desks {
+      id
+      name
+    }
+  }
+}

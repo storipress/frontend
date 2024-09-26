@@ -1,0 +1,71 @@
+{{
+  const {styles, breakpoint} = it
+}}
+
+{{ if (styles.bold && styles.bold[breakpoint]) { }}
+  font-weight: 700;
+{{ } else if (styles.bold && styles.bold[breakpoint] === false) { }}
+  font-weight: 400;
+{{ } }}
+
+{{ if (styles.italic && styles.italic[breakpoint]) { }}
+  font-style: italic;
+{{ } else if(styles.italic && styles.italic[breakpoint] === false) { }}
+  font-style: normal;
+{{ } }}
+
+{{ if (styles.underline && styles.underline[breakpoint]) { }}
+  text-decoration: underline;
+{{ } else if(styles.underline && styles.underline[breakpoint] === false) { }}
+  font-decoration: none;
+{{ } }}
+
+{{ if (styles.fontSize && styles.fontSize[breakpoint]) { }}
+  font-size: {{= `${styles.fontSize[breakpoint]}px` }};
+{{ } }}
+
+{{ if (styles.fontFamily && styles.fontFamily[breakpoint]) { }}
+  font-family: "{{= styles.fontFamily[breakpoint] }}";
+{{ } }}
+
+{{ if (styles.align && styles.align[breakpoint]) { }}
+  text-align: {{= styles.align[breakpoint] }};
+{{ } }}
+
+{{ if (styles.lineHeight && styles.lineHeight[breakpoint]) { }}
+  line-height: {{= `${styles.lineHeight[breakpoint]}` }};
+{{ } }}
+
+{{ if (styles.color && styles.color[breakpoint]) { }}
+  color: {{= `#${styles.color[breakpoint]}` }};
+{{ } }}
+
+{{ if (styles.uppercase && styles.uppercase[breakpoint]) { }}
+  text-transform: uppercase;
+{{ } else if (styles.lowercase && styles.lowercase[breakpoint]) { }}
+  text-transform: lowercase;
+{{ } else if (styles.uppercase && styles.uppercase[breakpoint] === false || styles.lowercase && styles.lowercase[breakpoint] === false) { }}
+  text-transform: none;
+{{ } }}
+
+{{ if (styles.backgroundColor?.[breakpoint]) { }}
+  background-color: {{= `#${styles.backgroundColor[breakpoint]}` }};
+{{ } }}
+
+{{ if (styles.width?.[breakpoint]) { }}
+  width: {{= styles.width[breakpoint] }};
+{{ } }}
+
+{{ if (styles.maxWidth?.[breakpoint]) { }}
+  max-width: {{= styles.maxWidth[breakpoint] }};
+{{ } }}
+
+{{ if (styles.minWidth?.[breakpoint]) { }}
+  min-width: {{= styles.minWidth[breakpoint] }};
+{{ } }}
+
+{{ if (styles.hoverColor?.[breakpoint]) { }}
+  &:hover {
+    color: {{= `#${styles.hoverColor[breakpoint]}` }};
+  }
+{{ } }}

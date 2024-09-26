@@ -1,0 +1,6 @@
+export { default as IntegrationCard } from './Card/Card.vue'
+export { default as BasicDialog } from './BasicDialog/BasicDialog.vue'
+export { default as InfoDialog } from './InfoDialog/InfoDialog.vue'
+export { default as FormView } from './FormView/FormView.vue'
+export { default as AuthorizationView } from './AuthorizationView/AuthorizationView.vue'
+export { default as SharedLayout } from './SharedLayout/SharedLayout.vue'

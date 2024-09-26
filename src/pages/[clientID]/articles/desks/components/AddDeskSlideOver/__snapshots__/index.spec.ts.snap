@@ -1,0 +1,889 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`addDeskSlideOver.vue > props features > hide 1`] = `
+<body>
+  <div>
+    <!---->
+  </div>
+</body>
+`;
+
+exports[`addDeskSlideOver.vue > props features > loading 1`] = `
+<body>
+  <div>
+    <!--teleport start-->
+    <!--teleport end-->
+  </div>
+  <div
+    id="headlessui-portal-root"
+  >
+    
+    <div
+      data-headlessui-portal=""
+    >
+      <div
+        class="fixed inset-0 z-30 pointer-events-none add-desk-slide-over"
+      >
+        <div
+          class="absolute inset-0 overflow-hidden pointer-events-none"
+        >
+          <!--v-if-->
+          <div
+            class="fixed inset-y-0 right-0 flex max-w-full pointer-events-none"
+          >
+            <div
+              class="translate-x-full transform transition ease-out duration-500"
+            >
+              <form
+                class="layer-2 relative z-[38] flex h-full w-screen max-w-[calc(100vw-15rem)] flex-col overflow-hidden rounded-tl-[2rem] border border-solid border-gray-100 bg-gray-100 pointer-events-auto"
+              >
+                <div
+                  class="slide-over__header relative mx-12 border-b border-stone-200"
+                >
+                  
+                  <button
+                    class="absolute right-[-0.5rem] top-[0.375rem] z-10 inline-flex size-12 items-center justify-center rounded-full outline-none hover:bg-stone-200"
+                    type="button"
+                  >
+                    <span
+                      class="icon-cross_thin text-[1rem] text-[#4c4c4c]"
+                      data-v-206d3c28=""
+                    />
+                  </button>
+                  <div
+                    class="text-pageheading py-5 text-stone-800"
+                  >
+                    Create New Desk
+                  </div>
+                  
+                </div>
+                <div
+                  class="slide-over__body mx-12 flex-shrink flex-grow overflow-auto"
+                >
+                  
+                  <div
+                    class="relative flex-shrink flex-grow overflow-auto"
+                  >
+                    <div
+                      class="mb-12"
+                    >
+                      <div
+                        class="flex justify-between py-4"
+                      >
+                        <!-- section title wrapper -->
+                        <div
+                          class="w-[17rem] pt-4"
+                        >
+                          <!-- title -->
+                          <div
+                            class="text-heading pb-4 pr-2 text-stone-800"
+                          >
+                            
+                            Desk settings
+                            
+                          </div>
+                          <!-- descriptipn -->
+                          <div
+                            class="text-body text-stone-500"
+                          >
+                            
+                            Control permissions by adding team members to this desk. The desk name is used in your live site for section headings and navigation.
+                            
+                          </div>
+                        </div>
+                        <!-- right hand form -->
+                        
+                        <div
+                          class="layer-1 h-fit w-[34rem] rounded-lg bg-white p-5"
+                        >
+                          
+                          
+                          <div
+                            class="flex items-end"
+                          >
+                            <div
+                              class="mr-4 basis-[11rem]"
+                            >
+                              <label
+                                class="text-body block text-stone-800"
+                                for="input-4fzzzxjylrx"
+                              >
+                                Desk name
+                              </label>
+                              <div
+                                class="mt-1 relative"
+                              >
+                                <!---->
+                                <div
+                                  class="relative"
+                                >
+                                  <input
+                                    class="text-inputs block w-full border px-3 pb-[0.312rem] pt-1.5 focus:outline-none focus:ring-1 disabled:opacity-50 rounded-md border-stone-400 focus:border-sky-600 focus:ring-sky-600"
+                                    id="input-4fzzzxjylrx"
+                                    name="name"
+                                    type="text"
+                                  />
+                                  <!---->
+                                </div>
+                                
+                                <!---->
+                                
+                              </div>
+                            </div>
+                            <span
+                              class="basis-[9.875rem]"
+                            >
+                              
+                              <input
+                                hidden=""
+                                name="listbox"
+                                readonly=""
+                                style="position: fixed; height: 0px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+                                type="hidden"
+                                value="No"
+                              />
+                              <div
+                                data-headlessui-state=""
+                              >
+                                <label
+                                  class="text-body block text-stone-800"
+                                  data-headlessui-state=""
+                                  id="headlessui-listbox-label-4"
+                                >
+                                  Open Access 
+                                  
+                                  <a
+                                    class="ml-2.5 text-sm"
+                                    href="https://help.storipress.com/getting-started/dGuU7UrYXbhoFZKB7WtKtN/what-are-desks/4hpDXZkJEyUFnJh5jvUGL7"
+                                    rel="noopener nofollow noreferrer"
+                                    tabindex="-1"
+                                    target="_blank"
+                                  >
+                                    <div
+                                      class="inline"
+                                      data-v-69d6dbbe=""
+                                    >
+                                      <span
+                                        aria-label="show-tooltip"
+                                        class="icon-question-mark-inverse trigger cursor-pointer text-stone-400"
+                                        data-v-206d3c28=""
+                                        data-v-69d6dbbe=""
+                                      />
+                                      <div
+                                        class="tooltip layer-2 absolute rounded-md border border-stone-100 bg-white invisible"
+                                        data-popper-escaped=""
+                                        data-popper-placement="right-start"
+                                        data-popper-reference-hidden=""
+                                        data-v-69d6dbbe=""
+                                        style="position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        
+                                        <div
+                                          class="text-body w-56 px-4 py-3 text-stone-400"
+                                        >
+                                          
+                                           Open Access removes desk permissions and allows your entire team to join and create articles in this desk. 
+                                          
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </a>
+                                  
+                                </label>
+                                <div
+                                  class="relative mt-1 h-[2.375rem]"
+                                >
+                                  
+                                  <button
+                                    aria-expanded="false"
+                                    aria-haspopup="listbox"
+                                    aria-labelledby="headlessui-listbox-label-4 headlessui-listbox-button-5"
+                                    class="text-inputs relative size-full cursor-default rounded-md border bg-white pb-[0.312rem] pl-3 pr-10 pt-1.5 text-left border-stone-400 focus:border-blue-300 focus:outline-none focus:ring-1 focus:ring-blue-300"
+                                    data-headlessui-state=""
+                                    id="headlessui-listbox-button-5"
+                                    type="button"
+                                  >
+                                    <span
+                                      class="block truncate"
+                                    >
+                                      No
+                                    </span>
+                                    <span
+                                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
+                                    >
+                                      <span
+                                        class="icon-selector text-stone-500"
+                                        data-v-206d3c28=""
+                                      />
+                                    </span>
+                                  </button>
+                                  <!--teleport start-->
+                                  <!--teleport end-->
+                                  
+                                  <span
+                                    class="text-caption absolute bottom-[calc(-1.5_*_1em)] left-0 text-red-700"
+                                  >
+                                    
+                                    
+                                    
+                                  </span>
+                                </div>
+                              </div>
+                              
+                            </span>
+                          </div>
+                          <div
+                            class="mt-4"
+                          >
+                            <div>
+                              <label
+                                class="text-body block text-stone-800"
+                                for="input-4fzzzxjylrx"
+                              >
+                                Desk description
+                              </label>
+                              <div
+                                class="mt-1 relative"
+                              >
+                                <!---->
+                                <div
+                                  class="relative"
+                                >
+                                  <input
+                                    class="text-inputs block w-full border px-3 pb-[0.312rem] pt-1.5 focus:outline-none focus:ring-1 disabled:opacity-50 rounded-md border-stone-400 focus:border-sky-600 focus:ring-sky-600"
+                                    id="input-4fzzzxjylrx"
+                                    name="description"
+                                    type="text"
+                                  />
+                                  <!---->
+                                </div>
+                                
+                                <!---->
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <hr
+                            class="-mx-5 mb-[1.375rem] mt-4 border-stone-200"
+                          />
+                          <div
+                            class="flex items-end"
+                          >
+                            <div
+                              class="typeahead mr-4 flex-grow"
+                              data-v-56168105=""
+                              data-v-a06c5457=""
+                            >
+                              <label
+                                class="text-body mb-1 block text-stone-800"
+                                data-v-a06c5457=""
+                              >
+                                Invite users
+                              </label>
+                              <div
+                                class="typeahead-wrap text-body relative size-full rounded-md border border-stone-400 bg-white p-2 focus:border-sky-600 focus:outline-none focus:ring-1 focus:ring-sky-600"
+                                data-v-a06c5457=""
+                              >
+                                <label
+                                  class="typeahead-label absolute cursor-text text-black/25"
+                                  data-v-a06c5457=""
+                                  for="typeahead-4fzzzxjylrx"
+                                >
+                                  <span
+                                    data-v-a06c5457=""
+                                  >
+                                    Start typing the name of a user ...
+                                  </span>
+                                </label>
+                                <ul
+                                  class="flex w-full cursor-text flex-wrap"
+                                  data-v-a06c5457=""
+                                >
+                                  
+                                  
+                                  <li
+                                    class="flex-1"
+                                    data-v-a06c5457=""
+                                  >
+                                    <div
+                                      class="simple-typeahead"
+                                      data-v-a06c5457=""
+                                      data-v-f81ca714=""
+                                      id="typeahead-4fzzzxjylrx_wrapper"
+                                    >
+                                      <input
+                                        autocomplete="off"
+                                        class="simple-typeahead-input"
+                                        data-v-f81ca714=""
+                                        id="typeahead-4fzzzxjylrx"
+                                        placeholder=""
+                                        type="text"
+                                      />
+                                      <!---->
+                                    </div>
+                                  </li>
+                                  <!---->
+                                </ul>
+                              </div>
+                            </div>
+                            <button
+                              class="text-button inline-flex h-9 items-center justify-center rounded px-4 py-2.5 text-white bg-primary hover:bg-emerald-900 transition-colors duration-200 focus:ring-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 ml-auto ml-auto"
+                              data-v-a52d93de=""
+                              type="button"
+                            >
+                              <!---->
+                              <span
+                                class="flex items-center justify-center"
+                                data-v-a52d93de=""
+                              >
+                                
+                                 Invite 
+                                
+                              </span>
+                            </button>
+                          </div>
+                          
+                          
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div
+                      class="relative mb-[5.375rem] flex-shrink flex-grow"
+                    >
+                      <div
+                        class="flex items-center justify-between border-b border-stone-200"
+                      >
+                        <div
+                          class="text-pageheading mb-4 pt-1.5 text-stone-800"
+                        >
+                          Desk team
+                        </div>
+                        <div
+                          class="flex items-center"
+                        >
+                          
+                          
+                        </div>
+                      </div>
+                      
+                      <hr
+                        class="border-t border-solid border-stone-200"
+                      />
+                      <div
+                        class="overflow-scroll py-4"
+                      >
+                        <!--v-if-->
+                        <div
+                          class="layer-1 text-medium flex h-40 items-center justify-center rounded-lg border bg-white text-black/25"
+                        >
+                           Invite your teammates to this desk 
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+                <div
+                  class="slide-over__footer flex items-center border-t border-solid bg-white px-6 pb-[0.688rem] pt-[0.562rem]"
+                >
+                  
+                  <button
+                    class="text-button inline-flex h-9 items-center justify-center rounded px-4 py-2.5 focus:outline-none bg-stone-200 text-stone-500 cursor-not-allowed"
+                    data-v-a52d93de=""
+                    disabled=""
+                    type="submit"
+                  >
+                    <div
+                      class="flex flex-col items-center absolute"
+                      data-v-a52d93de=""
+                    >
+                      <img
+                        class="w-5 animate-spin"
+                        src="data:image/svg+xml,%3csvg%20width='64'%20height='64'%20viewBox='0%200%2064%2064'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.776%2036.545c2.21%2013.55%2013.97%2023.89%2028.143%2023.89%2015.75%200%2028.516-12.767%2028.516-28.516%200-10.667-5.857-19.967-14.531-24.857.08-.148.687-1.176%202.33-1.566%201.293-.205%202.458.421%202.458.421a20.09%2020.09%200%200%200-.639-.465C58.48%2011.239%2064%2020.934%2064%2031.919%2064%2049.637%2049.637%2064%2031.92%2064%2017.188%2064%204.776%2054.072%201.01%2040.543c.053.17.104.331.153.482%200%200-.566-1.862%201.151-3.503.446-.36.943-.612%201.491-.756zM34.751%203.54l.214.023c-1-.106-2.017-.16-3.046-.16-3.02%200-5.93.468-8.66%201.338A27.522%2027.522%200%200%201%2034.75%203.541z'%20fill='%23047857'%20fill-rule='nonzero'/%3e%3c/svg%3e"
+                      />
+                      <!---->
+                    </div>
+                    <span
+                      class="invisible flex items-center justify-center"
+                      data-v-a52d93de=""
+                    >
+                      
+                       Create new desk 
+                      
+                    </span>
+                  </button>
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div
+      data-headlessui-portal=""
+    >
+      <div
+        class="hidden"
+        style="position: fixed; left: 0px; top: 0px; z-index: 9999;"
+      >
+        <transition-stub
+          appear="true"
+          css="true"
+          enteractiveclass="transition duration-100 ease-in "
+          leaveactiveclass="transition duration-100 ease-in "
+          leavefromclass="opacity-100"
+          leavetoclass="opacity-0"
+          persisted="false"
+        >
+          <!---->
+        </transition-stub>
+      </div>
+    </div>
+    
+  </div>
+</body>
+`;
+
+exports[`addDeskSlideOver.vue > props features > show 1`] = `
+<body>
+  <div>
+    <!--teleport start-->
+    <!--teleport end-->
+  </div>
+  <div
+    id="headlessui-portal-root"
+  >
+    
+    <div
+      data-headlessui-portal=""
+    >
+      <div
+        class="fixed inset-0 z-30 add-desk-slide-over"
+      >
+        <div
+          class="absolute inset-0 overflow-hidden"
+        >
+          <div
+            class="opacity-0 ease-out duration-500"
+          >
+            <div
+              class="absolute inset-0"
+            />
+          </div>
+          <div
+            class="fixed inset-y-0 right-0 flex max-w-full"
+          >
+            <div
+              class="translate-x-full transform transition ease-out duration-500"
+            >
+              <form
+                class="layer-2 relative z-[38] flex h-full w-screen max-w-[calc(100vw-15rem)] flex-col overflow-hidden rounded-tl-[2rem] border border-solid border-gray-100 bg-gray-100"
+              >
+                <div
+                  class="slide-over__header relative mx-12 border-b border-stone-200"
+                >
+                  
+                  <button
+                    class="absolute right-[-0.5rem] top-[0.375rem] z-10 inline-flex size-12 items-center justify-center rounded-full outline-none hover:bg-stone-200"
+                    type="button"
+                  >
+                    <span
+                      class="icon-cross_thin text-[1rem] text-[#4c4c4c]"
+                      data-v-206d3c28=""
+                    />
+                  </button>
+                  <div
+                    class="text-pageheading py-5 text-stone-800"
+                  >
+                    Create New Desk
+                  </div>
+                  
+                </div>
+                <div
+                  class="slide-over__body mx-12 flex-shrink flex-grow overflow-auto"
+                >
+                  
+                  <div
+                    class="relative flex-shrink flex-grow overflow-auto"
+                  >
+                    <div
+                      class="mb-12"
+                    >
+                      <div
+                        class="flex justify-between py-4"
+                      >
+                        <!-- section title wrapper -->
+                        <div
+                          class="w-[17rem] pt-4"
+                        >
+                          <!-- title -->
+                          <div
+                            class="text-heading pb-4 pr-2 text-stone-800"
+                          >
+                            
+                            Desk settings
+                            
+                          </div>
+                          <!-- descriptipn -->
+                          <div
+                            class="text-body text-stone-500"
+                          >
+                            
+                            Control permissions by adding team members to this desk. The desk name is used in your live site for section headings and navigation.
+                            
+                          </div>
+                        </div>
+                        <!-- right hand form -->
+                        
+                        <div
+                          class="layer-1 h-fit w-[34rem] rounded-lg bg-white p-5"
+                        >
+                          
+                          
+                          <div
+                            class="flex items-end"
+                          >
+                            <div
+                              class="mr-4 basis-[11rem]"
+                            >
+                              <label
+                                class="text-body block text-stone-800"
+                                for="input-4fzzzxjylrx"
+                              >
+                                Desk name
+                              </label>
+                              <div
+                                class="mt-1 relative"
+                              >
+                                <!---->
+                                <div
+                                  class="relative"
+                                >
+                                  <input
+                                    class="text-inputs block w-full border px-3 pb-[0.312rem] pt-1.5 focus:outline-none focus:ring-1 disabled:opacity-50 rounded-md border-stone-400 focus:border-sky-600 focus:ring-sky-600"
+                                    id="input-4fzzzxjylrx"
+                                    name="name"
+                                    type="text"
+                                  />
+                                  <!---->
+                                </div>
+                                
+                                <!---->
+                                
+                              </div>
+                            </div>
+                            <span
+                              class="basis-[9.875rem]"
+                            >
+                              
+                              <input
+                                hidden=""
+                                name="listbox"
+                                readonly=""
+                                style="position: fixed; height: 0px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+                                type="hidden"
+                                value="No"
+                              />
+                              <div
+                                data-headlessui-state=""
+                              >
+                                <label
+                                  class="text-body block text-stone-800"
+                                  data-headlessui-state=""
+                                  id="headlessui-listbox-label-4"
+                                >
+                                  Open Access 
+                                  
+                                  <a
+                                    class="ml-2.5 text-sm"
+                                    href="https://help.storipress.com/getting-started/dGuU7UrYXbhoFZKB7WtKtN/what-are-desks/4hpDXZkJEyUFnJh5jvUGL7"
+                                    rel="noopener nofollow noreferrer"
+                                    tabindex="-1"
+                                    target="_blank"
+                                  >
+                                    <div
+                                      class="inline"
+                                      data-v-69d6dbbe=""
+                                    >
+                                      <span
+                                        aria-label="show-tooltip"
+                                        class="icon-question-mark-inverse trigger cursor-pointer text-stone-400"
+                                        data-v-206d3c28=""
+                                        data-v-69d6dbbe=""
+                                      />
+                                      <div
+                                        class="tooltip layer-2 absolute rounded-md border border-stone-100 bg-white invisible"
+                                        data-popper-escaped=""
+                                        data-popper-placement="right-start"
+                                        data-popper-reference-hidden=""
+                                        data-v-69d6dbbe=""
+                                        style="position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        
+                                        <div
+                                          class="text-body w-56 px-4 py-3 text-stone-400"
+                                        >
+                                          
+                                           Open Access removes desk permissions and allows your entire team to join and create articles in this desk. 
+                                          
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </a>
+                                  
+                                </label>
+                                <div
+                                  class="relative mt-1 h-[2.375rem]"
+                                >
+                                  
+                                  <button
+                                    aria-expanded="false"
+                                    aria-haspopup="listbox"
+                                    aria-labelledby="headlessui-listbox-label-4 headlessui-listbox-button-5"
+                                    class="text-inputs relative size-full cursor-default rounded-md border bg-white pb-[0.312rem] pl-3 pr-10 pt-1.5 text-left border-stone-400 focus:border-blue-300 focus:outline-none focus:ring-1 focus:ring-blue-300"
+                                    data-headlessui-state=""
+                                    id="headlessui-listbox-button-5"
+                                    type="button"
+                                  >
+                                    <span
+                                      class="block truncate"
+                                    >
+                                      No
+                                    </span>
+                                    <span
+                                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
+                                    >
+                                      <span
+                                        class="icon-selector text-stone-500"
+                                        data-v-206d3c28=""
+                                      />
+                                    </span>
+                                  </button>
+                                  <!--teleport start-->
+                                  <!--teleport end-->
+                                  
+                                  <span
+                                    class="text-caption absolute bottom-[calc(-1.5_*_1em)] left-0 text-red-700"
+                                  >
+                                    
+                                    
+                                    
+                                  </span>
+                                </div>
+                              </div>
+                              
+                            </span>
+                          </div>
+                          <div
+                            class="mt-4"
+                          >
+                            <div>
+                              <label
+                                class="text-body block text-stone-800"
+                                for="input-4fzzzxjylrx"
+                              >
+                                Desk description
+                              </label>
+                              <div
+                                class="mt-1 relative"
+                              >
+                                <!---->
+                                <div
+                                  class="relative"
+                                >
+                                  <input
+                                    class="text-inputs block w-full border px-3 pb-[0.312rem] pt-1.5 focus:outline-none focus:ring-1 disabled:opacity-50 rounded-md border-stone-400 focus:border-sky-600 focus:ring-sky-600"
+                                    id="input-4fzzzxjylrx"
+                                    name="description"
+                                    type="text"
+                                  />
+                                  <!---->
+                                </div>
+                                
+                                <!---->
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <hr
+                            class="-mx-5 mb-[1.375rem] mt-4 border-stone-200"
+                          />
+                          <div
+                            class="flex items-end"
+                          >
+                            <div
+                              class="typeahead mr-4 flex-grow"
+                              data-v-56168105=""
+                              data-v-a06c5457=""
+                            >
+                              <label
+                                class="text-body mb-1 block text-stone-800"
+                                data-v-a06c5457=""
+                              >
+                                Invite users
+                              </label>
+                              <div
+                                class="typeahead-wrap text-body relative size-full rounded-md border border-stone-400 bg-white p-2 focus:border-sky-600 focus:outline-none focus:ring-1 focus:ring-sky-600"
+                                data-v-a06c5457=""
+                              >
+                                <label
+                                  class="typeahead-label absolute cursor-text text-black/25"
+                                  data-v-a06c5457=""
+                                  for="typeahead-4fzzzxjylrx"
+                                >
+                                  <span
+                                    data-v-a06c5457=""
+                                  >
+                                    Start typing the name of a user ...
+                                  </span>
+                                </label>
+                                <ul
+                                  class="flex w-full cursor-text flex-wrap"
+                                  data-v-a06c5457=""
+                                >
+                                  
+                                  
+                                  <li
+                                    class="flex-1"
+                                    data-v-a06c5457=""
+                                  >
+                                    <div
+                                      class="simple-typeahead"
+                                      data-v-a06c5457=""
+                                      data-v-f81ca714=""
+                                      id="typeahead-4fzzzxjylrx_wrapper"
+                                    >
+                                      <input
+                                        autocomplete="off"
+                                        class="simple-typeahead-input"
+                                        data-v-f81ca714=""
+                                        id="typeahead-4fzzzxjylrx"
+                                        placeholder=""
+                                        type="text"
+                                      />
+                                      <!---->
+                                    </div>
+                                  </li>
+                                  <!---->
+                                </ul>
+                              </div>
+                            </div>
+                            <button
+                              class="text-button inline-flex h-9 items-center justify-center rounded px-4 py-2.5 text-white bg-primary hover:bg-emerald-900 transition-colors duration-200 focus:ring-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 ml-auto ml-auto"
+                              data-v-a52d93de=""
+                              type="button"
+                            >
+                              <!---->
+                              <span
+                                class="flex items-center justify-center"
+                                data-v-a52d93de=""
+                              >
+                                
+                                 Invite 
+                                
+                              </span>
+                            </button>
+                          </div>
+                          
+                          
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div
+                      class="relative mb-[5.375rem] flex-shrink flex-grow"
+                    >
+                      <div
+                        class="flex items-center justify-between border-b border-stone-200"
+                      >
+                        <div
+                          class="text-pageheading mb-4 pt-1.5 text-stone-800"
+                        >
+                          Desk team
+                        </div>
+                        <div
+                          class="flex items-center"
+                        >
+                          
+                          
+                        </div>
+                      </div>
+                      
+                      <hr
+                        class="border-t border-solid border-stone-200"
+                      />
+                      <div
+                        class="overflow-scroll py-4"
+                      >
+                        <!--v-if-->
+                        <div
+                          class="layer-1 text-medium flex h-40 items-center justify-center rounded-lg border bg-white text-black/25"
+                        >
+                           Invite your teammates to this desk 
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+                <div
+                  class="slide-over__footer flex items-center border-t border-solid bg-white px-6 pb-[0.688rem] pt-[0.562rem]"
+                >
+                  
+                  <button
+                    class="text-button inline-flex h-9 items-center justify-center rounded px-4 py-2.5 text-white bg-primary hover:bg-emerald-900 transition-colors duration-200 focus:ring-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
+                    data-v-a52d93de=""
+                    type="submit"
+                  >
+                    <!---->
+                    <span
+                      class="flex items-center justify-center"
+                      data-v-a52d93de=""
+                    >
+                      
+                       Create new desk 
+                      
+                    </span>
+                  </button>
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div
+      data-headlessui-portal=""
+    >
+      <div
+        class=""
+        style="position: fixed; left: 0px; top: 0px; z-index: 9999;"
+      >
+        <transition-stub
+          appear="true"
+          css="true"
+          enteractiveclass="transition duration-100 ease-in "
+          leaveactiveclass="transition duration-100 ease-in "
+          leavefromclass="opacity-100"
+          leavetoclass="opacity-0"
+          persisted="false"
+        >
+          <!---->
+        </transition-stub>
+      </div>
+    </div>
+    
+  </div>
+</body>
+`;

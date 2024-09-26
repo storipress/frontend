@@ -1,0 +1,6 @@
+mutation PullWebflowCollections($refresh: Boolean) {
+  pullWebflowCollections(refresh: $refresh) {
+    id
+    displayName
+  }
+}

@@ -1,0 +1,5 @@
+query WebflowActivated {
+  webflowInfo {
+    activated_at
+  }
+}

@@ -1,0 +1,15 @@
+mutation CreateCustomFieldValue($input: CreateCustomFieldValueInput!) {
+  createCustomFieldValue(input: $input) {
+    ...CustomFieldTextValue
+    ...CustomFieldNumberValue
+    ...CustomFieldColorValue
+    ...CustomFieldUrlValue
+    ...CustomFieldBooleanValue
+    ...CustomFieldRichTextValue
+    ...CustomFieldFileValue
+    ...CustomFieldDateValue
+    ...CustomFieldJsonValue
+    ...CustomFieldSelectValue
+    ...CustomFieldReferenceValue
+  }
+}

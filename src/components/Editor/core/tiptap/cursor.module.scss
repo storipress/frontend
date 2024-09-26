@@ -1,0 +1,51 @@
+.userCursor {
+  @apply relative inline select-none text-base;
+
+  &::before {
+    @apply absolute;
+
+    content: ' ';
+    background-color: var(--bg-color);
+    bottom: 0;
+    height: 110%;
+    left: -1.5px;
+    width: 3px;
+  }
+
+  .userCursorContainer {
+    @apply absolute;
+    @apply flex items-center;
+
+    top: -200%;
+    left: -1.25rem;
+
+    .userAvatar {
+      @apply bg-gray-800;
+      @apply rounded-full border-2;
+      @apply z-0 overflow-hidden;
+
+      border-color: var(--bg-color);
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+
+    .userName {
+      background-color: var(--bg-color);
+      border-radius: 0 2px 2px 0;
+      box-shadow:
+        0 10px 10px 0 rgb(0 0 0 / 10%),
+        0 10px 20px 0 rgb(0 0 0 / 5%);
+      margin-left: -0.5rem;
+      padding: 0.45rem 0.5rem 0.45rem 0.7rem;
+
+      div {
+        @apply whitespace-nowrap;
+
+        color: #fff;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 100%;
+      }
+    }
+  }
+}

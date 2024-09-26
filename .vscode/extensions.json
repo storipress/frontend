@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "lokalise.i18n-ally",
+    "dbaeumer.vscode-eslint",
+    "csstools.postcss",
+    "arcanis.vscode-zipfs",
+    "esbenp.prettier-vscode",
+    "graphql.vscode-graphql",
+    "atlassian.atlascode",
+    "aaron-bond.better-comments",
+    "bradlc.vscode-tailwindcss",
+    "ms-playwright.playwright",
+    "Vue.volar"
+  ]
+}

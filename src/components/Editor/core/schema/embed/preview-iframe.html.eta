@@ -1,0 +1,24 @@
+<div id="preview" style="display: flex">
+  <div style="flex-grow: 1">
+    <%~ it.html %>
+  </div>
+</div>
+
+<script type="module">
+const $preview = document.querySelector('#preview')
+const updateSize = () => {
+  window.parent.postMessage({ $$type: 'storipress-iframe-resize', rect: $preview.getBoundingClientRect(), id: '<%= it.id %>' }, '*')
+}
+const observer = new ResizeObserver(updateSize)
+observer.observe($preview)
+updateSize()
+</script>
+
+<style>
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+</style>

@@ -1,0 +1,114 @@
+[
+  {
+    "__typename": "CustomField",
+    "id": "11",
+    "key": "sponsor_ads",
+    "type": "text",
+    "name": "Sponsor Ads",
+    "description": "coller le shortode de l'entreprise",
+    "options": {
+      "__typename": "CustomFieldTextOptions",
+      "type": "text",
+      "required": false,
+      "repeat": false,
+      "multiline": null,
+      "textMin": null,
+      "textMax": null,
+      "regex": null
+    }
+  },
+  {
+    "__typename": "CustomField",
+    "id": "12",
+    "key": "nom_du_sponsor",
+    "type": "text",
+    "name": "Nom du sponsor",
+    "description": "Ajouter le nom du sponsor qui apparaîtra dans les pages artciles",
+    "options": {
+      "__typename": "CustomFieldTextOptions",
+      "type": "text",
+      "required": false,
+      "repeat": false,
+      "multiline": null,
+      "textMin": null,
+      "textMax": null,
+      "regex": null
+    }
+  },
+  {
+    "__typename": "CustomField",
+    "id": "13",
+    "key": "url_de_la_page_du_sponsor",
+    "type": "url",
+    "name": "Url de la page du sponsor",
+    "description": "URL du sponsor (permet de se rendre sur sa page)",
+    "options": { "__typename": "CustomFieldUrlOptions", "type": "url", "required": false, "repeat": false }
+  },
+  {
+    "__typename": "CustomField",
+    "id": "14",
+    "key": "sponsor_iframe",
+    "type": "select",
+    "name": "Sponsor iframe",
+    "description": "Ajouter l'iframe correspondant au sponsor désiré",
+    "options": {
+      "__typename": "CustomFieldSelectOptions",
+      "type": "select",
+      "required": false,
+      "placeholder": null,
+      "choices": {
+        "<div> </div>": "none",
+        "<div style=\"max-width:300px; width:100%; height:80px;\"><iframe src=\"https://createurs.briefstory.io?_dnid=3464&t=1670416993\" border=\"0\" scrolling=\"no\" allowtransparency=\"true\" style=\"width:1px;min-width:100%;*width:100%;height:100%;border:0;\"></iframe></div>": "Emergenz",
+        "<div style=\"max-width:300px; width:100%; height:80px;\"><iframe src=\"https://createurs.briefstory.io?_dnid=341048&t=1670416922\" border=\"0\" scrolling=\"no\" allowtransparency=\"true\" style=\"width:1px;min-width:100%;*width:100%;height:100%;border:0;\"></iframe></div>": "Messaj"
+      },
+      "multiple": false
+    }
+  },
+  {
+    "__typename": "CustomField",
+    "id": "20",
+    "key": "testselect1004",
+    "type": "select",
+    "name": "Test Select 1004",
+    "description": null,
+    "options": {
+      "__typename": "CustomFieldSelectOptions",
+      "type": "select",
+      "required": false,
+      "placeholder": null,
+      "choices": "{\"test1\":\"test1\",\"test2\":\"test2\",\"test3\":\"test3\"}",
+      "multiple": true
+    }
+  },
+  {
+    "__typename": "CustomField",
+    "id": "29",
+    "key": "select_1011",
+    "type": "select",
+    "name": "Select_1011",
+    "description": null,
+    "options": {
+      "__typename": "CustomFieldSelectOptions",
+      "type": "select",
+      "required": false,
+      "placeholder": null,
+      "choices": "{\"tag1\":\"tag1\",\"tag2\":\"tag2\",\"tag3\":\"tag3\"}",
+      "multiple": false
+    }
+  },
+  {
+    "__typename": "CustomField",
+    "id": "32",
+    "key": "tags",
+    "type": "reference",
+    "name": "Tags",
+    "description": null,
+    "options": {
+      "__typename": "CustomFieldReferenceOptions",
+      "type": "reference",
+      "target": null,
+      "multiple": true,
+      "collection_id": null
+    }
+  }
+]

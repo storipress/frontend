@@ -1,0 +1,13 @@
+mutation UpdateSiteInfo($input: UpdateSiteInput!) {
+  updateSiteInfo(input: $input) {
+    id
+    name
+    description
+    timezone
+    favicon
+    socials
+    email
+    tutorials
+    lang
+  }
+}

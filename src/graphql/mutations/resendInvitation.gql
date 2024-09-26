@@ -1,0 +1,11 @@
+mutation ResendInvitation($id: ID!) {
+  resendInvitation(id: $id) {
+    id
+    email
+    role
+    desks {
+      id
+      name
+    }
+  }
+}

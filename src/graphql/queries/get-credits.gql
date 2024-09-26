@@ -1,0 +1,25 @@
+query GetCredits($first: Int!, $page: Int!) {
+  credits(first: $first, page: $page) {
+    paginatorInfo {
+      count
+      currentPage
+      firstItem
+      hasMorePages
+      lastItem
+      lastPage
+      perPage
+      total
+    }
+    data {
+      id
+      amount
+      state
+      earned_from
+      earned_at
+      used
+      used_at
+      data
+      initialized_at
+    }
+  }
+}

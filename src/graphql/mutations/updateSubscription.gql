@@ -1,0 +1,5 @@
+mutation UpdateSubscription($input: EnableSubscriptionInput!) {
+  updateSubscription(input: $input) {
+    subscription_setup
+  }
+}

@@ -1,0 +1,5 @@
+mutation sendArticleNewsletter($articleId: ID!) {
+  sendArticleNewsletter(id: $articleId) {
+    id
+  }
+}

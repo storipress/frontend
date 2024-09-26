@@ -1,0 +1,6 @@
+mutation ChangeUserRole($input: ChangeRoleInput!) {
+  changeUserRole(input: $input) {
+    id
+    role
+  }
+}

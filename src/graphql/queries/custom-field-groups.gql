@@ -1,0 +1,126 @@
+query CustomFieldGroups {
+  customFieldGroups {
+    data {
+      id
+      key
+      type
+      name
+      description
+      fields {
+        id
+        key
+        type
+        name
+        description
+        group {
+          id
+          key
+        }
+        options {
+          ... on CustomFieldTextOptions {
+            type
+            required
+            repeat
+            multiline
+            textMin: min
+            textMax: max
+            regex
+          }
+          ... on CustomFieldNumberOptions {
+            type
+            required
+            repeat
+            float
+            numberMin: min
+            numberMax: max
+          }
+          ... on CustomFieldDateOptions {
+            type
+            required
+            repeat
+            time
+          }
+          ... on CustomFieldColorOptions {
+            type
+            required
+            repeat
+          }
+          ... on CustomFieldUrlOptions {
+            type
+            required
+            repeat
+          }
+          ... on CustomFieldBooleanOptions {
+            type
+            required
+            repeat
+          }
+          ... on CustomFieldRichTextOptions {
+            type
+            required
+            repeat
+          }
+          ... on CustomFieldFileOptions {
+            type
+            required
+            repeat
+          }
+          ... on CustomFieldJsonOptions {
+            type
+            required
+            repeat
+          }
+          ... on CustomFieldIgnoreOptions {
+            type
+            required
+            repeat
+          }
+          ...CustomFieldReferenceOptions
+          ...CustomFieldSelectOptions
+        }
+      }
+      tags {
+        id
+        sid
+        name
+        slug
+        description
+        count
+        metafields {
+          id
+          key
+          type
+          name
+          description
+          options {
+            ...CustomFieldTextOptions
+            ...CustomFieldNumberOptions
+            ...CustomFieldDateOptions
+            ...CustomFieldColorOptions
+            ...CustomFieldUrlOptions
+            ...CustomFieldBooleanOptions
+            ...CustomFieldRichTextOptions
+            ...CustomFieldFileOptions
+            ...CustomFieldJsonOptions
+            ...CustomFieldIgnoreOptions
+            ...CustomFieldSelectOptions
+            ...CustomFieldReferenceOptions
+          }
+          values {
+            ...CustomFieldTextValue
+            ...CustomFieldNumberValue
+            ...CustomFieldColorValue
+            ...CustomFieldUrlValue
+            ...CustomFieldBooleanValue
+            ...CustomFieldRichTextValue
+            ...CustomFieldFileValue
+            ...CustomFieldDateValue
+            ...CustomFieldJsonValue
+            ...CustomFieldSelectValue
+            ...CustomFieldReferenceValue
+          }
+        }
+      }
+    }
+  }
+}

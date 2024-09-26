@@ -1,0 +1,9 @@
+mutation CreateCustomField($input: CreateCustomFieldInput!) {
+  createCustomField(input: $input) {
+    id
+    key
+    type
+    name
+    description
+  }
+}

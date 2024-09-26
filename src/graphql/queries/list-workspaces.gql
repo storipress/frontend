@@ -1,0 +1,12 @@
+query ListWorkspaces {
+  workspaces {
+    id
+    name
+    workspace
+    custom_domain
+    customer_site_domain
+    role
+    status
+    favicon
+  }
+}

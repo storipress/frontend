@@ -1,0 +1,8 @@
+mutation removeTagFromArticle($id: ID!, $tagId: ID!) {
+  removeTagFromArticle(input: { id: $id, tag_id: $tagId }) {
+    id
+    tags {
+      id
+    }
+  }
+}

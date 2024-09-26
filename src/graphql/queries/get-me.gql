@@ -1,0 +1,25 @@
+query GetMe {
+  me {
+    id
+    intercom_hash_identity
+    signed_up_source
+    email
+    avatar
+    verified
+    status
+    suspended
+    first_name
+    last_name
+    full_name
+    avatar
+    location
+    bio
+    website
+    last_seen_at
+    role
+    socials
+    desks {
+      id
+    }
+  }
+}

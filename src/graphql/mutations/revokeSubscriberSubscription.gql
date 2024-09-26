@@ -1,0 +1,3 @@
+mutation RevokeSubscriberSubscription($id: ID!) {
+  revokeSubscriberSubscription(id: $id)
+}

@@ -1,0 +1,5 @@
+mutation DuplicateArticle($id: ID!) {
+  duplicateArticle(id: $id) {
+    id
+  }
+}

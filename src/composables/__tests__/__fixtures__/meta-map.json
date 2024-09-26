@@ -1,0 +1,58 @@
+{
+  "1": [{ "value": null }],
+  "2": [{ "value": null }],
+  "3": [{ "value": null }],
+  "4": [{ "value": null }],
+  "5": [{ "value": null }],
+  "6": [
+    {
+      "__typename": "CustomFieldReferenceValue",
+      "id": "3851",
+      "referenceValue": [{ "__typename": "Tag", "id": "129", "name": "Histoire" }]
+    }
+  ],
+  "7": [{ "__typename": "CustomFieldTextValue", "id": "148", "value": "? Histoire" }],
+  "8": [{ "value": null }],
+  "9": [{ "__typename": "CustomFieldUrlValue", "id": "146", "value": "https://youtu.be/0691WULYNMY" }],
+  "10": [
+    {
+      "__typename": "CustomFieldFileValue",
+      "id": "3868",
+      "fileValue": {
+        "__typename": "CustomFieldFileValueAttributes",
+        "key": "assets/attachments/ceb724f8-2daf-4982-a198-47a0dd7a6b23/origin.gif",
+        "url": "https://assets.stori.press/attachments/ceb724f8-2daf-4982-a198-47a0dd7a6b23/origin.gif",
+        "size": 800898,
+        "mime_type": "image/gif"
+      }
+    }
+  ],
+  "11": [{ "value": null }],
+  "12": [{ "value": null }],
+  "13": [{ "value": null }],
+  "14": [{ "value": null }],
+  "15": [
+    {
+      "__typename": "CustomFieldUrlValue",
+      "id": "149",
+      "value": "https://boutique.arte.tv/detail/quand_lhistoire_fait_dates_serie"
+    }
+  ],
+  "16": [
+    { "__typename": "CustomFieldTextValue", "id": "150", "value": "Découvrez la série « Quand l’Histoire fait dates »" }
+  ],
+  "17": [{ "value": null }],
+  "20": [{ "value": null }],
+  "21": [{ "value": null }],
+  "22": [{ "value": null }],
+  "23": [{ "value": null }],
+  "24": [{ "value": null }],
+  "25": [{ "value": null }],
+  "26": [{ "value": null }],
+  "27": [{ "value": null }],
+  "28": [{ "value": null }],
+  "29": [{ "value": null }],
+  "30": [{ "value": null }],
+  "31": [{ "value": null }],
+  "32": [{ "value": null }]
+}

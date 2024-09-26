@@ -1,0 +1,7 @@
+mutation DeactivateIntegration($key: ID!) {
+  deactivateIntegration(key: $key) {
+    key
+    data
+    activated_at
+  }
+}

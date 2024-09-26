@@ -1,0 +1,8 @@
+mutation removeAuthorFromArticle($id: ID!, $userId: ID!) {
+  removeAuthorFromArticle(input: { id: $id, user_id: $userId }) {
+    id
+    authors {
+      id
+    }
+  }
+}

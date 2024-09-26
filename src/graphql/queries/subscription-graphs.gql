@@ -1,0 +1,13 @@
+query SubscriptionGraphs {
+  subscriptionGraphs {
+    subscribers {
+      subscribers
+      paid_subscribers
+      date
+    }
+    revenue {
+      revenue
+      date
+    }
+  }
+}

@@ -1,0 +1,7 @@
+query GetIntegrations {
+  integrations {
+    key
+    data
+    activated_at
+  }
+}

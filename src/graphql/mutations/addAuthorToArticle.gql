@@ -1,0 +1,8 @@
+mutation addAuthorToArticle($id: ID!, $userId: ID!) {
+  addAuthorToArticle(input: { id: $id, user_id: $userId }) {
+    id
+    authors {
+      id
+    }
+  }
+}

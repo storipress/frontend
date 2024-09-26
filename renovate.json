@@ -1,0 +1,81 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "enabled": false,
+  "extends": [
+    "config:js-app",
+    "schedule:earlyMondays",
+    ":maintainLockFilesWeekly",
+    "helpers:disableTypesNodeMajor",
+    ":reviewer(DanSnow)"
+  ],
+  "constraints": {
+    "corepack": "0.24.1"
+  },
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["@vueuse/core", "@vueuse/integrations", "@vueuse/router", "@vueuse/math"],
+      "groupName": "VueUse monorepo"
+    },
+    {
+      "matchPackageNames": ["@playwright/test", "playwright"],
+      "groupName": "Playwright"
+    },
+    {
+      "matchPackagePatterns": ["@tiptap/*"],
+      "excludeDepPatterns": ["@tiptap-pro/*"],
+      "groupName": "TipTap"
+    },
+    {
+      "matchPackagePatterns": ["@tiptap-pro/*"],
+      "groupName": "TipTap Pro"
+    },
+    {
+      "matchPackagePatterns": ["*"],
+      "excludePackagePatterns": [
+        "@storipress/*",
+        "@tiptap/*",
+        "y-prosemirror",
+        "@headlessui/vue",
+        "@headlessui-float/vue"
+      ],
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-dependencies-minor-patch"
+    },
+    {
+      "matchPackagePatterns": ["*"],
+      "matchDepTypes": ["devDependencies"],
+      "excludeDepPatterns": ["@tiptap/*"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major devDependencies",
+      "groupSlug": "all-devDependencies-minor-patch"
+    },
+    {
+      "matchPackagePatterns": ["*"],
+      "rangeStrategy": "pin"
+    },
+    {
+      "enabled": false,
+      "matchPackagePatterns": ["y-prosemirror"]
+    },
+    {
+      "matchDepTypes": ["engines", "peerDependencies"],
+      "rangeStrategy": "auto"
+    },
+    {
+      "matchPackagePatterns": ["@storipress/*"],
+      "schedule": ["at any time"]
+    }
+  ],
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "token": "{{ secrets.GITHUB_TOKEN }}"
+    }
+  ],
+  "npmrc": "@storipress:registry=https://npm.pkg.github.com/\n@tiptap-pro:registry=https://registry.tiptap.dev",
+  "ignoreDeps": ["onetime"]
+}

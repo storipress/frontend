@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`code-generator > generate > could use deep selector 1`] = `".foo::v-deep p{font-size:12px;}@media (min-width: 768px) {.foo::v-deep p{font-size:16px}}@media (min-width: 1070px) {.foo::v-deep p{font-size:14px}}"`;
+
+exports[`code-generator > generate > could use null style 1`] = `
+".foo{font-size:12pxpx;}
+@media (min-width: 1070px) {.foo{font-size:14pxpx}}"
+`;
+
+exports[`code-generator > generate > return css 1`] = `".foo{font-size:12pxpx;}@media (min-width: 768px) {.foo{font-size:16pxpx}}@media (min-width: 1070px) {.foo{font-size:14pxpx}}"`;
+
+exports[`code-generator > generate > return css 2`] = `".foo p{font-size:12px;}@media (min-width: 768px) {.foo p{font-size:16px}}@media (min-width: 1070px) {.foo p{font-size:14px}}"`;

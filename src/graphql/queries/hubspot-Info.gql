@@ -1,0 +1,5 @@
+query HubSpotInfo {
+  hubSpotInfo {
+    activated_at
+  }
+}

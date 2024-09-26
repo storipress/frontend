@@ -1,0 +1,3 @@
+mutation signIframelySignature($params: JSON!) {
+  signIframelySignature(params: $params)
+}

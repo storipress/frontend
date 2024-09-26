@@ -1,0 +1,9 @@
+mutation moveArticleToDesk($id: ID!, $desk_id: ID!) {
+  moveArticleToDesk(input: { id: $id, desk_id: $desk_id }) {
+    id
+    desk {
+      id
+    }
+    updated_at
+  }
+}

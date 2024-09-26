@@ -1,0 +1,41 @@
+name: Unit Test Baseline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  unit-test:
+    runs-on: ubuntu-22.04
+    name: Base Unit Test
+    env:
+      NODE_OPTIONS: --max-old-space-size=6144
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          submodules: recursive
+          fetch-depth: 0
+      - uses: moonrepo/setup-toolchain@v0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: yarn
+      - name: Cache Moonrepo
+        uses: actions/cache@v4
+        with:
+          path: |
+            .moon/cache/hashes
+            .moon/cache/outputs
+          key: cache-moon-${{ github.sha }}
+          restore-keys: |
+            cache-moon-
+      - run: moon run :test-coverage
+      - run: cp ./coverage/lcov.info ./coverage/base.info
+      - uses: actions/cache/save@v4
+        with:
+          path: |
+            ./coverage/base.info
+          key: base-coverage-${{ github.run_id }}

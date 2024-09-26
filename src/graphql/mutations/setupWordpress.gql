@@ -1,0 +1,3 @@
+mutation SetupWordpress($code: String!) {
+  setupWordPress(code: $code)
+}

@@ -1,0 +1,65 @@
+tasks:
+  build:
+    command: noop
+    deps:
+      - build-type
+  build-type:
+    command:
+      - vue-tsc
+      - --emitDeclarationOnly
+    deps:
+      - ~:build-dist
+    inputs:
+      - src/**/*
+    outputs:
+      - dist/**/*.d.ts
+    platform: node
+  build-dist:
+    command:
+      - vite
+      - build
+    inputs:
+      - src/**/*
+      - vite.config.mts
+    outputs:
+      - dist/core-component.mjs
+      - dist/style.css
+    platform: node
+  build-storybook:
+    command:
+      - storybook
+      - build
+    platform: node
+  dev:
+    command:
+      - storybook
+      - dev
+      - -p
+      - '6006'
+    local: true
+    platform: node
+  lint:
+    command:
+      - eslint
+      - ./src/**
+    platform: node
+  storybook:
+    command:
+      - storybook
+      - dev
+      - -p
+      - '6006'
+    platform: node
+    local: true
+  test:
+    command: vitest
+    platform: node
+  typecheck:
+    command:
+      - vue-tsc
+      - --noEmit
+    platform: node
+    inputs:
+      - vite.config.mts
+      - src/**
+      - test/**

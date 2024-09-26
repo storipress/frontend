@@ -1,0 +1,8 @@
+query GetCreditsOverview {
+  creditsOverview {
+    type
+    amount
+    count
+    total
+  }
+}

@@ -1,0 +1,3 @@
+mutation Impersonate($email: EmailString!, $password: String!) {
+  impersonate(email: $email, password: $password)
+}

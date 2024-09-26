@@ -1,0 +1,15 @@
+mutation UpdateCustomFieldValue($input: UpdateCustomFieldValueInput!) {
+  updateCustomFieldValue(input: $input) {
+    ...CustomFieldTextValue
+    ...CustomFieldNumberValue
+    ...CustomFieldColorValue
+    ...CustomFieldUrlValue
+    ...CustomFieldBooleanValue
+    ...CustomFieldRichTextValue
+    ...CustomFieldFileValue
+    ...CustomFieldDateValue
+    ...CustomFieldJsonValue
+    ...CustomFieldSelectValue
+    ...CustomFieldReferenceValue
+  }
+}

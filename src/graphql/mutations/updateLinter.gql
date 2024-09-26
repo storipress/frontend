@@ -1,0 +1,8 @@
+mutation UpdateLinter($input: UpdateLinterInput!) {
+  updateLinter(input: $input) {
+    id
+    title
+    description
+    prompt
+  }
+}

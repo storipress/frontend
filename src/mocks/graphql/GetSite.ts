@@ -1,0 +1,60 @@
+import { defineGraphQLMock } from '../define-graphql-mock'
+import { GetSiteDocument, SubscriptionSetup } from '~/graphql-operations'
+
+export default defineGraphQLMock(GetSiteDocument, {
+  site: {
+    id: 'D6RX98VXN',
+    name: "Jack's Blog",
+    description: 'work hard, play hard',
+    favicon: null,
+    lang: 'en-US',
+    logo: {
+      token: '',
+      url: '',
+      name: '',
+      mime: '',
+      size: 0,
+      width: 0,
+      height: 0,
+      title: '',
+      caption: '',
+      description: '',
+      transformation: '',
+    },
+    workspace: 'joesblog',
+    socials: '{"Facebook":"www.facebook.com\\/Storipress","Instagram":"test"}',
+    timezone: 'Pacific/Honolulu',
+    custom_domain: 'www.joesblog.storipress.dev',
+    customer_site_domain: 'www.joesblog.storipress.dev',
+    customer_site_storipress_url: 'joesblog-cdn.storipress.dev',
+    site_domain: 'www.joesblog.storipress.dev',
+    mail_domain: 'joesblog.storipress.dev',
+    plan: 'publisher',
+    subscription: false,
+    newsletter: true,
+    email: 'test@storipress.com',
+    currency: 'AUD',
+    monthly_price: '20',
+    yearly_price: '100',
+    custom_domain_email: [
+      {
+        hostname: '20220422081255pm._domainkey.www.ksjdfhksdhfkasjhdfhsjakf.com',
+        type: 'TXT',
+        value:
+          'k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCJxCP6xGRXSZEMVQAx4kr87A6kYM6nwY3RTLUKS9Ne028RbcDmbvNrey9P7mm6Ma0hdh1zbKifLIyt5p3jvfX2yeCuJ8+nLNnzz0G6viEvMflhKCcbBycn6qZOzLFakt+RKtQRSeyr0cWzH/PUwYgPOEZVRuk04AGdI8gIDWvRLwIDAQAB',
+        __typename: 'EmailDNSRecord',
+      },
+      {
+        hostname: 'pm-bounces.www.ksjdfhksdhfkasjhdfhsjakf.com',
+        type: 'CNAME',
+        value: 'pm.mtasv.net',
+        __typename: 'EmailDNSRecord',
+      },
+    ],
+    subscription_setup: SubscriptionSetup.Done,
+    __typename: 'Site',
+    has_prophet: false,
+    prophet_config: null,
+    paywall_config: null,
+  },
+})

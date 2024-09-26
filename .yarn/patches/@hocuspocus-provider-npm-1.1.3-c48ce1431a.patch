@@ -1,0 +1,24 @@
+diff --git a/package.json b/package.json
+index dbeb9afa811b3e13b0bd6d344dc68e893de6ff6f..601ba2e377ad40450ac33a4d446188eecf423e01 100644
+--- a/package.json
++++ b/package.json
+@@ -15,12 +15,18 @@
+   "module": "dist/hocuspocus-provider.esm.js",
+   "types": "dist/packages/provider/src/index.d.ts",
+   "exports": {
++    ".": {
++      "import": "./dist/hocuspocus-provider.esm.js",
++      "require": "./dist/hocuspocus-provider.cjs",
++      "types": "./dist/packages/provider/src/index.d.ts"
++    },
+     "source": {
+       "import": "./src"
+     },
+     "default": {
+       "import": "./dist/hocuspocus-provider.esm.js",
+-      "require": "./dist/hocuspocus-provider.cjs"
++      "require": "./dist/hocuspocus-provider.cjs",
++      "types": "./dist/packages/provider/src/index.d.ts"
+     }
+   },
+   "files": [

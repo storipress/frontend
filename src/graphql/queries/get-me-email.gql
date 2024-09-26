@@ -1,0 +1,11 @@
+query GetMeEmail {
+  me {
+    id
+    email
+    full_name
+    role
+    intercom_hash_identity
+    verified
+    signed_up_source
+  }
+}

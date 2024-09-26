@@ -1,0 +1,5 @@
+mutation SyncGroupableToCustomFieldGroup($input: SyncGroupableToCustomFieldGroupInput!) {
+  syncGroupableToCustomFieldGroup(input: $input) {
+    id
+  }
+}

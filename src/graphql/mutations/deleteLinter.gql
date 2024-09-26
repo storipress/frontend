@@ -1,0 +1,6 @@
+mutation DeleteLinter($id: ID!) {
+  deleteLinter(id: $id) {
+    id
+    title
+  }
+}

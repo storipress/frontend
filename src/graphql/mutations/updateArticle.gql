@@ -1,0 +1,54 @@
+mutation UpdateArticle(
+  $id: ID!
+  $title: String
+  $slug: String
+  $blurb: String
+  $featured: Boolean
+  $cover: JSON
+  $autoPosting: JSON
+  $seo: JSON
+  $plan: ArticlePlan
+  $newsletter: Boolean
+  $layoutId: ID
+) {
+  updateArticle(
+    input: {
+      id: $id
+      title: $title
+      slug: $slug
+      blurb: $blurb
+      featured: $featured
+      cover: $cover
+      seo: $seo
+      plan: $plan
+      newsletter: $newsletter
+      auto_posting: $autoPosting
+      layout_id: $layoutId
+    }
+  ) {
+    id
+    title
+    slug
+    blurb
+    featured
+    cover
+    seo
+    auto_posting
+    plan
+    newsletter
+    layout {
+      id
+      name
+      template
+      data
+    }
+    stage {
+      id
+      name
+      color
+      icon
+      order
+    }
+    updated_at
+  }
+}

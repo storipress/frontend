@@ -1,0 +1,41 @@
+query GetBilling {
+  billing {
+    id
+    source
+    has_pm
+    pm_type
+    pm_last_four
+    subscribed
+    plan
+    plan_id
+    interval
+    quantity
+    next_pm_date
+    next_pm_subtotal
+    next_pm_discounts {
+      amount
+      name
+      amount_off
+      percent_off
+    }
+    next_pm_tax
+    next_pm_taxes {
+      amount
+      name
+      jurisdiction
+      percentage
+    }
+    next_pm_total
+    credit_balance
+    on_trial
+    trial_ends_at
+    canceled
+    on_grace_period
+    ends_at
+    publications_quota
+    publications_count
+    seats_in_use
+    has_historical_subscriptions
+    referer
+  }
+}

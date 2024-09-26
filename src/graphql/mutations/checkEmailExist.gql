@@ -1,0 +1,3 @@
+mutation CheckEmailExist($email: EmailString!) {
+  checkEmailExist(email: $email)
+}

@@ -1,0 +1,67 @@
+query GetTag($id: ID, $sid: ID, $slug: String) {
+  tag(id: $id, sid: $sid, slug: $slug) {
+    id
+    name
+    slug
+    sid
+    metafields {
+      id
+      key
+      type
+      values {
+        __typename
+        ... on CustomFieldTextValue {
+          id
+          value
+        }
+        ... on CustomFieldNumberValue {
+          id
+          numberValue: value
+        }
+        ... on CustomFieldColorValue {
+          id
+          value
+        }
+        ... on CustomFieldUrlValue {
+          id
+          value
+        }
+        ... on CustomFieldBooleanValue {
+          id
+          booleanValue: value
+        }
+        ... on CustomFieldRichTextValue {
+          id
+          jsonValue: value
+        }
+        ... on CustomFieldFileValue {
+          id
+          fileValue: value {
+            key
+            url
+            size
+            mime_type
+          }
+        }
+        ... on CustomFieldDateValue {
+          id
+          dateValue: value
+        }
+        ... on CustomFieldJsonValue {
+          id
+          jsonValue: value
+        }
+        ... on CustomFieldSelectValue {
+          id
+          selectValue: value
+        }
+        ...CustomFieldReferenceValue
+      }
+      group {
+        id
+        key
+        type
+      }
+    }
+  }
+}

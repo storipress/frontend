@@ -1,0 +1,55 @@
+query DesksCustomField {
+  desks {
+    id
+    sid
+    name
+    slug
+    desks {
+      id
+      sid
+      name
+      slug
+    }
+    metafields {
+      id
+      key
+      type
+      name
+      description
+      options {
+        ...CustomFieldTextOptions
+        ...CustomFieldNumberOptions
+        ...CustomFieldDateOptions
+        ...CustomFieldColorOptions
+        ...CustomFieldUrlOptions
+        ...CustomFieldBooleanOptions
+        ...CustomFieldRichTextOptions
+        ...CustomFieldFileOptions
+        ...CustomFieldJsonOptions
+        ...CustomFieldIgnoreOptions
+        ...CustomFieldSelectOptions
+        ...CustomFieldReferenceOptions
+      }
+      values {
+        ...CustomFieldTextValue
+        ...CustomFieldNumberValue
+        ...CustomFieldColorValue
+        ...CustomFieldUrlValue
+        ...CustomFieldBooleanValue
+        ...CustomFieldRichTextValue
+        ...CustomFieldFileValue
+        ...CustomFieldDateValue
+        ...CustomFieldJsonValue
+        ...CustomFieldSelectValue
+        ...CustomFieldReferenceValue
+      }
+      group {
+        id
+        key
+        type
+        name
+        description
+      }
+    }
+  }
+}

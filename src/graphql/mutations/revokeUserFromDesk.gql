@@ -1,0 +1,9 @@
+mutation RevokeUserFromDesk($userId: ID!, $deskId: ID!) {
+  revokeUserFromDesk(input: { user_id: $userId, desk_id: $deskId }) {
+    id
+    desks {
+      id
+      name
+    }
+  }
+}

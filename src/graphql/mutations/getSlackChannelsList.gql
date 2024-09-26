@@ -1,0 +1,7 @@
+mutation GetSlackChannelsList {
+  getSlackChannelsList {
+    id
+    name
+    is_private
+  }
+}

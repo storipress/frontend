@@ -1,0 +1,5 @@
+mutation UploadSiteTemplate($input: UploadSiteTemplateInput!) {
+  uploadSiteTemplate(input: $input) {
+    key
+  }
+}

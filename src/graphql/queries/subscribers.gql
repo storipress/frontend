@@ -1,0 +1,30 @@
+query Subscribers(
+  $first: Int
+  $page: Int
+  $sortBy: [QuerySubscribersSearchSortByOrderByClause!]
+  $search: String = "*"
+) {
+  subscribers(first: $first, page: $page, searchSortBy: $sortBy, search: $search) {
+    paginatorInfo {
+      count
+      currentPage
+      total
+    }
+    data {
+      id
+      avatar
+      email
+      subscription_type
+      subscribed_at
+      revenue
+      bounced
+      newsletter
+      activity
+      created_at
+      subscription {
+        interval
+        price
+      }
+    }
+  }
+}

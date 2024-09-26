@@ -1,0 +1,3 @@
+mutation moveArticleAfter($input: MoveArticleAfterInput!) {
+  moveArticleAfter(input: $input)
+}

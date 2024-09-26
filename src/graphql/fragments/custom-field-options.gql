@@ -1,0 +1,82 @@
+fragment CustomFieldTextOptions on CustomFieldTextOptions {
+  type
+  required
+  repeat
+  multiline
+  textMin: min
+  textMax: max
+  regex
+}
+
+fragment CustomFieldNumberOptions on CustomFieldNumberOptions {
+  type
+  required
+  repeat
+  float
+  numberMin: min
+  numberMax: max
+}
+
+fragment CustomFieldDateOptions on CustomFieldDateOptions {
+  type
+  required
+  repeat
+  time
+}
+
+fragment CustomFieldColorOptions on CustomFieldColorOptions {
+  type
+  required
+  repeat
+}
+
+fragment CustomFieldUrlOptions on CustomFieldUrlOptions {
+  type
+  required
+  repeat
+}
+
+fragment CustomFieldBooleanOptions on CustomFieldBooleanOptions {
+  type
+  required
+  repeat
+}
+
+fragment CustomFieldRichTextOptions on CustomFieldRichTextOptions {
+  type
+  required
+  repeat
+}
+
+fragment CustomFieldFileOptions on CustomFieldFileOptions {
+  type
+  required
+  repeat
+}
+
+fragment CustomFieldJsonOptions on CustomFieldJsonOptions {
+  type
+  required
+  repeat
+}
+
+fragment CustomFieldIgnoreOptions on CustomFieldIgnoreOptions {
+  type
+  required
+  repeat
+}
+
+fragment CustomFieldReferenceOptions on CustomFieldReferenceOptions {
+  type
+  target
+  multiple
+  collection_id
+}
+
+fragment CustomFieldSelectOptions on CustomFieldSelectOptions {
+  type
+  required
+  placeholder
+  choices
+  multiple
+}

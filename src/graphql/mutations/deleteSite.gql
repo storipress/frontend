@@ -1,0 +1,3 @@
+mutation DeleteSite($password: String!) {
+  deleteSite(password: $password)
+}

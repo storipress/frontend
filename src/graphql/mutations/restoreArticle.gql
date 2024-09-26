@@ -1,0 +1,15 @@
+mutation restoreArticle($id: ID!) {
+  restoreArticle(id: $id) {
+    id
+    title
+    slug
+    blurb
+    featured
+    cover
+    seo
+    plan
+    layout {
+      id
+    }
+  }
+}

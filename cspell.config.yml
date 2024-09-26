@@ -1,0 +1,65 @@
+---
+$schema: https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+version: '0.2'
+words:
+  # brands
+  - storipress
+  - karbon
+  - newstand
+  - typesense
+  - webflow
+  - shopify
+  - appsumo
+  - disqus
+  - mailchimp
+  - grammarly
+  - reditus
+  - growthbook
+  - viededingue
+  - dealfuel
+  - upollo
+  - adsense
+  - hubspot
+
+  # third-party
+  - tailwindcss
+  - tailwind
+  - tiptap
+  - iframely
+  - framely
+  - slicksort
+  - antfu
+  - pinia
+  - vitesse
+  - ydoc
+  - vueuse
+  - prosemirror
+  - nuxt
+  
+  # typography
+  - columnheader
+  - pageheading
+    
+  # tech
+  - composables
+  - promiseable
+  - textbox
+  - listbox
+  - testid
+  - skipcq
+  - typeahead
+  - indexeddb
+  - kanban
+  - spmvp
+  
+  # misc
+  - classname
+  - pageview
+  - joesblog # Test Instance
+  - domainkey # Postmark
+  - mtasv # Postmark
+  - subdesks
+
+  # effect wired abbr
+  - somes
+

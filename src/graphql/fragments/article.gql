@@ -1,0 +1,32 @@
+fragment SchedulableArticle on Article {
+  id
+  title
+  authors {
+    id
+    full_name
+    avatar
+  }
+  scheduled
+  published
+  published_at
+  stage {
+    id
+    name
+    color
+    order
+    icon
+  }
+
+  # For sorting
+  updated_at
+
+  # For permission
+  desk {
+    id
+  }
+
+  # For filters
+  tags {
+    id
+  }
+}

@@ -1,0 +1,1 @@
+export { editorFromTextArea } from './editorFromTextArea'

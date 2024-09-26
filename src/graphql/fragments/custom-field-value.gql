@@ -1,0 +1,79 @@
+fragment CustomFieldTextValue on CustomFieldTextValue {
+  id
+  value
+}
+
+fragment CustomFieldNumberValue on CustomFieldNumberValue {
+  id
+  numberValue: value
+}
+
+fragment CustomFieldColorValue on CustomFieldColorValue {
+  id
+  value
+}
+
+fragment CustomFieldUrlValue on CustomFieldUrlValue {
+  id
+  value
+}
+
+fragment CustomFieldBooleanValue on CustomFieldBooleanValue {
+  id
+  booleanValue: value
+}
+
+fragment CustomFieldRichTextValue on CustomFieldRichTextValue {
+  id
+  jsonValue: value
+}
+
+fragment CustomFieldFileValue on CustomFieldFileValue {
+  id
+  fileValue: value {
+    key
+    url
+    size
+    mime_type
+  }
+}
+
+fragment CustomFieldDateValue on CustomFieldDateValue {
+  id
+  dateValue: value
+}
+
+fragment CustomFieldJsonValue on CustomFieldJsonValue {
+  id
+  jsonValue: value
+}
+
+fragment CustomFieldSelectValue on CustomFieldSelectValue {
+  id
+  selectValue: value
+}
+
+fragment CustomFieldReferenceValue on CustomFieldReferenceValue {
+  id
+  referenceValue: value {
+    ... on Article {
+      id
+      title
+    }
+    ... on Desk {
+      id
+      name
+    }
+    ... on Tag {
+      id
+      name
+    }
+    ... on User {
+      id
+      full_name
+    }
+    ... on WebflowReference {
+      id
+    }
+  }
+}

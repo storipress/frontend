@@ -1,0 +1,8 @@
+mutation CheckCustomDomainAvailability($input: CheckCustomDomainAvailabilityInput!) {
+  checkCustomDomainAvailability(input: $input) {
+    available
+    site
+    mail
+    redirect
+  }
+}

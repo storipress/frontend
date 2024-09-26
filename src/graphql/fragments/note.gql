@@ -1,0 +1,15 @@
+fragment Note on ArticleThreadNote {
+  id
+  content
+  created_at
+  user {
+    id
+    full_name
+    avatar
+  }
+
+  # for reverse lookup
+  thread {
+    id
+  }
+}

@@ -1,0 +1,2283 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`editDeskSettingsSlideOver.vue > props features > hide 1`] = `
+<body>
+  <div>
+    <!---->
+  </div>
+</body>
+`;
+
+exports[`editDeskSettingsSlideOver.vue > props features > loading 1`] = `
+<body>
+  <div>
+    <!--teleport start-->
+    <!--teleport end-->
+  </div>
+  <div
+    id="headlessui-portal-root"
+  >
+    
+    <div
+      data-headlessui-portal=""
+    >
+      <div
+        class="fixed inset-0 z-30 pointer-events-none edit-desk-slide-over"
+      >
+        <div
+          class="absolute inset-0 overflow-hidden pointer-events-none"
+        >
+          <!--v-if-->
+          <div
+            class="fixed inset-y-0 right-0 flex max-w-full pointer-events-none"
+          >
+            <div
+              class="translate-x-full transform transition ease-out duration-500"
+            >
+              <form
+                class="layer-2 relative z-[38] flex h-full w-screen max-w-[calc(100vw-15rem)] flex-col overflow-hidden rounded-tl-[2rem] border border-solid border-gray-100 bg-gray-100 pointer-events-auto"
+              >
+                <div
+                  class="slide-over__header relative mx-12 border-b border-stone-200"
+                >
+                  
+                  <button
+                    class="absolute right-[-0.5rem] top-[0.375rem] z-10 inline-flex size-12 items-center justify-center rounded-full outline-none hover:bg-stone-200"
+                    type="button"
+                  >
+                    <span
+                      class="icon-cross_thin text-[1rem] text-[#4c4c4c]"
+                      data-v-206d3c28=""
+                    />
+                  </button>
+                  <div
+                    class="text-pageheading py-5 text-stone-800"
+                  >
+                    Desk Settings for Business
+                  </div>
+                  
+                </div>
+                <div
+                  class="slide-over__body mx-12 flex-shrink flex-grow overflow-auto"
+                >
+                  
+                  <!--v-if-->
+                  <div
+                    class="relative flex-shrink flex-grow overflow-auto"
+                  >
+                    <div
+                      class="opacity-50"
+                    >
+                      <div
+                        class="flex justify-between py-4"
+                      >
+                        <!-- section title wrapper -->
+                        <div
+                          class="w-[17rem] pt-4"
+                        >
+                          <!-- title -->
+                          <div
+                            class="text-heading pb-4 pr-2 text-stone-800"
+                          >
+                            
+                            Desk settings
+                            
+                          </div>
+                          <!-- descriptipn -->
+                          <div
+                            class="text-body text-stone-500"
+                          >
+                            
+                            Control permissions by adding team members to this desk. The desk name is used in your live site for section headings and navigation.
+                            
+                          </div>
+                        </div>
+                        <!-- right hand form -->
+                        
+                        <div
+                          class="layer-1 relative h-fit w-[34rem] rounded-lg bg-white p-5 after:absolute after:left-0 after:top-0 after:size-full after:content-[' ']"
+                        >
+                          <div
+                            class="flex items-end"
+                          >
+                            <div
+                              class="mr-4 basis-[11rem]"
+                            >
+                              <label
+                                class="text-body block text-stone-800"
+                                for="input-4fzzzxjylrx"
+                              >
+                                Desk name
+                              </label>
+                              <div
+                                class="mt-1 relative"
+                              >
+                                <!---->
+                                <div
+                                  class="relative"
+                                >
+                                  <input
+                                    class="text-inputs block w-full border px-3 pb-[0.312rem] pt-1.5 focus:outline-none focus:ring-1 disabled:opacity-50 rounded-md border-stone-400 focus:border-sky-600 focus:ring-sky-600"
+                                    id="input-4fzzzxjylrx"
+                                    name="name"
+                                    type="text"
+                                  />
+                                  <!---->
+                                </div>
+                                
+                                <!---->
+                                
+                              </div>
+                            </div>
+                            <span
+                              class="basis-[9.875rem]"
+                            >
+                              
+                              <input
+                                hidden=""
+                                name="listbox"
+                                readonly=""
+                                style="position: fixed; height: 0px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+                                type="hidden"
+                                value="No"
+                              />
+                              <div
+                                data-headlessui-state=""
+                              >
+                                <label
+                                  class="text-body block text-stone-800"
+                                  data-headlessui-state=""
+                                  id="headlessui-listbox-label-3"
+                                >
+                                  Open Access 
+                                  
+                                  <a
+                                    class="ml-2.5 text-sm"
+                                    href="https://help.storipress.com/getting-started/dGuU7UrYXbhoFZKB7WtKtN/what-are-desks/4hpDXZkJEyUFnJh5jvUGL7"
+                                    rel="noopener nofollow noreferrer"
+                                    tabindex="-1"
+                                    target="_blank"
+                                  >
+                                    <div
+                                      class="inline"
+                                      data-v-69d6dbbe=""
+                                    >
+                                      <span
+                                        aria-label="show-tooltip"
+                                        class="icon-question-mark-inverse trigger cursor-pointer text-stone-400"
+                                        data-v-206d3c28=""
+                                        data-v-69d6dbbe=""
+                                      />
+                                      <div
+                                        class="tooltip layer-2 absolute rounded-md border border-stone-100 bg-white invisible"
+                                        data-popper-escaped=""
+                                        data-popper-placement="right-start"
+                                        data-popper-reference-hidden=""
+                                        data-v-69d6dbbe=""
+                                        style="position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        
+                                        <div
+                                          class="text-body w-56 px-4 py-3 text-stone-400"
+                                        >
+                                          
+                                           Open Access removes desk permisisons and allows your entire team to join and create articles in this desk. 
+                                          
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </a>
+                                  
+                                </label>
+                                <div
+                                  class="relative mt-1 h-[2.375rem]"
+                                >
+                                  
+                                  <button
+                                    aria-expanded="false"
+                                    aria-haspopup="listbox"
+                                    aria-labelledby="headlessui-listbox-label-3 headlessui-listbox-button-4"
+                                    class="text-inputs relative size-full cursor-default rounded-md border bg-white pb-[0.312rem] pl-3 pr-10 pt-1.5 text-left border-stone-400 focus:border-blue-300 focus:outline-none focus:ring-1 focus:ring-blue-300"
+                                    data-headlessui-state=""
+                                    id="headlessui-listbox-button-4"
+                                    type="button"
+                                  >
+                                    <span
+                                      class="block truncate"
+                                    >
+                                      No
+                                    </span>
+                                    <span
+                                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
+                                    >
+                                      <span
+                                        class="icon-selector text-stone-500"
+                                        data-v-206d3c28=""
+                                      />
+                                    </span>
+                                  </button>
+                                  <!--teleport start-->
+                                  <!--teleport end-->
+                                  
+                                  <span
+                                    class="text-caption absolute bottom-[calc(-1.5_*_1em)] left-0 text-red-700"
+                                  >
+                                    
+                                    
+                                    
+                                  </span>
+                                </div>
+                              </div>
+                              
+                            </span>
+                            <div
+                              data-stub="hover-hint"
+                              disabled="true"
+                              reference-class="ml-auto"
+                            >
+                              <div
+                                data-stub="hover-hint-reference"
+                              >
+                                <button
+                                  class="text-button inline-flex h-9 items-center justify-center rounded px-4 py-2.5 focus:outline-none bg-stone-200 text-stone-500 cursor-not-allowed is-border"
+                                  data-intercom-target="Delete Desk Button"
+                                  data-v-a52d93de=""
+                                  disabled=""
+                                  type="button"
+                                >
+                                  <!---->
+                                  <span
+                                    class="flex items-center justify-center"
+                                    data-v-a52d93de=""
+                                  >
+                                    
+                                     Delete desk 
+                                    
+                                  </span>
+                                </button>
+                              </div>
+                              <div
+                                data-stub="hover-hint-content"
+                              >
+                                Root desk deletion not allowed when subdesks are present
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="mt-4"
+                          >
+                            <div>
+                              <label
+                                class="text-body block text-stone-800"
+                                for="input-4fzzzxjylrx"
+                              >
+                                Desk description
+                              </label>
+                              <div
+                                class="mt-1 relative"
+                              >
+                                <!---->
+                                <div
+                                  class="relative"
+                                >
+                                  <input
+                                    class="text-inputs block w-full border px-3 pb-[0.312rem] pt-1.5 focus:outline-none focus:ring-1 disabled:opacity-50 rounded-md border-stone-400 focus:border-sky-600 focus:ring-sky-600"
+                                    id="input-4fzzzxjylrx"
+                                    name="description"
+                                    type="text"
+                                  />
+                                  <!---->
+                                </div>
+                                
+                                <!---->
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <hr
+                            class="mx-[-1.25rem] mb-[1.375rem] mt-4 border-stone-200"
+                          />
+                          <div
+                            class="flex items-end"
+                          >
+                            <div
+                              class="typeahead mr-4 flex-grow"
+                              data-v-56168105=""
+                              data-v-a06c5457=""
+                            >
+                              <label
+                                class="text-body mb-1 block text-stone-800"
+                                data-v-a06c5457=""
+                              >
+                                Invite users
+                              </label>
+                              <div
+                                class="typeahead-wrap text-body relative size-full rounded-md border border-stone-400 bg-white p-2 focus:border-sky-600 focus:outline-none focus:ring-1 focus:ring-sky-600"
+                                data-v-a06c5457=""
+                              >
+                                <label
+                                  class="typeahead-label absolute cursor-text text-black/25"
+                                  data-v-a06c5457=""
+                                  for="typeahead-4fzzzxjylrx"
+                                >
+                                  <span
+                                    data-v-a06c5457=""
+                                  >
+                                    Start typing the name of a user ...
+                                  </span>
+                                </label>
+                                <ul
+                                  class="flex w-full cursor-text flex-wrap"
+                                  data-v-a06c5457=""
+                                >
+                                  
+                                  
+                                  <li
+                                    class="flex-1"
+                                    data-v-a06c5457=""
+                                  >
+                                    <div
+                                      class="simple-typeahead"
+                                      data-v-a06c5457=""
+                                      data-v-f81ca714=""
+                                      id="typeahead-4fzzzxjylrx_wrapper"
+                                    >
+                                      <input
+                                        autocomplete="off"
+                                        class="simple-typeahead-input"
+                                        data-v-f81ca714=""
+                                        id="typeahead-4fzzzxjylrx"
+                                        placeholder=""
+                                        type="text"
+                                      />
+                                      <!---->
+                                    </div>
+                                  </li>
+                                  <!---->
+                                </ul>
+                              </div>
+                            </div>
+                            <button
+                              class="text-button inline-flex h-9 items-center justify-center rounded px-4 py-2.5 text-white bg-primary hover:bg-emerald-900 transition-colors duration-200 focus:ring-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 ml-auto ml-auto"
+                              data-v-a52d93de=""
+                              type="button"
+                            >
+                              <!---->
+                              <span
+                                class="flex items-center justify-center"
+                                data-v-a52d93de=""
+                              >
+                                
+                                 Invite 
+                                
+                              </span>
+                            </button>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div
+                      class="relative mb-[5.375rem] flex-shrink flex-grow"
+                    >
+                      <div
+                        class="flex items-center justify-between border-b border-stone-200"
+                      >
+                        <div
+                          class="text-pageheading mb-4 pt-1.5 text-stone-800"
+                        >
+                          Desk team
+                        </div>
+                        <div
+                          class="flex items-center"
+                        >
+                          
+                          
+                        </div>
+                      </div>
+                      
+                      <div
+                        class="overflow-scroll py-4"
+                      >
+                        <div
+                          class="layer-1 flex min-w-full flex-col rounded-lg min-w-[66rem]"
+                        >
+                          <table
+                            class="min-w-full divide-y divide-stone-200 rounded-lg border-hidden bg-white"
+                          >
+                            
+                            <thead>
+                              
+                              <tr
+                                class="h-11"
+                              >
+                                
+                                <!---->
+                                
+                                <th
+                                  class="text-button px-4 text-left tracking-wider text-stone-600 cursor-pointer"
+                                  scope="col"
+                                >
+                                  
+                                  
+                                  <span>
+                                    Name
+                                  </span>
+                                  <span
+                                    class="icon-chevron_down ml-[1.375rem] text-[0.6rem]"
+                                    data-v-206d3c28=""
+                                  />
+                                  
+                                  
+                                </th>
+                                <th
+                                  class="text-button px-4 text-left tracking-wider text-stone-600 cursor-pointer"
+                                  scope="col"
+                                >
+                                  
+                                  
+                                  <span>
+                                    Status
+                                  </span>
+                                  <span
+                                    class="icon-chevron_down ml-[1.375rem] text-[0.6rem]"
+                                    data-v-206d3c28=""
+                                  />
+                                  
+                                  
+                                </th>
+                                <th
+                                  class="text-button px-4 text-left tracking-wider text-stone-600 cursor-pointer"
+                                  scope="col"
+                                >
+                                  
+                                  
+                                  <span>
+                                    Role
+                                  </span>
+                                  <span
+                                    class="icon-chevron_down ml-[1.375rem] text-[0.6rem]"
+                                    data-v-206d3c28=""
+                                  />
+                                  
+                                  
+                                </th>
+                                <th
+                                  class="text-button px-4 text-left tracking-wider text-stone-600 cursor-pointer"
+                                  scope="col"
+                                >
+                                  
+                                  
+                                  <span>
+                                    Desks
+                                  </span>
+                                  <span
+                                    class="icon-chevron_down ml-[1.375rem] text-[0.6rem]"
+                                    data-v-206d3c28=""
+                                  />
+                                  
+                                  
+                                </th>
+                                
+                                
+                              </tr>
+                              
+                            </thead>
+                            <tbody
+                              class="divide-y divide-stone-100"
+                            >
+                              
+                              
+                              <tr
+                                class="h-11 transition-colors duration-150 hover:bg-stone-100 last:[&_td]:last:rounded-br-lg last:[&_td]:first:rounded-bl-lg"
+                              >
+                                
+                                
+                                <!---->
+                                
+                                
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="flex items-center"
+                                    style="width: 17.625rem;"
+                                  >
+                                    <div
+                                      class="relative inline-block overflow-hidden rounded-full mr-3 flex-shrink-0 flex-grow-0 mr-3 flex-shrink-0 flex-grow-0"
+                                    >
+                                      <img
+                                        class="w-6 h-6"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+                                      />
+                                    </div>
+                                    <span
+                                      class="text-button inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+                                    >
+                                      Bob Bradley
+                                    </span>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="text-body overflow-hidden text-ellipsis whitespace-nowrap text-black"
+                                    style="width: 10.312rem;"
+                                  >
+                                    Active
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  Site Owner
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="w-80"
+                                  >
+                                    <div
+                                      class="w-fit"
+                                      data-headlessui-state=""
+                                      placement="bottom-start"
+                                    >
+                                      
+                                      <button
+                                        aria-expanded="false"
+                                        class="focus:outline-none"
+                                        data-headlessui-state=""
+                                        id="headlessui-popover-button-5"
+                                        type="button"
+                                      >
+                                        
+                                        <div
+                                          class="rounded p-1.5 transition-colors duration-100 hover:bg-gray-200"
+                                        >
+                                          All
+                                        </div>
+                                        
+                                      </button>
+                                      <!---->
+                                      
+                                      <div
+                                        data-popper-escaped=""
+                                        data-popper-placement="bottom-start"
+                                        data-popper-reference-hidden=""
+                                        style="position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        <transition-stub
+                                          appear="false"
+                                          css="true"
+                                          enteractiveclass="transition duration-100 ease-out"
+                                          enterfromclass="transform scale-95 opacity-0"
+                                          entertoclass="transform scale-100 opacity-100"
+                                          leaveactiveclass="transition duration-75 ease-in"
+                                          leavefromclass="transform scale-100 opacity-100"
+                                          leavetoclass="transform scale-95 opacity-0"
+                                          persisted="false"
+                                        >
+                                          <!---->
+                                        </transition-stub>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                
+                                
+                              </tr>
+                              <tr
+                                class="h-11 transition-colors duration-150 hover:bg-stone-100 last:[&_td]:last:rounded-br-lg last:[&_td]:first:rounded-bl-lg"
+                              >
+                                
+                                
+                                <!---->
+                                
+                                
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="flex items-center"
+                                    style="width: 17.625rem;"
+                                  >
+                                    <div
+                                      class="relative inline-block overflow-hidden rounded-full mr-3 flex-shrink-0 flex-grow-0 mr-3 flex-shrink-0 flex-grow-0"
+                                    >
+                                      <img
+                                        class="w-6 h-6"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+                                      />
+                                    </div>
+                                    <span
+                                      class="text-button inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+                                    >
+                                      Jessica Nacci
+                                    </span>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="text-body overflow-hidden text-ellipsis whitespace-nowrap text-black"
+                                    style="width: 10.312rem;"
+                                  >
+                                    Active
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  Editor
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="w-80"
+                                  >
+                                    <div
+                                      class="w-fit"
+                                      data-headlessui-state=""
+                                      placement="bottom-start"
+                                    >
+                                      
+                                      <button
+                                        aria-expanded="false"
+                                        class="focus:outline-none"
+                                        data-headlessui-state=""
+                                        id="headlessui-popover-button-7"
+                                        type="button"
+                                      >
+                                        
+                                        <div
+                                          class="rounded p-1.5 transition-colors duration-100 hover:bg-gray-200"
+                                        >
+                                          All
+                                        </div>
+                                        
+                                      </button>
+                                      <!---->
+                                      
+                                      <div
+                                        data-popper-escaped=""
+                                        data-popper-placement="bottom-start"
+                                        data-popper-reference-hidden=""
+                                        style="position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        <transition-stub
+                                          appear="false"
+                                          css="true"
+                                          enteractiveclass="transition duration-100 ease-out"
+                                          enterfromclass="transform scale-95 opacity-0"
+                                          entertoclass="transform scale-100 opacity-100"
+                                          leaveactiveclass="transition duration-75 ease-in"
+                                          leavefromclass="transform scale-100 opacity-100"
+                                          leavetoclass="transform scale-95 opacity-0"
+                                          persisted="false"
+                                        >
+                                          <!---->
+                                        </transition-stub>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                
+                                
+                              </tr>
+                              <tr
+                                class="h-11 transition-colors duration-150 hover:bg-stone-100 last:[&_td]:last:rounded-br-lg last:[&_td]:first:rounded-bl-lg"
+                              >
+                                
+                                
+                                <!---->
+                                
+                                
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="flex items-center"
+                                    style="width: 17.625rem;"
+                                  >
+                                    <div
+                                      class="relative inline-block overflow-hidden rounded-full mr-3 flex-shrink-0 flex-grow-0 mr-3 flex-shrink-0 flex-grow-0"
+                                    >
+                                      <img
+                                        class="w-6 h-6"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+                                      />
+                                    </div>
+                                    <span
+                                      class="text-button inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+                                    >
+                                      Alex Cheng
+                                    </span>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="text-body overflow-hidden text-ellipsis whitespace-nowrap text-black"
+                                    style="width: 10.312rem;"
+                                  >
+                                    Active
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  Writer
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="w-80"
+                                  >
+                                    <div
+                                      class="w-fit"
+                                      data-headlessui-state=""
+                                      placement="bottom-start"
+                                    >
+                                      
+                                      <button
+                                        aria-expanded="false"
+                                        class="focus:outline-none"
+                                        data-headlessui-state=""
+                                        id="headlessui-popover-button-9"
+                                        type="button"
+                                      >
+                                        
+                                        <div
+                                          class="rounded p-1.5 transition-colors duration-100 hover:bg-gray-200"
+                                        >
+                                          All
+                                        </div>
+                                        
+                                      </button>
+                                      <!---->
+                                      
+                                      <div
+                                        data-popper-escaped=""
+                                        data-popper-placement="bottom-start"
+                                        data-popper-reference-hidden=""
+                                        style="position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        <transition-stub
+                                          appear="false"
+                                          css="true"
+                                          enteractiveclass="transition duration-100 ease-out"
+                                          enterfromclass="transform scale-95 opacity-0"
+                                          entertoclass="transform scale-100 opacity-100"
+                                          leaveactiveclass="transition duration-75 ease-in"
+                                          leavefromclass="transform scale-100 opacity-100"
+                                          leavetoclass="transform scale-95 opacity-0"
+                                          persisted="false"
+                                        >
+                                          <!---->
+                                        </transition-stub>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                
+                                
+                              </tr>
+                              <tr
+                                class="h-11 transition-colors duration-150 hover:bg-stone-100 last:[&_td]:last:rounded-br-lg last:[&_td]:first:rounded-bl-lg"
+                              >
+                                
+                                
+                                <!---->
+                                
+                                
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="flex items-center"
+                                    style="width: 17.625rem;"
+                                  >
+                                    <div
+                                      class="relative inline-block overflow-hidden rounded-full mr-3 flex-shrink-0 flex-grow-0 mr-3 flex-shrink-0 flex-grow-0"
+                                    >
+                                      <img
+                                        class="w-6 h-6"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+                                      />
+                                    </div>
+                                    <span
+                                      class="text-button inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+                                    >
+                                      Amanda Pharmacy
+                                    </span>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="text-body overflow-hidden text-ellipsis whitespace-nowrap text-sky-700"
+                                    style="width: 10.312rem;"
+                                  >
+                                    Invited
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  Writer
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="w-80"
+                                  >
+                                    <div
+                                      class="w-fit"
+                                      data-headlessui-state=""
+                                      placement="bottom-start"
+                                    >
+                                      
+                                      <button
+                                        aria-expanded="false"
+                                        class="focus:outline-none"
+                                        data-headlessui-state=""
+                                        id="headlessui-popover-button-11"
+                                        type="button"
+                                      >
+                                        
+                                        <div
+                                          class="rounded p-1.5 transition-colors duration-100 hover:bg-gray-200"
+                                        >
+                                          All
+                                        </div>
+                                        
+                                      </button>
+                                      <!---->
+                                      
+                                      <div
+                                        data-popper-escaped=""
+                                        data-popper-placement="bottom-start"
+                                        data-popper-reference-hidden=""
+                                        style="position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        <transition-stub
+                                          appear="false"
+                                          css="true"
+                                          enteractiveclass="transition duration-100 ease-out"
+                                          enterfromclass="transform scale-95 opacity-0"
+                                          entertoclass="transform scale-100 opacity-100"
+                                          leaveactiveclass="transition duration-75 ease-in"
+                                          leavefromclass="transform scale-100 opacity-100"
+                                          leavetoclass="transform scale-95 opacity-0"
+                                          persisted="false"
+                                        >
+                                          <!---->
+                                        </transition-stub>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                
+                                
+                              </tr>
+                              <tr
+                                class="h-11 transition-colors duration-150 hover:bg-stone-100 last:[&_td]:last:rounded-br-lg last:[&_td]:first:rounded-bl-lg"
+                              >
+                                
+                                
+                                <!---->
+                                
+                                
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="flex items-center"
+                                    style="width: 17.625rem;"
+                                  >
+                                    <div
+                                      class="relative inline-block overflow-hidden rounded-full mr-3 flex-shrink-0 flex-grow-0 mr-3 flex-shrink-0 flex-grow-0"
+                                    >
+                                      <img
+                                        class="w-6 h-6"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+                                      />
+                                    </div>
+                                    <span
+                                      class="text-button inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+                                    >
+                                      Chris Dartmouth
+                                    </span>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="text-body overflow-hidden text-ellipsis whitespace-nowrap text-stone-400"
+                                    style="width: 10.312rem;"
+                                  >
+                                    Suspended
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  Guest
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="w-80"
+                                  >
+                                    <div
+                                      class="w-fit"
+                                      data-headlessui-state=""
+                                      placement="bottom-start"
+                                    >
+                                      
+                                      <button
+                                        aria-expanded="false"
+                                        class="focus:outline-none"
+                                        data-headlessui-state=""
+                                        id="headlessui-popover-button-13"
+                                        type="button"
+                                      >
+                                        
+                                        <div
+                                          class="rounded p-1.5 transition-colors duration-100 hover:bg-gray-200"
+                                        >
+                                          All
+                                        </div>
+                                        
+                                      </button>
+                                      <!---->
+                                      
+                                      <div
+                                        data-popper-escaped=""
+                                        data-popper-placement="bottom-start"
+                                        data-popper-reference-hidden=""
+                                        style="position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        <transition-stub
+                                          appear="false"
+                                          css="true"
+                                          enteractiveclass="transition duration-100 ease-out"
+                                          enterfromclass="transform scale-95 opacity-0"
+                                          entertoclass="transform scale-100 opacity-100"
+                                          leaveactiveclass="transition duration-75 ease-in"
+                                          leavefromclass="transform scale-100 opacity-100"
+                                          leavetoclass="transform scale-95 opacity-0"
+                                          persisted="false"
+                                        >
+                                          <!---->
+                                        </transition-stub>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                
+                                
+                              </tr>
+                              
+                              
+                            </tbody>
+                            
+                            <!---->
+                            
+                            
+                          </table>
+                        </div>
+                        <!--v-if-->
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <!--v-if-->
+                  
+                </div>
+                <div
+                  class="slide-over__footer flex items-center border-t border-solid bg-white px-6 pb-[0.688rem] pt-[0.562rem]"
+                >
+                  
+                  <span
+                    class="text-small"
+                  >
+                     Earn $20 credit for each new invited Admin 
+                  </span>
+                  <button
+                    class="text-button inline-flex h-9 items-center justify-center rounded px-4 py-2.5 text-white bg-primary hover:bg-emerald-900 transition-colors duration-200 focus:ring-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
+                    data-v-a52d93de=""
+                    type="button"
+                  >
+                    <!---->
+                    <span
+                      class="flex items-center justify-center"
+                      data-v-a52d93de=""
+                    >
+                      
+                       Invite people to your team 
+                      
+                    </span>
+                  </button>
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div
+      data-headlessui-portal=""
+    >
+      <div
+        class="hidden"
+        style="position: fixed; left: 0px; top: 0px; z-index: 9999;"
+      >
+        <transition-stub
+          appear="true"
+          css="true"
+          enteractiveclass="transition duration-100 ease-in "
+          leaveactiveclass="transition duration-100 ease-in "
+          leavefromclass="opacity-100"
+          leavetoclass="opacity-0"
+          persisted="false"
+        >
+          <!---->
+        </transition-stub>
+      </div>
+    </div>
+    
+  </div>
+</body>
+`;
+
+exports[`editDeskSettingsSlideOver.vue > props features > show 1`] = `
+<body>
+  <div>
+    <!--teleport start-->
+    <!--teleport end-->
+  </div>
+  <div
+    id="headlessui-portal-root"
+  >
+    
+    <div
+      data-headlessui-portal=""
+    >
+      <div
+        class="fixed inset-0 z-30 pointer-events-none edit-desk-slide-over"
+      >
+        <div
+          class="absolute inset-0 overflow-hidden pointer-events-none"
+        >
+          <!--v-if-->
+          <div
+            class="fixed inset-y-0 right-0 flex max-w-full pointer-events-none"
+          >
+            <div
+              class="translate-x-full transform transition ease-out duration-500"
+            >
+              <form
+                class="layer-2 relative z-[38] flex h-full w-screen max-w-[calc(100vw-15rem)] flex-col overflow-hidden rounded-tl-[2rem] border border-solid border-gray-100 bg-gray-100 pointer-events-auto"
+              >
+                <div
+                  class="slide-over__header relative mx-12 border-b border-stone-200"
+                >
+                  
+                  <button
+                    class="absolute right-[-0.5rem] top-[0.375rem] z-10 inline-flex size-12 items-center justify-center rounded-full outline-none hover:bg-stone-200"
+                    type="button"
+                  >
+                    <span
+                      class="icon-cross_thin text-[1rem] text-[#4c4c4c]"
+                      data-v-206d3c28=""
+                    />
+                  </button>
+                  <div
+                    class="text-pageheading py-5 text-stone-800"
+                  >
+                    Desk Settings for Business
+                  </div>
+                  
+                </div>
+                <div
+                  class="slide-over__body mx-12 flex-shrink flex-grow overflow-auto"
+                >
+                  
+                  <!--v-if-->
+                  <div
+                    class="relative flex-shrink flex-grow overflow-auto"
+                  >
+                    <div
+                      class="opacity-50"
+                    >
+                      <div
+                        class="flex justify-between py-4"
+                      >
+                        <!-- section title wrapper -->
+                        <div
+                          class="w-[17rem] pt-4"
+                        >
+                          <!-- title -->
+                          <div
+                            class="text-heading pb-4 pr-2 text-stone-800"
+                          >
+                            
+                            Desk settings
+                            
+                          </div>
+                          <!-- descriptipn -->
+                          <div
+                            class="text-body text-stone-500"
+                          >
+                            
+                            Control permissions by adding team members to this desk. The desk name is used in your live site for section headings and navigation.
+                            
+                          </div>
+                        </div>
+                        <!-- right hand form -->
+                        
+                        <div
+                          class="layer-1 relative h-fit w-[34rem] rounded-lg bg-white p-5 after:absolute after:left-0 after:top-0 after:size-full after:content-[' ']"
+                        >
+                          <div
+                            class="flex items-end"
+                          >
+                            <div
+                              class="mr-4 basis-[11rem]"
+                            >
+                              <label
+                                class="text-body block text-stone-800"
+                                for="input-4fzzzxjylrx"
+                              >
+                                Desk name
+                              </label>
+                              <div
+                                class="mt-1 relative"
+                              >
+                                <!---->
+                                <div
+                                  class="relative"
+                                >
+                                  <input
+                                    class="text-inputs block w-full border px-3 pb-[0.312rem] pt-1.5 focus:outline-none focus:ring-1 disabled:opacity-50 rounded-md border-stone-400 focus:border-sky-600 focus:ring-sky-600"
+                                    id="input-4fzzzxjylrx"
+                                    name="name"
+                                    type="text"
+                                  />
+                                  <!---->
+                                </div>
+                                
+                                <!---->
+                                
+                              </div>
+                            </div>
+                            <span
+                              class="basis-[9.875rem]"
+                            >
+                              
+                              <input
+                                hidden=""
+                                name="listbox"
+                                readonly=""
+                                style="position: fixed; height: 0px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+                                type="hidden"
+                                value="No"
+                              />
+                              <div
+                                data-headlessui-state=""
+                              >
+                                <label
+                                  class="text-body block text-stone-800"
+                                  data-headlessui-state=""
+                                  id="headlessui-listbox-label-3"
+                                >
+                                  Open Access 
+                                  
+                                  <a
+                                    class="ml-2.5 text-sm"
+                                    href="https://help.storipress.com/getting-started/dGuU7UrYXbhoFZKB7WtKtN/what-are-desks/4hpDXZkJEyUFnJh5jvUGL7"
+                                    rel="noopener nofollow noreferrer"
+                                    tabindex="-1"
+                                    target="_blank"
+                                  >
+                                    <div
+                                      class="inline"
+                                      data-v-69d6dbbe=""
+                                    >
+                                      <span
+                                        aria-label="show-tooltip"
+                                        class="icon-question-mark-inverse trigger cursor-pointer text-stone-400"
+                                        data-v-206d3c28=""
+                                        data-v-69d6dbbe=""
+                                      />
+                                      <div
+                                        class="tooltip layer-2 absolute rounded-md border border-stone-100 bg-white invisible"
+                                        data-popper-escaped=""
+                                        data-popper-placement="right-start"
+                                        data-popper-reference-hidden=""
+                                        data-v-69d6dbbe=""
+                                        style="position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        
+                                        <div
+                                          class="text-body w-56 px-4 py-3 text-stone-400"
+                                        >
+                                          
+                                           Open Access removes desk permisisons and allows your entire team to join and create articles in this desk. 
+                                          
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </a>
+                                  
+                                </label>
+                                <div
+                                  class="relative mt-1 h-[2.375rem]"
+                                >
+                                  
+                                  <button
+                                    aria-expanded="false"
+                                    aria-haspopup="listbox"
+                                    aria-labelledby="headlessui-listbox-label-3 headlessui-listbox-button-4"
+                                    class="text-inputs relative size-full cursor-default rounded-md border bg-white pb-[0.312rem] pl-3 pr-10 pt-1.5 text-left border-stone-400 focus:border-blue-300 focus:outline-none focus:ring-1 focus:ring-blue-300"
+                                    data-headlessui-state=""
+                                    id="headlessui-listbox-button-4"
+                                    type="button"
+                                  >
+                                    <span
+                                      class="block truncate"
+                                    >
+                                      No
+                                    </span>
+                                    <span
+                                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
+                                    >
+                                      <span
+                                        class="icon-selector text-stone-500"
+                                        data-v-206d3c28=""
+                                      />
+                                    </span>
+                                  </button>
+                                  <!--teleport start-->
+                                  <!--teleport end-->
+                                  
+                                  <span
+                                    class="text-caption absolute bottom-[calc(-1.5_*_1em)] left-0 text-red-700"
+                                  >
+                                    
+                                    
+                                    
+                                  </span>
+                                </div>
+                              </div>
+                              
+                            </span>
+                            <div
+                              data-stub="hover-hint"
+                              disabled="true"
+                              reference-class="ml-auto"
+                            >
+                              <div
+                                data-stub="hover-hint-reference"
+                              >
+                                <button
+                                  class="text-button inline-flex h-9 items-center justify-center rounded px-4 py-2.5 focus:outline-none bg-stone-200 text-stone-500 cursor-not-allowed is-border"
+                                  data-intercom-target="Delete Desk Button"
+                                  data-v-a52d93de=""
+                                  disabled=""
+                                  type="button"
+                                >
+                                  <!---->
+                                  <span
+                                    class="flex items-center justify-center"
+                                    data-v-a52d93de=""
+                                  >
+                                    
+                                     Delete desk 
+                                    
+                                  </span>
+                                </button>
+                              </div>
+                              <div
+                                data-stub="hover-hint-content"
+                              >
+                                Root desk deletion not allowed when subdesks are present
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="mt-4"
+                          >
+                            <div>
+                              <label
+                                class="text-body block text-stone-800"
+                                for="input-4fzzzxjylrx"
+                              >
+                                Desk description
+                              </label>
+                              <div
+                                class="mt-1 relative"
+                              >
+                                <!---->
+                                <div
+                                  class="relative"
+                                >
+                                  <input
+                                    class="text-inputs block w-full border px-3 pb-[0.312rem] pt-1.5 focus:outline-none focus:ring-1 disabled:opacity-50 rounded-md border-stone-400 focus:border-sky-600 focus:ring-sky-600"
+                                    id="input-4fzzzxjylrx"
+                                    name="description"
+                                    type="text"
+                                  />
+                                  <!---->
+                                </div>
+                                
+                                <!---->
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <hr
+                            class="mx-[-1.25rem] mb-[1.375rem] mt-4 border-stone-200"
+                          />
+                          <div
+                            class="flex items-end"
+                          >
+                            <div
+                              class="typeahead mr-4 flex-grow"
+                              data-v-56168105=""
+                              data-v-a06c5457=""
+                            >
+                              <label
+                                class="text-body mb-1 block text-stone-800"
+                                data-v-a06c5457=""
+                              >
+                                Invite users
+                              </label>
+                              <div
+                                class="typeahead-wrap text-body relative size-full rounded-md border border-stone-400 bg-white p-2 focus:border-sky-600 focus:outline-none focus:ring-1 focus:ring-sky-600"
+                                data-v-a06c5457=""
+                              >
+                                <label
+                                  class="typeahead-label absolute cursor-text text-black/25"
+                                  data-v-a06c5457=""
+                                  for="typeahead-4fzzzxjylrx"
+                                >
+                                  <span
+                                    data-v-a06c5457=""
+                                  >
+                                    Start typing the name of a user ...
+                                  </span>
+                                </label>
+                                <ul
+                                  class="flex w-full cursor-text flex-wrap"
+                                  data-v-a06c5457=""
+                                >
+                                  
+                                  
+                                  <li
+                                    class="flex-1"
+                                    data-v-a06c5457=""
+                                  >
+                                    <div
+                                      class="simple-typeahead"
+                                      data-v-a06c5457=""
+                                      data-v-f81ca714=""
+                                      id="typeahead-4fzzzxjylrx_wrapper"
+                                    >
+                                      <input
+                                        autocomplete="off"
+                                        class="simple-typeahead-input"
+                                        data-v-f81ca714=""
+                                        id="typeahead-4fzzzxjylrx"
+                                        placeholder=""
+                                        type="text"
+                                      />
+                                      <!---->
+                                    </div>
+                                  </li>
+                                  <!---->
+                                </ul>
+                              </div>
+                            </div>
+                            <button
+                              class="text-button inline-flex h-9 items-center justify-center rounded px-4 py-2.5 text-white bg-primary hover:bg-emerald-900 transition-colors duration-200 focus:ring-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 ml-auto ml-auto"
+                              data-v-a52d93de=""
+                              type="button"
+                            >
+                              <!---->
+                              <span
+                                class="flex items-center justify-center"
+                                data-v-a52d93de=""
+                              >
+                                
+                                 Invite 
+                                
+                              </span>
+                            </button>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div
+                      class="relative mb-[5.375rem] flex-shrink flex-grow"
+                    >
+                      <div
+                        class="flex items-center justify-between border-b border-stone-200"
+                      >
+                        <div
+                          class="text-pageheading mb-4 pt-1.5 text-stone-800"
+                        >
+                          Desk team
+                        </div>
+                        <div
+                          class="flex items-center"
+                        >
+                          
+                          
+                        </div>
+                      </div>
+                      
+                      <div
+                        class="overflow-scroll py-4"
+                      >
+                        <div
+                          class="layer-1 flex min-w-full flex-col rounded-lg min-w-[66rem]"
+                        >
+                          <table
+                            class="min-w-full divide-y divide-stone-200 rounded-lg border-hidden bg-white"
+                          >
+                            
+                            <thead>
+                              
+                              <tr
+                                class="h-11"
+                              >
+                                
+                                <!---->
+                                
+                                <th
+                                  class="text-button px-4 text-left tracking-wider text-stone-600 cursor-pointer"
+                                  scope="col"
+                                >
+                                  
+                                  
+                                  <span>
+                                    Name
+                                  </span>
+                                  <span
+                                    class="icon-chevron_down ml-[1.375rem] text-[0.6rem]"
+                                    data-v-206d3c28=""
+                                  />
+                                  
+                                  
+                                </th>
+                                <th
+                                  class="text-button px-4 text-left tracking-wider text-stone-600 cursor-pointer"
+                                  scope="col"
+                                >
+                                  
+                                  
+                                  <span>
+                                    Status
+                                  </span>
+                                  <span
+                                    class="icon-chevron_down ml-[1.375rem] text-[0.6rem]"
+                                    data-v-206d3c28=""
+                                  />
+                                  
+                                  
+                                </th>
+                                <th
+                                  class="text-button px-4 text-left tracking-wider text-stone-600 cursor-pointer"
+                                  scope="col"
+                                >
+                                  
+                                  
+                                  <span>
+                                    Role
+                                  </span>
+                                  <span
+                                    class="icon-chevron_down ml-[1.375rem] text-[0.6rem]"
+                                    data-v-206d3c28=""
+                                  />
+                                  
+                                  
+                                </th>
+                                <th
+                                  class="text-button px-4 text-left tracking-wider text-stone-600 cursor-pointer"
+                                  scope="col"
+                                >
+                                  
+                                  
+                                  <span>
+                                    Desks
+                                  </span>
+                                  <span
+                                    class="icon-chevron_down ml-[1.375rem] text-[0.6rem]"
+                                    data-v-206d3c28=""
+                                  />
+                                  
+                                  
+                                </th>
+                                
+                                
+                              </tr>
+                              
+                            </thead>
+                            <tbody
+                              class="divide-y divide-stone-100"
+                            >
+                              
+                              
+                              <tr
+                                class="h-11 transition-colors duration-150 hover:bg-stone-100 last:[&_td]:last:rounded-br-lg last:[&_td]:first:rounded-bl-lg"
+                              >
+                                
+                                
+                                <!---->
+                                
+                                
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="flex items-center"
+                                    style="width: 17.625rem;"
+                                  >
+                                    <div
+                                      class="relative inline-block overflow-hidden rounded-full mr-3 flex-shrink-0 flex-grow-0 mr-3 flex-shrink-0 flex-grow-0"
+                                    >
+                                      <img
+                                        class="w-6 h-6"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+                                      />
+                                    </div>
+                                    <span
+                                      class="text-button inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+                                    >
+                                      Bob Bradley
+                                    </span>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="text-body overflow-hidden text-ellipsis whitespace-nowrap text-black"
+                                    style="width: 10.312rem;"
+                                  >
+                                    Active
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  Site Owner
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="w-80"
+                                  >
+                                    <div
+                                      class="w-fit"
+                                      data-headlessui-state=""
+                                      placement="bottom-start"
+                                    >
+                                      
+                                      <button
+                                        aria-expanded="false"
+                                        class="focus:outline-none"
+                                        data-headlessui-state=""
+                                        id="headlessui-popover-button-5"
+                                        type="button"
+                                      >
+                                        
+                                        <div
+                                          class="rounded p-1.5 transition-colors duration-100 hover:bg-gray-200"
+                                        >
+                                          All
+                                        </div>
+                                        
+                                      </button>
+                                      <!---->
+                                      
+                                      <div
+                                        data-popper-escaped=""
+                                        data-popper-placement="bottom-start"
+                                        data-popper-reference-hidden=""
+                                        style="position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        <transition-stub
+                                          appear="false"
+                                          css="true"
+                                          enteractiveclass="transition duration-100 ease-out"
+                                          enterfromclass="transform scale-95 opacity-0"
+                                          entertoclass="transform scale-100 opacity-100"
+                                          leaveactiveclass="transition duration-75 ease-in"
+                                          leavefromclass="transform scale-100 opacity-100"
+                                          leavetoclass="transform scale-95 opacity-0"
+                                          persisted="false"
+                                        >
+                                          <!---->
+                                        </transition-stub>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                
+                                
+                              </tr>
+                              <tr
+                                class="h-11 transition-colors duration-150 hover:bg-stone-100 last:[&_td]:last:rounded-br-lg last:[&_td]:first:rounded-bl-lg"
+                              >
+                                
+                                
+                                <!---->
+                                
+                                
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="flex items-center"
+                                    style="width: 17.625rem;"
+                                  >
+                                    <div
+                                      class="relative inline-block overflow-hidden rounded-full mr-3 flex-shrink-0 flex-grow-0 mr-3 flex-shrink-0 flex-grow-0"
+                                    >
+                                      <img
+                                        class="w-6 h-6"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+                                      />
+                                    </div>
+                                    <span
+                                      class="text-button inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+                                    >
+                                      Jessica Nacci
+                                    </span>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="text-body overflow-hidden text-ellipsis whitespace-nowrap text-black"
+                                    style="width: 10.312rem;"
+                                  >
+                                    Active
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  Editor
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="w-80"
+                                  >
+                                    <div
+                                      class="w-fit"
+                                      data-headlessui-state=""
+                                      placement="bottom-start"
+                                    >
+                                      
+                                      <button
+                                        aria-expanded="false"
+                                        class="focus:outline-none"
+                                        data-headlessui-state=""
+                                        id="headlessui-popover-button-7"
+                                        type="button"
+                                      >
+                                        
+                                        <div
+                                          class="rounded p-1.5 transition-colors duration-100 hover:bg-gray-200"
+                                        >
+                                          All
+                                        </div>
+                                        
+                                      </button>
+                                      <!---->
+                                      
+                                      <div
+                                        data-popper-escaped=""
+                                        data-popper-placement="bottom-start"
+                                        data-popper-reference-hidden=""
+                                        style="position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        <transition-stub
+                                          appear="false"
+                                          css="true"
+                                          enteractiveclass="transition duration-100 ease-out"
+                                          enterfromclass="transform scale-95 opacity-0"
+                                          entertoclass="transform scale-100 opacity-100"
+                                          leaveactiveclass="transition duration-75 ease-in"
+                                          leavefromclass="transform scale-100 opacity-100"
+                                          leavetoclass="transform scale-95 opacity-0"
+                                          persisted="false"
+                                        >
+                                          <!---->
+                                        </transition-stub>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                
+                                
+                              </tr>
+                              <tr
+                                class="h-11 transition-colors duration-150 hover:bg-stone-100 last:[&_td]:last:rounded-br-lg last:[&_td]:first:rounded-bl-lg"
+                              >
+                                
+                                
+                                <!---->
+                                
+                                
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="flex items-center"
+                                    style="width: 17.625rem;"
+                                  >
+                                    <div
+                                      class="relative inline-block overflow-hidden rounded-full mr-3 flex-shrink-0 flex-grow-0 mr-3 flex-shrink-0 flex-grow-0"
+                                    >
+                                      <img
+                                        class="w-6 h-6"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+                                      />
+                                    </div>
+                                    <span
+                                      class="text-button inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+                                    >
+                                      Alex Cheng
+                                    </span>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="text-body overflow-hidden text-ellipsis whitespace-nowrap text-black"
+                                    style="width: 10.312rem;"
+                                  >
+                                    Active
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  Writer
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="w-80"
+                                  >
+                                    <div
+                                      class="w-fit"
+                                      data-headlessui-state=""
+                                      placement="bottom-start"
+                                    >
+                                      
+                                      <button
+                                        aria-expanded="false"
+                                        class="focus:outline-none"
+                                        data-headlessui-state=""
+                                        id="headlessui-popover-button-9"
+                                        type="button"
+                                      >
+                                        
+                                        <div
+                                          class="rounded p-1.5 transition-colors duration-100 hover:bg-gray-200"
+                                        >
+                                          All
+                                        </div>
+                                        
+                                      </button>
+                                      <!---->
+                                      
+                                      <div
+                                        data-popper-escaped=""
+                                        data-popper-placement="bottom-start"
+                                        data-popper-reference-hidden=""
+                                        style="position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        <transition-stub
+                                          appear="false"
+                                          css="true"
+                                          enteractiveclass="transition duration-100 ease-out"
+                                          enterfromclass="transform scale-95 opacity-0"
+                                          entertoclass="transform scale-100 opacity-100"
+                                          leaveactiveclass="transition duration-75 ease-in"
+                                          leavefromclass="transform scale-100 opacity-100"
+                                          leavetoclass="transform scale-95 opacity-0"
+                                          persisted="false"
+                                        >
+                                          <!---->
+                                        </transition-stub>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                
+                                
+                              </tr>
+                              <tr
+                                class="h-11 transition-colors duration-150 hover:bg-stone-100 last:[&_td]:last:rounded-br-lg last:[&_td]:first:rounded-bl-lg"
+                              >
+                                
+                                
+                                <!---->
+                                
+                                
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="flex items-center"
+                                    style="width: 17.625rem;"
+                                  >
+                                    <div
+                                      class="relative inline-block overflow-hidden rounded-full mr-3 flex-shrink-0 flex-grow-0 mr-3 flex-shrink-0 flex-grow-0"
+                                    >
+                                      <img
+                                        class="w-6 h-6"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+                                      />
+                                    </div>
+                                    <span
+                                      class="text-button inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+                                    >
+                                      Amanda Pharmacy
+                                    </span>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="text-body overflow-hidden text-ellipsis whitespace-nowrap text-sky-700"
+                                    style="width: 10.312rem;"
+                                  >
+                                    Invited
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  Writer
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="w-80"
+                                  >
+                                    <div
+                                      class="w-fit"
+                                      data-headlessui-state=""
+                                      placement="bottom-start"
+                                    >
+                                      
+                                      <button
+                                        aria-expanded="false"
+                                        class="focus:outline-none"
+                                        data-headlessui-state=""
+                                        id="headlessui-popover-button-11"
+                                        type="button"
+                                      >
+                                        
+                                        <div
+                                          class="rounded p-1.5 transition-colors duration-100 hover:bg-gray-200"
+                                        >
+                                          All
+                                        </div>
+                                        
+                                      </button>
+                                      <!---->
+                                      
+                                      <div
+                                        data-popper-escaped=""
+                                        data-popper-placement="bottom-start"
+                                        data-popper-reference-hidden=""
+                                        style="position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        <transition-stub
+                                          appear="false"
+                                          css="true"
+                                          enteractiveclass="transition duration-100 ease-out"
+                                          enterfromclass="transform scale-95 opacity-0"
+                                          entertoclass="transform scale-100 opacity-100"
+                                          leaveactiveclass="transition duration-75 ease-in"
+                                          leavefromclass="transform scale-100 opacity-100"
+                                          leavetoclass="transform scale-95 opacity-0"
+                                          persisted="false"
+                                        >
+                                          <!---->
+                                        </transition-stub>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                
+                                
+                              </tr>
+                              <tr
+                                class="h-11 transition-colors duration-150 hover:bg-stone-100 last:[&_td]:last:rounded-br-lg last:[&_td]:first:rounded-bl-lg"
+                              >
+                                
+                                
+                                <!---->
+                                
+                                
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="flex items-center"
+                                    style="width: 17.625rem;"
+                                  >
+                                    <div
+                                      class="relative inline-block overflow-hidden rounded-full mr-3 flex-shrink-0 flex-grow-0 mr-3 flex-shrink-0 flex-grow-0"
+                                    >
+                                      <img
+                                        class="w-6 h-6"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60"
+                                      />
+                                    </div>
+                                    <span
+                                      class="text-button inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+                                    >
+                                      Chris Dartmouth
+                                    </span>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="text-body overflow-hidden text-ellipsis whitespace-nowrap text-stone-400"
+                                    style="width: 10.312rem;"
+                                  >
+                                    Suspended
+                                  </div>
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  Guest
+                                  
+                                  
+                                </td>
+                                <td
+                                  class="text-body whitespace-nowrap px-4 text-stone-600"
+                                >
+                                  
+                                  
+                                  <div
+                                    class="w-80"
+                                  >
+                                    <div
+                                      class="w-fit"
+                                      data-headlessui-state=""
+                                      placement="bottom-start"
+                                    >
+                                      
+                                      <button
+                                        aria-expanded="false"
+                                        class="focus:outline-none"
+                                        data-headlessui-state=""
+                                        id="headlessui-popover-button-13"
+                                        type="button"
+                                      >
+                                        
+                                        <div
+                                          class="rounded p-1.5 transition-colors duration-100 hover:bg-gray-200"
+                                        >
+                                          All
+                                        </div>
+                                        
+                                      </button>
+                                      <!---->
+                                      
+                                      <div
+                                        data-popper-escaped=""
+                                        data-popper-placement="bottom-start"
+                                        data-popper-reference-hidden=""
+                                        style="position: fixed; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+                                      >
+                                        <transition-stub
+                                          appear="false"
+                                          css="true"
+                                          enteractiveclass="transition duration-100 ease-out"
+                                          enterfromclass="transform scale-95 opacity-0"
+                                          entertoclass="transform scale-100 opacity-100"
+                                          leaveactiveclass="transition duration-75 ease-in"
+                                          leavefromclass="transform scale-100 opacity-100"
+                                          leavetoclass="transform scale-95 opacity-0"
+                                          persisted="false"
+                                        >
+                                          <!---->
+                                        </transition-stub>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </td>
+                                
+                                
+                              </tr>
+                              
+                              
+                            </tbody>
+                            
+                            <!---->
+                            
+                            
+                          </table>
+                        </div>
+                        <!--v-if-->
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <!--v-if-->
+                  
+                </div>
+                <div
+                  class="slide-over__footer flex items-center border-t border-solid bg-white px-6 pb-[0.688rem] pt-[0.562rem]"
+                >
+                  
+                  <span
+                    class="text-small"
+                  >
+                     Earn $20 credit for each new invited Admin 
+                  </span>
+                  <button
+                    class="text-button inline-flex h-9 items-center justify-center rounded px-4 py-2.5 text-white bg-primary hover:bg-emerald-900 transition-colors duration-200 focus:ring-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
+                    data-v-a52d93de=""
+                    type="button"
+                  >
+                    <!---->
+                    <span
+                      class="flex items-center justify-center"
+                      data-v-a52d93de=""
+                    >
+                      
+                       Invite people to your team 
+                      
+                    </span>
+                  </button>
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div
+      data-headlessui-portal=""
+    >
+      <div
+        class="hidden"
+        style="position: fixed; left: 0px; top: 0px; z-index: 9999;"
+      >
+        <transition-stub
+          appear="true"
+          css="true"
+          enteractiveclass="transition duration-100 ease-in "
+          leaveactiveclass="transition duration-100 ease-in "
+          leavefromclass="opacity-100"
+          leavetoclass="opacity-0"
+          persisted="false"
+        >
+          <!---->
+        </transition-stub>
+      </div>
+    </div>
+    
+  </div>
+</body>
+`;

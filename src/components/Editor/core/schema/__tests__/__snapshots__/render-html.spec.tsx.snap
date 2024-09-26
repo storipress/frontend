@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`h render array children 1`] = `
+Array [
+  "div",
+  Object {},
+  Array [
+    "span",
+    Object {},
+    "foo",
+  ],
+]
+`;
+
+exports[`h render normal children 1`] = `
+Array [
+  "div",
+  Object {},
+  Array [
+    "span",
+    Object {},
+    "foo",
+  ],
+]
+`;
+
+exports[`h render with null children 1`] = `
+Array [
+  "div",
+  Object {},
+  Array [
+    "span",
+    Object {},
+    "foo",
+  ],
+]
+`;

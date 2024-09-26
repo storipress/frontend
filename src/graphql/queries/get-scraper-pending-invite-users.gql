@@ -1,0 +1,3 @@
+query GetScraperPendingInviteUsers($token: String!) {
+  scraperPendingInviteUsers(token: $token)
+}

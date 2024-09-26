@@ -1,0 +1,117 @@
+#import "../fragments/custom-values.gql"
+
+query GetArticleMetafield($id: ID!) {
+  article(id: $id) {
+    id
+    title
+    metafields {
+      id
+      key
+      group {
+        id
+        key
+      }
+      type
+      values {
+        __typename
+        ...CustomFieldTextValue
+        ...CustomFieldNumberValue
+        ...CustomFieldColorValue
+        ...CustomFieldUrlValue
+        ...CustomFieldBooleanValue
+        ...CustomFieldRichTextValue
+        ...CustomFieldFileValue
+        ...CustomFieldDateValue
+        ...CustomFieldJsonValue
+        ...CustomFieldSelectValue
+        ...CustomFieldReferenceValue
+      }
+      group {
+        id
+        key
+        name
+        type
+        fields {
+          id
+          key
+          type
+          name
+          description
+          options {
+            ... on CustomFieldTextOptions {
+              type
+              required
+              repeat
+              multiline
+              textMin: min
+              textMax: max
+              regex
+            }
+            ... on CustomFieldNumberOptions {
+              type
+              required
+              repeat
+              float
+              numberMin: min
+              numberMax: max
+            }
+            ... on CustomFieldDateOptions {
+              type
+              required
+              repeat
+              time
+            }
+            ... on CustomFieldColorOptions {
+              type
+              required
+              repeat
+            }
+            ... on CustomFieldUrlOptions {
+              type
+              required
+              repeat
+            }
+            ... on CustomFieldBooleanOptions {
+              type
+              required
+              repeat
+            }
+            ... on CustomFieldRichTextOptions {
+              type
+              required
+              repeat
+            }
+            ... on CustomFieldFileOptions {
+              type
+              required
+              repeat
+            }
+            ... on CustomFieldJsonOptions {
+              type
+              required
+              repeat
+            }
+            ... on CustomFieldIgnoreOptions {
+              type
+              required
+              repeat
+            }
+            ... on CustomFieldSelectOptions {
+              type
+              required
+              placeholder
+              choices
+              multiple
+            }
+            ... on CustomFieldReferenceOptions {
+              type
+              target
+              multiple
+              collection_id
+            }
+          }
+        }
+      }
+    }
+  }
+}

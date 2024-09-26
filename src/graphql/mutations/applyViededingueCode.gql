@@ -1,0 +1,3 @@
+mutation ApplyViededingueCode($input: ApplyViededingueCodeInput!) {
+  applyViededingueCode(input: $input)
+}

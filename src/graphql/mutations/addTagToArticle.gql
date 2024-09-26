@@ -1,0 +1,8 @@
+mutation addTagToArticle($id: ID!, $tagId: ID!) {
+  addTagToArticle(input: { id: $id, tag_id: $tagId }) {
+    id
+    tags {
+      id
+    }
+  }
+}

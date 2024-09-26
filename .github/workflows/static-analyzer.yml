@@ -1,0 +1,65 @@
+name: Static Analyzer
+
+on:
+  pull_request:
+    branches-ignore:
+      - 'release-please-*'
+      - 'renovate*'
+
+jobs:
+  static-analyzer:
+    runs-on: ubuntu-22.04
+    name: Static Analyzer
+    env:
+      NODE_OPTIONS: --max-old-space-size=6144
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          submodules: recursive
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: yarn
+      - run: yarn
+      - uses: reviewdog/action-eslint@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          eslint_flags: '{playwright,src,test}/**/*.{vue,ts,js,tsx,jsx}'
+          node_options: --max-old-space-size=6144
+
+      - uses: reviewdog/action-setup@v1
+        with:
+          reviewdog_version: v0.14.1
+      - run: ${GITHUB_WORKSPACE}/.github/reviewdog-tsc.sh
+        shell: bash
+        env:
+          INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INPUT_WORKDIR: .
+          INPUT_LEVEL: error
+          INPUT_REPORTER: github-pr-review
+          INPUT_FILTER_MODE: added
+          INPUT_FAIL_ON_ERROR: 'false'
+          INPUT_REVIEWDOG_FLAGS: ''
+          INPUT_TOOL_NAME: vue-tsc
+          INPUT_TSC_FLAGS: ''
+
+      - run: yarn typecheck
+        continue-on-error: true # TODO: fix type errors
+
+
+      # - name: Add Deepsource token
+      #   run: |
+      #     mkdir -p ~/.deepsource
+      #     cat <<EOD > ~/.deepsource/config.toml
+      #       ${{ secrets.DEEPSOURCE_CONFIG }}
+      #     EOD
+
+      # - name: Install Deepsource CLI
+      #   run: |
+      #     curl https://deepsource.io/cli | sh
+      # - run: yarn reviewdog:deepsource
+      #   env:
+      #     DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
+      #     REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}

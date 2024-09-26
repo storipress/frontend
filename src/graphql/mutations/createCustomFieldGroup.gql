@@ -1,0 +1,16 @@
+mutation CreateCustomFieldGroup($input: CreateCustomFieldGroupInput!) {
+  createCustomFieldGroup(input: $input) {
+    id
+    key
+    type
+    name
+    description
+    fields {
+      id
+      key
+      type
+      name
+      description
+    }
+  }
+}

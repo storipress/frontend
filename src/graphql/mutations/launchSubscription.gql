@@ -1,0 +1,6 @@
+mutation LaunchSubscription {
+  launchSubscription {
+    id
+    name
+  }
+}

@@ -1,0 +1,16 @@
+mutation DeleteCustomFieldGroup($id: ID!) {
+  deleteCustomFieldGroup(id: $id) {
+    id
+    key
+    type
+    name
+    description
+    fields {
+      id
+      key
+      type
+      name
+      description
+    }
+  }
+}

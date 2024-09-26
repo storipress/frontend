@@ -1,0 +1,7 @@
+query GetImage($key: ID!) {
+  image(key: $key) {
+    url
+    width
+    height
+  }
+}

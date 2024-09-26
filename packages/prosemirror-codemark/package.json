@@ -1,0 +1,38 @@
+{
+  "name": "@storipress/prosemirror-codemark",
+  "version": "0.4.3",
+  "homepage": "https://github.com/curvenote/editor/tree/main/packages/prosemirror-codemark",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curvenote/editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/curvenote/editor/issues"
+  },
+  "keywords": [
+    "prosemirror",
+    "code"
+  ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "moon run build",
+    "prepack": "moon run prosemirror-codemark:build"
+  },
+  "peerDependencies": {
+    "@tiptap/pm": "^2.1.13"
+  },
+  "devDependencies": {
+    "@tiptap/pm": "2.1.13",
+    "copyfiles": "2.4.1",
+    "eslint": "8.57.1",
+    "prettier": "3.3.3",
+    "prosemirror-example-setup": "1.2.3",
+    "rimraf": "6.0.1",
+    "typescript": "5.6.2"
+  }
+}

@@ -1,0 +1,12 @@
+query ListLinters {
+  linters {
+    edges {
+      node {
+        id
+        title
+        description
+        prompt
+      }
+    }
+  }
+}

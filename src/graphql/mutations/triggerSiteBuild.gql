@@ -1,0 +1,3 @@
+mutation TriggerSiteBuild($input: TriggerSiteBuildInput) {
+  triggerSiteBuild(input: $input)
+}

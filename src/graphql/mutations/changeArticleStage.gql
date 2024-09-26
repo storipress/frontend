@@ -1,0 +1,21 @@
+mutation changeArticleStage($input: ChangeArticleStageInput!) {
+  changeArticleStage(input: $input) {
+    id
+    title
+    slug
+    blurb
+    featured
+    cover
+    seo
+    plan
+    updated_at
+    stage {
+      id
+      name
+      color
+      icon
+      default
+      order
+    }
+  }
+}

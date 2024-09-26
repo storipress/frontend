@@ -1,0 +1,9 @@
+mutation UpdateDesk($input: UpdateDeskInput!) {
+  updateDesk(input: $input) {
+    id
+    name
+    slug
+    description
+    open_access
+  }
+}

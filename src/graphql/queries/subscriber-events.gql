@@ -1,0 +1,30 @@
+query SubscriberEvent($id: ID!, $first: Int = 40, $page: Int = 1) {
+  subscriber(id: $id) {
+    id
+    events(first: $first, page: $page) {
+      paginatorInfo {
+        count
+        currentPage
+        firstItem
+        hasMorePages
+        lastItem
+        lastPage
+        perPage
+        total
+      }
+      data {
+        id
+        name
+        data
+        occurred_at
+        target {
+          ...SubscriberEventArticle
+          ...SubscriberEventPage
+          ...SubscriberEventDesk
+          ...SubscriberEventUser
+          ...SubscriberEventEmail
+        }
+      }
+    }
+  }
+}

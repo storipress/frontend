@@ -1,0 +1,3 @@
+mutation SetupShopifyOauth($code: String!) {
+  setupShopifyOauth(code: $code)
+}

@@ -1,0 +1,32 @@
+export const stages = [
+  {
+    __typename: 'Stage' as const,
+    id: '1',
+    name: 'Ideas',
+    color: 'rgb(234 179 8)',
+    icon: '',
+    order: 1,
+    ready: false,
+    default: true,
+  },
+  {
+    __typename: 'Stage' as const,
+    id: '2',
+    name: 'Review',
+    color: 'rgb(3 105 161)',
+    icon: '',
+    order: 2,
+    ready: false,
+    default: false,
+  },
+  {
+    __typename: 'Stage' as const,
+    id: '3',
+    name: 'For Publication',
+    color: 'rgb(22 163 74)',
+    icon: '',
+    order: 3,
+    ready: false,
+    default: true,
+  },
+]

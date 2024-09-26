@@ -1,0 +1,10 @@
+query GetSiteCustomSite {
+  site {
+    id
+    name
+    plan
+    custom_site_template
+    newstand_key
+    typesense_search_only_key
+  }
+}

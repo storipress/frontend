@@ -1,0 +1,29 @@
+query GetUsers {
+  users(includeInvitations: false) {
+    id
+    intercom_hash_identity
+    email
+    verified
+    status
+    suspended
+    first_name
+    last_name
+    full_name
+    avatar
+    location
+    bio
+    website
+    socials
+    last_seen_at
+    created_at
+    updated_at
+    role
+    desks {
+      id
+      name
+      slug
+      seo
+      order
+    }
+  }
+}

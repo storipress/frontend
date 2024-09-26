@@ -1,0 +1,3 @@
+mutation UnsubscribeSubscribers($ids: [ID!]!) {
+  unsubscribeSubscribers(ids: $ids)
+}

@@ -1,0 +1,10 @@
+#import "./note.gql"
+
+fragment Thread on ArticleThread {
+  id
+  position
+  resolved_at
+  notes {
+    ...Note
+  }
+}

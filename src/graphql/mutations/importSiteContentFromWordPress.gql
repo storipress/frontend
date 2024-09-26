@@ -1,0 +1,3 @@
+mutation ImportSiteContentFromWordPress($input: ImportSiteContentFromWordPressInput!) {
+  importSiteContentFromWordPress(input: $input)
+}

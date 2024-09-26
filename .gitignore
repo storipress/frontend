@@ -1,0 +1,39 @@
+.DS_Store
+.vite-ssg-dist
+.vite-ssg-temp
+*.local
+dist
+dist-ssr
+node_modules
+.idea/
+*.log
+/core
+
+### yarn ###
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+# !.yarn/cache
+
+# and uncomment the following lines
+.pnp.*
+
+**/storybook-static
+**/coverage
+storageState.json
+stats.html
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# moon
+.moon/cache
+.moon/docker

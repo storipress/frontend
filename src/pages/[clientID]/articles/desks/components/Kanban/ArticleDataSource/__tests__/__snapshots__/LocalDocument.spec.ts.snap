@@ -1,0 +1,444 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`combineWithSource > should combine with deleted 1`] = `
+[
+  {
+    "hitsPerPage": [],
+    "query": {
+      "page": 1,
+      "q": "",
+      "query_by": "title",
+    },
+    "stageKey": "1-default",
+    "total": 0,
+  },
+]
+`;
+
+exports[`combineWithSource > should combine with inserted 1`] = `
+[
+  {
+    "hitsPerPage": [
+      [
+        {
+          "author_avatars": [],
+          "author_ids": [],
+          "author_names": [],
+          "blurb": "",
+          "cover": "",
+          "created_at": 0,
+          "desk_id": 0,
+          "desk_name": "desk",
+          "featured": false,
+          "id": "2",
+          "order": 0,
+          "published": false,
+          "published_at": 0,
+          "slug": "slug",
+          "stage_id": 0,
+          "stage_name": "stage",
+          "tag_ids": [],
+          "tag_names": [],
+          "title": "title",
+          "updated_at": 0,
+        },
+        {
+          "author_avatars": [],
+          "author_ids": [],
+          "author_names": [],
+          "blurb": "",
+          "cover": "",
+          "created_at": 0,
+          "desk_id": 0,
+          "desk_name": "desk",
+          "featured": false,
+          "id": "1",
+          "order": 0,
+          "published": false,
+          "published_at": 0,
+          "slug": "slug",
+          "stage_id": 0,
+          "stage_name": "stage",
+          "tag_ids": [],
+          "tag_names": [],
+          "title": "title",
+          "updated_at": 0,
+        },
+      ],
+    ],
+    "query": {
+      "page": 1,
+      "q": "",
+      "query_by": "title",
+    },
+    "stageKey": "1-default",
+    "total": 2,
+  },
+]
+`;
+
+exports[`combineWithSource > should combine with update 1`] = `
+[
+  {
+    "hitsPerPage": [
+      [
+        {
+          "author_avatars": [],
+          "author_ids": [],
+          "author_names": [],
+          "blurb": "",
+          "cover": "",
+          "created_at": 0,
+          "desk_id": 0,
+          "desk_name": "desk",
+          "featured": false,
+          "id": "1",
+          "order": 0,
+          "published": false,
+          "published_at": 0,
+          "slug": "slug",
+          "stage_id": 0,
+          "stage_name": "stage",
+          "tag_ids": [],
+          "tag_names": [],
+          "title": "New title",
+          "updated_at": 0,
+        },
+      ],
+    ],
+    "query": {
+      "page": 1,
+      "q": "",
+      "query_by": "title",
+    },
+    "stageKey": "1-default",
+    "total": 1,
+  },
+]
+`;
+
+exports[`combineWithSource > should handle move across stage 1`] = `
+[
+  {
+    "hitsPerPage": [],
+    "query": {
+      "page": 1,
+      "q": "",
+      "query_by": "title",
+    },
+    "stageKey": "1-default",
+    "total": 0,
+  },
+  {
+    "hitsPerPage": [
+      [
+        {
+          "author_avatars": [],
+          "author_ids": [],
+          "author_names": [],
+          "blurb": "",
+          "cover": "",
+          "created_at": 0,
+          "desk_id": 0,
+          "desk_name": "desk",
+          "featured": false,
+          "id": "1",
+          "order": 0,
+          "published": false,
+          "published_at": 0,
+          "slug": "slug",
+          "stage_id": 0,
+          "stage_name": "stage",
+          "tag_ids": [],
+          "tag_names": [],
+          "title": "Move article",
+          "updated_at": 0,
+        },
+        {
+          "author_avatars": [],
+          "author_ids": [],
+          "author_names": [],
+          "blurb": "",
+          "cover": "",
+          "created_at": 0,
+          "desk_id": 0,
+          "desk_name": "desk",
+          "featured": false,
+          "id": "2",
+          "order": 0,
+          "published": false,
+          "published_at": 0,
+          "slug": "slug",
+          "stage_id": 0,
+          "stage_name": "stage",
+          "tag_ids": [],
+          "tag_names": [],
+          "title": "title",
+          "updated_at": 0,
+        },
+      ],
+    ],
+    "query": {
+      "page": 1,
+      "q": "",
+      "query_by": "title",
+    },
+    "stageKey": "2-default",
+    "total": 2,
+  },
+]
+`;
+
+exports[`moveWithRestore > can move article and then restore 1`] = `
+{
+  "deleted": {
+    "_id": "HashMap",
+    "values": [],
+  },
+  "inserted": {
+    "byId": {
+      "_id": "HashMap",
+      "values": [
+        [
+          "1",
+          {
+            "_next": {
+              "_id": "Option",
+              "_tag": "Some",
+              "value": {
+                "_next": {
+                  "_id": "Option",
+                  "_tag": "None",
+                },
+                "_previous": {
+                  "_id": "Option",
+                  "_tag": "Some",
+                  "value": [Circular],
+                },
+                "_tag": "PositionNode",
+                "pos": [
+                  1,
+                  0,
+                ],
+              },
+            },
+            "_previous": {
+              "_id": "Option",
+              "_tag": "None",
+            },
+            "_tag": "DocumentNode",
+            "document": {
+              "id": "1",
+              "updated_at": 2000,
+            },
+          },
+        ],
+      ],
+    },
+    "byStage": {
+      "_id": "HashMap",
+      "values": [
+        [
+          0,
+          {
+            "_id": "HashMap",
+            "values": [
+              [
+                0,
+                {
+                  "_next": {
+                    "_id": "Option",
+                    "_tag": "None",
+                  },
+                  "_previous": {
+                    "_id": "Option",
+                    "_tag": "None",
+                  },
+                  "_tag": "PositionNode",
+                  "pos": [
+                    0,
+                    0,
+                  ],
+                },
+              ],
+            ],
+          },
+        ],
+        [
+          1,
+          {
+            "_id": "HashMap",
+            "values": [
+              [
+                0,
+                {
+                  "_next": {
+                    "_id": "Option",
+                    "_tag": "None",
+                  },
+                  "_previous": {
+                    "_id": "Option",
+                    "_tag": "Some",
+                    "value": {
+                      "_next": {
+                        "_id": "Option",
+                        "_tag": "Some",
+                        "value": [Circular],
+                      },
+                      "_previous": {
+                        "_id": "Option",
+                        "_tag": "None",
+                      },
+                      "_tag": "DocumentNode",
+                      "document": {
+                        "id": "1",
+                        "updated_at": 2000,
+                      },
+                    },
+                  },
+                  "_tag": "PositionNode",
+                  "pos": [
+                    1,
+                    0,
+                  ],
+                },
+              ],
+            ],
+          },
+        ],
+      ],
+    },
+  },
+  "modified": {
+    "_id": "HashMap",
+    "values": [],
+  },
+}
+`;
+
+exports[`moveWithRestore > can move article and then restore 2`] = `
+{
+  "deleted": {
+    "_id": "HashMap",
+    "values": [],
+  },
+  "inserted": {
+    "byId": {
+      "_id": "HashMap",
+      "values": [
+        [
+          "1",
+          {
+            "_next": {
+              "_id": "Option",
+              "_tag": "Some",
+              "value": {
+                "_next": {
+                  "_id": "Option",
+                  "_tag": "None",
+                },
+                "_previous": {
+                  "_id": "Option",
+                  "_tag": "Some",
+                  "value": [Circular],
+                },
+                "_tag": "PositionNode",
+                "pos": [
+                  0,
+                  0,
+                ],
+              },
+            },
+            "_previous": {
+              "_id": "Option",
+              "_tag": "None",
+            },
+            "_tag": "DocumentNode",
+            "document": {
+              "id": "1",
+              "updated_at": 2000,
+            },
+          },
+        ],
+      ],
+    },
+    "byStage": {
+      "_id": "HashMap",
+      "values": [
+        [
+          0,
+          {
+            "_id": "HashMap",
+            "values": [
+              [
+                0,
+                {
+                  "_next": {
+                    "_id": "Option",
+                    "_tag": "None",
+                  },
+                  "_previous": {
+                    "_id": "Option",
+                    "_tag": "Some",
+                    "value": {
+                      "_next": {
+                        "_id": "Option",
+                        "_tag": "Some",
+                        "value": [Circular],
+                      },
+                      "_previous": {
+                        "_id": "Option",
+                        "_tag": "None",
+                      },
+                      "_tag": "DocumentNode",
+                      "document": {
+                        "id": "1",
+                        "updated_at": 2000,
+                      },
+                    },
+                  },
+                  "_tag": "PositionNode",
+                  "pos": [
+                    0,
+                    0,
+                  ],
+                },
+              ],
+            ],
+          },
+        ],
+        [
+          1,
+          {
+            "_id": "HashMap",
+            "values": [
+              [
+                0,
+                {
+                  "_next": {
+                    "_id": "Option",
+                    "_tag": "None",
+                  },
+                  "_previous": {
+                    "_id": "Option",
+                    "_tag": "None",
+                  },
+                  "_tag": "PositionNode",
+                  "pos": [
+                    1,
+                    0,
+                  ],
+                },
+              ],
+            ],
+          },
+        ],
+      ],
+    },
+  },
+  "modified": {
+    "_id": "HashMap",
+    "values": [],
+  },
+}
+`;

@@ -1,0 +1,3 @@
+mutation ApplyDealFuelCode($input: ApplyDealFuelCodeInput!) {
+  applyDealFuelCode(input: $input)
+}

@@ -1,0 +1,8 @@
+mutation UploadImageDocument($input: UploadImageInput!) {
+  uploadImage(input: $input) {
+    url
+    width
+    height
+    key
+  }
+}

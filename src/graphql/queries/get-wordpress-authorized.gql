@@ -1,0 +1,3 @@
+query GetWordpressAuthorized {
+  wordPressAuthorized
+}

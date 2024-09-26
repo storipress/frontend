@@ -1,0 +1,13 @@
+mutation UpdateScraper($input: UpdateScraperInput!) {
+  updateScraper(input: $input) {
+    id
+    state
+    data
+    selectors {
+      id
+      type
+      value
+      data
+    }
+  }
+}

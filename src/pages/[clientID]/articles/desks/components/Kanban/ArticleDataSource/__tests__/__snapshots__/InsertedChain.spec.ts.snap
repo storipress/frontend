@@ -1,0 +1,160 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`insertBeforeWithStage > should insert a document node at the specified stage and position 1`] = `
+{
+  "byId": {
+    "_id": "HashMap",
+    "values": [
+      [
+        "doc1",
+        {
+          "_next": {
+            "_id": "Option",
+            "_tag": "Some",
+            "value": {
+              "_next": {
+                "_id": "Option",
+                "_tag": "None",
+              },
+              "_previous": {
+                "_id": "Option",
+                "_tag": "Some",
+                "value": [Circular],
+              },
+              "_tag": "PositionNode",
+              "pos": [
+                1,
+                1,
+              ],
+            },
+          },
+          "_previous": {
+            "_id": "Option",
+            "_tag": "None",
+          },
+          "_tag": "DocumentNode",
+          "document": {
+            "id": "doc1",
+            "title": "Document 1",
+          },
+        },
+      ],
+      [
+        "doc2",
+        {
+          "_next": {
+            "_id": "Option",
+            "_tag": "Some",
+            "value": {
+              "_next": {
+                "_id": "Option",
+                "_tag": "None",
+              },
+              "_previous": {
+                "_id": "Option",
+                "_tag": "Some",
+                "value": [Circular],
+              },
+              "_tag": "PositionNode",
+              "pos": [
+                1,
+                2,
+              ],
+            },
+          },
+          "_previous": {
+            "_id": "Option",
+            "_tag": "None",
+          },
+          "_tag": "DocumentNode",
+          "document": {
+            "id": "doc2",
+            "title": "Document 2",
+          },
+        },
+      ],
+    ],
+  },
+  "byStage": {
+    "_id": "HashMap",
+    "values": [
+      [
+        1,
+        {
+          "_id": "HashMap",
+          "values": [
+            [
+              1,
+              {
+                "_next": {
+                  "_id": "Option",
+                  "_tag": "None",
+                },
+                "_previous": {
+                  "_id": "Option",
+                  "_tag": "Some",
+                  "value": {
+                    "_next": {
+                      "_id": "Option",
+                      "_tag": "Some",
+                      "value": [Circular],
+                    },
+                    "_previous": {
+                      "_id": "Option",
+                      "_tag": "None",
+                    },
+                    "_tag": "DocumentNode",
+                    "document": {
+                      "id": "doc1",
+                      "title": "Document 1",
+                    },
+                  },
+                },
+                "_tag": "PositionNode",
+                "pos": [
+                  1,
+                  1,
+                ],
+              },
+            ],
+            [
+              2,
+              {
+                "_next": {
+                  "_id": "Option",
+                  "_tag": "None",
+                },
+                "_previous": {
+                  "_id": "Option",
+                  "_tag": "Some",
+                  "value": {
+                    "_next": {
+                      "_id": "Option",
+                      "_tag": "Some",
+                      "value": [Circular],
+                    },
+                    "_previous": {
+                      "_id": "Option",
+                      "_tag": "None",
+                    },
+                    "_tag": "DocumentNode",
+                    "document": {
+                      "id": "doc2",
+                      "title": "Document 2",
+                    },
+                  },
+                },
+                "_tag": "PositionNode",
+                "pos": [
+                  1,
+                  2,
+                ],
+              },
+            ],
+          ],
+        },
+      ],
+    ],
+  },
+}
+`;

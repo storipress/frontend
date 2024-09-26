@@ -1,0 +1,10 @@
+schema: https://api.storipress.dev/graphql
+documents: './src/graphql/**/*.gql'
+extensions:
+  codegen:
+    generates:
+      ./src/graphql-operations.ts:
+        plugins:
+          - typescript
+          - typescript-operations
+          - typed-document-node

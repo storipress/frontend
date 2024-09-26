@@ -1,0 +1,6 @@
+mutation RunScraper($token: String!) {
+  runScraper(input: { token: $token, type: full }) {
+    id
+    state
+  }
+}

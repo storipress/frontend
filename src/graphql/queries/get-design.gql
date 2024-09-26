@@ -1,0 +1,6 @@
+query GetDesign($key: ID!) {
+  design(key: $key) {
+    key
+    draft
+  }
+}

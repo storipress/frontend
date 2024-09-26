@@ -1,0 +1,3 @@
+[submodule "article-templates/sources"]
+	path = article-templates/sources
+	url = git@github.com:storipress/Builder-Blocks.git

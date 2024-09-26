@@ -1,0 +1,78 @@
+query GetCustomFieldGroup($id: ID!) {
+  customFieldGroup(id: $id) {
+    id
+    key
+    type
+    name
+    description
+    fields {
+      id
+      key
+      type
+      name
+      description
+      options {
+        ... on CustomFieldTextOptions {
+          type
+          required
+          repeat
+          multiline
+          textMin: min
+          textMax: max
+          regex
+        }
+        ... on CustomFieldNumberOptions {
+          type
+          required
+          repeat
+          float
+          numberMin: min
+          numberMax: max
+        }
+        ... on CustomFieldDateOptions {
+          type
+          required
+          repeat
+          time
+        }
+        ... on CustomFieldColorOptions {
+          type
+          required
+          repeat
+        }
+        ... on CustomFieldUrlOptions {
+          type
+          required
+          repeat
+        }
+        ... on CustomFieldBooleanOptions {
+          type
+          required
+          repeat
+        }
+        ... on CustomFieldRichTextOptions {
+          type
+          required
+          repeat
+        }
+        ... on CustomFieldFileOptions {
+          type
+          required
+          repeat
+        }
+        ... on CustomFieldJsonOptions {
+          type
+          required
+          repeat
+        }
+        ... on CustomFieldIgnoreOptions {
+          type
+          required
+          repeat
+        }
+        ...CustomFieldReferenceOptions
+        ...CustomFieldSelectOptions
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+mutation DeleteSubscribers($ids: [ID!]!) {
+  deleteSubscribers(ids: $ids)
+}

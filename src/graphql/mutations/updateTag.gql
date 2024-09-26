@@ -1,0 +1,6 @@
+mutation UpdateTag($id: ID!, $name: String) {
+  updateTag(input: { id: $id, name: $name }) {
+    id
+    name
+  }
+}

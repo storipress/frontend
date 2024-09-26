@@ -1,0 +1,3 @@
+mutation AssignSubscriberSubscription($id: ID!) {
+  assignSubscriberSubscription(id: $id)
+}

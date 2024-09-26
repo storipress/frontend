@@ -1,0 +1,3 @@
+query UnsplashDownloadPhoto($id: String!) {
+  unsplashDownload(id: $id)
+}

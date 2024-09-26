@@ -1,0 +1,11 @@
+mutation CreateStage($input: CreateStageInput!) {
+  createStage(input: $input) {
+    id
+    name
+    color
+    icon
+    order
+    ready
+    default
+  }
+}

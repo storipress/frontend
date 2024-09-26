@@ -1,0 +1,3 @@
+mutation UpdateWebflowCollection($input: UpdateWebflowCollectionInput!) {
+  updateWebflowCollection(input: $input)
+}

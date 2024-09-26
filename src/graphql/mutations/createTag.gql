@@ -1,0 +1,7 @@
+mutation createTag($name: String!, $description: String) {
+  createTag(input: { name: $name, description: $description }) {
+    id
+    name
+    description
+  }
+}

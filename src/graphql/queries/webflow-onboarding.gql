@@ -1,0 +1,17 @@
+query WebflowOnboarding {
+  webflowOnboarding {
+    site
+    collection {
+      blog
+      author
+      desk
+      tag
+    }
+    mapping {
+      blog
+      author
+      desk
+      tag
+    }
+  }
+}

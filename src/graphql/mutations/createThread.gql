@@ -1,0 +1,23 @@
+mutation CreateThread($input: CreateArticleThreadInput!) {
+  createArticleThread(input: $input) {
+    id
+    article_id
+    position
+    created_at
+    resolved_at
+    notes {
+      id
+      content
+      created_at
+      user {
+        id
+        full_name
+        avatar
+      }
+
+      thread {
+        id
+      }
+    }
+  }
+}

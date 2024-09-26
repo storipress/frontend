@@ -1,0 +1,6 @@
+mutation DeleteScraperArticle($token: String!, $id: ID!) {
+  deleteScraperArticle(input: { token: $token, id: $id }) {
+    id
+    successful
+  }
+}

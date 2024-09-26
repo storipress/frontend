@@ -1,0 +1,169 @@
+dependsOn:
+  - core-component
+  - common-style
+  - prosemirror-codemark
+    
+fileGroups:
+  sources:
+    - src/**/*
+    - article-templates/**/*
+    - assets/**/*
+    - block/**/*
+    - build/**/*
+    - common-style/**/*
+    - public/**/*
+tasks:
+  build:
+    command:
+      - vite
+      - build
+    inputs:
+      - '@group(sources)'
+      - vite.config.mts
+    outputs:
+      - dist/**/*
+    platform: node
+    deps:
+      - ^:build
+  build-builder:
+    command:
+      - tsx
+      - scripts/build-builder.mts
+    inputs: 
+    outputs:
+      - dist/builder/**/*
+    platform: node
+  build-storybook:
+    command:
+      - storybook
+      - build
+    inputs:
+      - '@group(sources)'
+    deps:
+      - ^:build
+    env:
+      VITE_ENABLE_MOCK_API: 'true'
+    platform: node
+  deploy:
+    command: noop
+    deps:
+      - deploy-build
+    platform: node
+  deploy-build:
+    command:
+      - tsx
+      - scripts/deploy.mts
+    deps:
+      - init-submodule
+      - ^:build
+    inputs:
+      - '@group(sources)'
+      - vite.config.mts
+      - scripts/deploy.mts
+    outputs: 
+      - dist/**/*
+    platform: node
+  dev:
+    command:
+      - vite
+      - --port
+      - '3333'
+      - --open
+    deps:
+      - ^:build
+    inputs:
+      - '@group(sources)'
+    local: true
+    platform: node
+  preview:
+    command:
+      - vite
+      - preview
+      - --open
+    deps:
+      - build
+    inputs:
+      - '@group(sources)'
+    local: true
+    platform: node
+  init-submodule:
+    command:
+      - git
+      - submodule
+      - update
+    deps:
+      - ~:init-submodule-init
+    platform: system
+  init-submodule-init:
+    command:
+      - git
+      - submodule
+      - init
+    platform: system
+  lint:
+    command:
+      - eslint
+    inputs: 
+      - '@group(sources)'
+    platform: node
+  reviewdog-deepsource:
+    command:
+      - tsx
+      - scripts/reviewdog-deepsource.mts
+    platform: node
+  storybook:
+    command:
+      - storybook
+      - dev
+      - -p
+      - '6006'
+    env:
+      VITE_ENABLE_MOCK_API: 'true'
+    deps:
+      - ^:build
+    platform: node
+    local: true
+  storybook-editor-core:
+    command:
+      - storybook
+      - dev
+      - -c
+      - editor-core/.storybook
+      - -p
+      - '6006'
+    platform: node
+    local: true
+  test:
+    command: vitest
+    platform: node
+    inputs: 
+      - '@group(sources)'
+      - vite.config.mts
+      - vitest.workspace.ts
+      - yarn.lock
+    deps:
+      - ^:build
+  test-coverage:
+    extends: test
+    args:
+      - --coverage
+    outputs:
+      - coverage/**/*
+  test-unit:
+    command: vitest
+    platform: node
+    deps:
+      - ^:build
+  typecheck:
+    command:
+      - vue-tsc
+      - --noEmit
+    platform: node
+  update-submodule:
+    command:
+      - git
+      - submodule
+      - update
+      - --remote
+      - --merge
+    platform: system

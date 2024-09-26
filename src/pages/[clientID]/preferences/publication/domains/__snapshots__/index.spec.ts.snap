@@ -1,0 +1,348 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`setup publication domain > render custom domain and email 1`] = `
+[
+  <li>
+    Record Type
+  </li>,
+  <li>
+    Host
+  </li>,
+  <li>
+    Value
+  </li>,
+  <li>
+    TTL
+  </li>,
+  <li
+    class="flex items-center gap-2"
+  >
+    <!--v-if-->
+    <span>
+      CNAME
+    </span>
+  </li>,
+  <li
+    class="w-full"
+    data-testid="dns-host"
+  >
+    <div
+      data-stub="hover-hint"
+      offset="14"
+      placement="right"
+      popup-class="before:content-[''] before:absolute before:border before:-left-3 before:border-[6px] before:border-r-stone-700 before:border-y-transparent before:border-l-transparent delay-75"
+      reference-class="w-full truncate"
+    >
+      <div
+        data-stub="hover-hint-reference"
+      >
+        <span
+          class="cursor-pointer px-1.5 py-1 duration-[50ms] hover:rounded hover:bg-gray-100"
+        >
+          www.joesblog
+        </span>
+      </div>
+      <div
+        data-stub="hover-hint-content"
+      >
+        Click to copy
+      </div>
+    </div>
+  </li>,
+  <li
+    class="w-full"
+    data-testid="dns-value"
+  >
+    <div
+      data-stub="hover-hint"
+      offset="14"
+      placement="right"
+      popup-class="before:content-[''] before:absolute before:border before:-left-3 before:border-[6px] before:border-r-stone-700 before:border-y-transparent before:border-l-transparent delay-75"
+      reference-class="w-full truncate"
+    >
+      <div
+        data-stub="hover-hint-reference"
+      >
+        <span
+          class="cursor-pointer px-1.5 py-1 duration-[50ms] hover:rounded hover:bg-gray-100"
+        >
+          cdn.storipress.com
+        </span>
+      </div>
+      <div
+        data-stub="hover-hint-content"
+      >
+        Click to copy
+      </div>
+    </div>
+  </li>,
+  <li>
+    10 Minutes
+  </li>,
+  <li
+    class="flex items-center gap-2"
+  >
+    <!--v-if-->
+    <span>
+      CNAME
+    </span>
+  </li>,
+  <li
+    class="w-full"
+    data-testid="dns-host"
+  >
+    <div
+      data-stub="hover-hint"
+      offset="14"
+      placement="right"
+      popup-class="before:content-[''] before:absolute before:border before:-left-3 before:border-[6px] before:border-r-stone-700 before:border-y-transparent before:border-l-transparent delay-75"
+      reference-class="w-full truncate"
+    >
+      <div
+        data-stub="hover-hint-reference"
+      >
+        <span
+          class="cursor-pointer px-1.5 py-1 duration-[50ms] hover:rounded hover:bg-gray-100"
+        >
+          www.www.joesblog
+        </span>
+      </div>
+      <div
+        data-stub="hover-hint-content"
+      >
+        Click to copy
+      </div>
+    </div>
+  </li>,
+  <li
+    class="w-full"
+    data-testid="dns-value"
+  >
+    <div
+      data-stub="hover-hint"
+      offset="14"
+      placement="right"
+      popup-class="before:content-[''] before:absolute before:border before:-left-3 before:border-[6px] before:border-r-stone-700 before:border-y-transparent before:border-l-transparent delay-75"
+      reference-class="w-full truncate"
+    >
+      <div
+        data-stub="hover-hint-reference"
+      >
+        <span
+          class="cursor-pointer px-1.5 py-1 duration-[50ms] hover:rounded hover:bg-gray-100"
+        >
+          cdn.storipress.com
+        </span>
+      </div>
+      <div
+        data-stub="hover-hint-content"
+      >
+        Click to copy
+      </div>
+    </div>
+  </li>,
+  <li>
+    10 Minutes
+  </li>,
+  <li
+    class="flex items-center gap-2"
+  >
+    <div
+      class="inline"
+      data-v-69d6dbbe=""
+    >
+      <span
+        aria-label="show-tooltip"
+        class="icon-question-mark-inverse trigger cursor-pointer text-stone-400"
+        data-v-206d3c28=""
+        data-v-69d6dbbe=""
+      />
+      <div
+        class="tooltip layer-2 absolute rounded-md border border-stone-100 bg-white invisible"
+        data-popper-escaped=""
+        data-popper-placement="right-start"
+        data-popper-reference-hidden=""
+        data-v-69d6dbbe=""
+        style="position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+      >
+        
+        <div
+          class="w-[21rem] p-4"
+        >
+          <div
+            class="text-button mb-1.5 text-stone-800"
+          >
+            Email records
+          </div>
+          <div
+            class="text-body text-stone-400"
+          >
+             These are used to send newsletters using your custom domain from Storipress. 
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <span>
+      TXT
+    </span>
+  </li>,
+  <li
+    class="w-full"
+    data-testid="dns-host"
+  >
+    <div
+      data-stub="hover-hint"
+      offset="14"
+      placement="right"
+      popup-class="before:content-[''] before:absolute before:border before:-left-3 before:border-[6px] before:border-r-stone-700 before:border-y-transparent before:border-l-transparent delay-75"
+      reference-class="w-full truncate"
+    >
+      <div
+        data-stub="hover-hint-reference"
+      >
+        <span
+          class="cursor-pointer px-1.5 py-1 duration-[50ms] hover:rounded hover:bg-gray-100"
+        >
+          20230602053200pm._domainkey.www.joesblog
+        </span>
+      </div>
+      <div
+        data-stub="hover-hint-content"
+      >
+        Click to copy
+      </div>
+    </div>
+  </li>,
+  <li
+    class="w-full"
+    data-testid="dns-value"
+  >
+    <div
+      data-stub="hover-hint"
+      offset="14"
+      placement="right"
+      popup-class="before:content-[''] before:absolute before:border before:-left-3 before:border-[6px] before:border-r-stone-700 before:border-y-transparent before:border-l-transparent delay-75"
+      reference-class="w-full truncate"
+    >
+      <div
+        data-stub="hover-hint-reference"
+      >
+        <span
+          class="cursor-pointer px-1.5 py-1 duration-[50ms] hover:rounded hover:bg-gray-100"
+        >
+          k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1RG+F584xu1j9xHYUrLCCtM+eb/yF1gww8oB11fZzVjIIcF0hgdyaCai2E6RlVALphG7dtu0qh/Jf6rA8oFAUZDuBGurzohkMzwrKot81RUd6y30h9fTYICeGBZnBMsmMCc5ZNL2wIsjfau5WOUETtC7YNz0OwLvTTR1Wu2s0swIDAQAB
+        </span>
+      </div>
+      <div
+        data-stub="hover-hint-content"
+      >
+        Click to copy
+      </div>
+    </div>
+  </li>,
+  <li>
+    10 Minutes
+  </li>,
+  <li
+    class="flex items-center gap-2"
+  >
+    <div
+      class="inline"
+      data-v-69d6dbbe=""
+    >
+      <span
+        aria-label="show-tooltip"
+        class="icon-question-mark-inverse trigger cursor-pointer text-stone-400"
+        data-v-206d3c28=""
+        data-v-69d6dbbe=""
+      />
+      <div
+        class="tooltip layer-2 absolute rounded-md border border-stone-100 bg-white invisible"
+        data-popper-escaped=""
+        data-popper-placement="right-start"
+        data-popper-reference-hidden=""
+        data-v-69d6dbbe=""
+        style="position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 0px);"
+      >
+        
+        <div
+          class="w-[21rem] p-4"
+        >
+          <div
+            class="text-button mb-1.5 text-stone-800"
+          >
+            Email records
+          </div>
+          <div
+            class="text-body text-stone-400"
+          >
+             These are used to send newsletters using your custom domain from Storipress. 
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <span>
+      CNAME
+    </span>
+  </li>,
+  <li
+    class="w-full"
+    data-testid="dns-host"
+  >
+    <div
+      data-stub="hover-hint"
+      offset="14"
+      placement="right"
+      popup-class="before:content-[''] before:absolute before:border before:-left-3 before:border-[6px] before:border-r-stone-700 before:border-y-transparent before:border-l-transparent delay-75"
+      reference-class="w-full truncate"
+    >
+      <div
+        data-stub="hover-hint-reference"
+      >
+        <span
+          class="cursor-pointer px-1.5 py-1 duration-[50ms] hover:rounded hover:bg-gray-100"
+        >
+          20230602053200pm._domainkey.www.joesblog
+        </span>
+      </div>
+      <div
+        data-stub="hover-hint-content"
+      >
+        Click to copy
+      </div>
+    </div>
+  </li>,
+  <li
+    class="w-full"
+    data-testid="dns-value"
+  >
+    <div
+      data-stub="hover-hint"
+      offset="14"
+      placement="right"
+      popup-class="before:content-[''] before:absolute before:border before:-left-3 before:border-[6px] before:border-r-stone-700 before:border-y-transparent before:border-l-transparent delay-75"
+      reference-class="w-full truncate"
+    >
+      <div
+        data-stub="hover-hint-reference"
+      >
+        <span
+          class="cursor-pointer px-1.5 py-1 duration-[50ms] hover:rounded hover:bg-gray-100"
+        >
+          pm.mtasv.net
+        </span>
+      </div>
+      <div
+        data-stub="hover-hint-content"
+      >
+        Click to copy
+      </div>
+    </div>
+  </li>,
+  <li>
+    10 Minutes
+  </li>,
+]
+`;

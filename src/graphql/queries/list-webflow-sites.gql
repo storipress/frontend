@@ -1,0 +1,11 @@
+query ListWebflowSites {
+  webflowSites {
+    id
+    customDomains {
+      id
+      url
+    }
+    defaultDomain
+    displayName
+  }
+}

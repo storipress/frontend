@@ -1,0 +1,11 @@
+mutation EnableCustomDomain($input: EnableCustomDomainInput!) {
+  enableCustomDomain(input: $input) {
+    id
+    custom_domain
+    custom_domain_email {
+      hostname
+      type
+      value
+    }
+  }
+}

@@ -1,0 +1,87 @@
+tasks:
+  build:
+    command: noop
+    platform: node
+    deps:
+      - build-cjs
+      - build-esm
+      - build-css
+      - declarations
+  build-cjs:
+    command:
+      - tsc
+      - --project
+      - ./src/tsconfig.json
+      - --module
+      - commonjs
+      - --outDir
+      - ./dist/cjs
+    inputs:
+      - src/**/*.ts
+    outputs:
+      - dist/cjs
+    deps:
+      - clean
+    platform: node
+  build-css:
+    command:
+      - copyfiles
+      - -f
+      - src/codemark.css
+      - dist
+    deps:
+      - clean
+    inputs:
+      - src/codemark.css
+    outputs:
+      - dist/codemark.css
+    platform: node
+  build-esm:
+    command:
+      - tsc
+      - --project
+      - ./src/tsconfig.json
+      - --module
+      - ES2020
+      - --outDir
+      - ./dist/esm
+    deps:
+      - clean
+    inputs:
+      - src/**/*.ts
+    outputs:
+      - dist/esm
+    platform: node
+  build-watch:
+    command:
+      - tsc
+      - --project
+      - ./src/tsconfig.json
+      - -w
+    platform: node
+    inputs:
+      - src/**/*.ts
+    local: true
+  clean:
+    command:
+      - rimraf
+      - dist
+    inputs:
+      - src/**/*
+    platform: node
+  declarations:
+    command:
+      - tsc
+      - --project
+      - ./src/tsconfig.json
+      - --declaration
+      - --emitDeclarationOnly
+      - --outDir
+      - dist/types
+    deps:
+      - clean
+    inputs:
+      - src/**/*.ts
+    outputs:
+      - dist/types
+    platform: node

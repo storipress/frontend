@@ -1,0 +1,1857 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`leftHandNavPanel.vue > props features > render 1`] = `
+<div>
+  <div
+    class="flex h-screen w-[80vw] min-w-[14rem] flex-col border border-solid border-stone-200 bg-stone-100 pb-1 pr-2 pt-6 md:h-[calc(100vh-3.5rem+1px)] md:w-60"
+  >
+    <div
+      class="mb-[1.875rem] flex-shrink-0 flex-grow-0"
+    >
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="ALL"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all bg-emerald-700"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 text-emerald-700 bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-home w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                All
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="FEATURED"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-star w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                Featured
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="MY_ARTICLES"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-account_circle w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                My Articles
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+    </div>
+    <div
+      class="mb-1.5 flex flex-shrink-0 flex-grow-0 items-center justify-between pl-5 pr-2"
+    >
+      <span
+        class="text-xs font-semibold leading-7 text-stone-600"
+      >
+         DESKS 
+      </span>
+      <!--v-if-->
+    </div>
+    <div
+      class="desk-list overflow-auto"
+    >
+      <div
+        class="draggable-list overflow-y-auto overflow-x-hidden"
+        id="desk"
+      >
+        
+        <div
+          class="flex flex-col"
+          data-intercom-target="Desk List"
+          id="root-desk"
+        >
+          
+          
+        </div>
+        
+      </div>
+    </div>
+    <div
+      class="text-body flex-shrink flex-grow py-4 pl-5 pr-4 text-stone-800"
+    >
+      <span>
+        Welcome to your Publication. To customise your theme, 
+      </span>
+      <span
+        class="font-semibold"
+      >
+        click the big green button on the top right of the navbar and click ‘customise theme’.
+      </span>
+    </div>
+    <div
+      class="hidden flex-shrink-0 flex-grow-0 py-3.5 pl-3 md:flex"
+    >
+      <!--v-if-->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`leftHandNavPanel.vue > props features > selected a desk has children 1`] = `
+<div>
+  <div
+    class="flex h-screen w-[80vw] min-w-[14rem] flex-col border border-solid border-stone-200 bg-stone-100 pb-1 pr-2 pt-6 md:h-[calc(100vh-3.5rem+1px)] md:w-60"
+  >
+    <div
+      class="mb-[1.875rem] flex-shrink-0 flex-grow-0"
+    >
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="ALL"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-home w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                All
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="FEATURED"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-star w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                Featured
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="MY_ARTICLES"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-account_circle w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                My Articles
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+    </div>
+    <div
+      class="mb-1.5 flex flex-shrink-0 flex-grow-0 items-center justify-between pl-5 pr-2"
+    >
+      <span
+        class="text-xs font-semibold leading-7 text-stone-600"
+      >
+         DESKS 
+      </span>
+      <span
+        class="relative hidden h-full w-4 md:flex md:items-center"
+      >
+        <div
+          class="relative z-[21] inline-block text-left"
+          data-headlessui-state=""
+        >
+          <div
+            data-stub="hover-hint"
+            reference-class="add-button-tooltip"
+          >
+            <div
+              data-stub="hover-hint-reference"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="menu"
+                class="tooltip text-[#7f7f7f] hover:brightness-75"
+                data-headlessui-state=""
+                data-intercom-target="New Desk Button"
+                id="headlessui-menu-button-1"
+                type="button"
+              >
+                <span
+                  class="icon-plus_circle"
+                  data-v-206d3c28=""
+                />
+              </button>
+            </div>
+            <div
+              data-stub="hover-hint-content"
+            >
+              <span
+                class="text-body text-white"
+              >
+                New desk
+              </span>
+            </div>
+          </div>
+          <transition-stub
+            appear="false"
+            css="true"
+            enteractiveclass="transition duration-75 ease-in-out"
+            enterfromclass="transform scale-95 opacity-0"
+            entertoclass="transform scale-100 opacity-100"
+            leaveactiveclass="transition duration-75 ease-in"
+            leavefromclass="transform scale-100 opacity-100"
+            leavetoclass="transform scale-95 opacity-0"
+            persisted="false"
+          >
+            <!---->
+          </transition-stub>
+        </div>
+      </span>
+    </div>
+    <div
+      class="desk-list overflow-auto"
+    >
+      <div
+        class="draggable-list overflow-y-auto overflow-x-hidden"
+        id="desk"
+      >
+        
+        <div
+          class="flex flex-col"
+          data-intercom-target="Desk List"
+          id="root-desk"
+        >
+          
+          <div
+            class="w-full"
+            data-testid="sub-desk"
+            id="sub-desk-0"
+          >
+            
+            <div
+              class="dropzone-item"
+              data-stub="hover-hint"
+              disabled="true"
+              reference-class="w-full"
+            >
+              <div
+                data-stub="hover-hint-reference"
+              >
+                <div
+                  class="dropzone-item relative flex"
+                  id="0"
+                >
+                  <span
+                    class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                  />
+                  <button
+                    class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+                  >
+                    <span
+                      class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                    >
+                      <span
+                        class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                        data-v-206d3c28=""
+                      />
+                    </span>
+                    <span
+                      class="icon-desk w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                      data-v-206d3c28=""
+                    />
+                    <span
+                      class="flex-grow truncate text-left ml-4"
+                    >
+                      Opinion
+                    </span>
+                    <!--v-if-->
+                  </button>
+                </div>
+              </div>
+              <div
+                data-stub="hover-hint-content"
+              >
+                Desk access requires invite
+              </div>
+            </div>
+            
+            
+            <transition-stub
+              appear="false"
+              css="true"
+              enteractiveclass="transition duration-100 ease-out origin-top"
+              enterfromclass="transform scale-y-95 opacity-0"
+              entertoclass="transform scale-y-100 opacity-100"
+              leaveactiveclass="transition duration-75 ease-in origin-top"
+              leavefromclass="transform scale-y-100 opacity-100"
+              leavetoclass="transform scale-y-95 opacity-0"
+              persisted="false"
+            >
+              <!--v-if-->
+            </transition-stub>
+            
+          </div>
+          <div
+            class="w-full"
+            data-testid="sub-desk"
+            id="sub-desk-1"
+          >
+            
+            <div
+              class="dropzone-item"
+              data-stub="hover-hint"
+              disabled="true"
+              reference-class="w-full"
+            >
+              <div
+                data-stub="hover-hint-reference"
+              >
+                <div
+                  class="dropzone-item relative flex"
+                  id="1"
+                >
+                  <span
+                    class="absolute h-8 w-1 rounded-r-sm transition-all bg-emerald-700 dropzone-item"
+                  />
+                  <button
+                    class="text-button flex h-8 w-full items-center rounded-r transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 text-emerald-700 bg-stone-800/5"
+                  >
+                    <span
+                      class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                    >
+                      <span
+                        class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                        data-v-206d3c28=""
+                      />
+                    </span>
+                    <span
+                      class="icon-desk w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                      data-v-206d3c28=""
+                    />
+                    <span
+                      class="flex-grow truncate text-left ml-4"
+                    >
+                      Business
+                    </span>
+                    <span
+                      class="icon-chevron_down ml-auto mr-4 scale-50 transform text-base"
+                      data-v-206d3c28=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                data-stub="hover-hint-content"
+              >
+                Desk access requires invite
+              </div>
+            </div>
+            
+            
+            <transition-stub
+              appear="false"
+              css="true"
+              enteractiveclass="transition duration-100 ease-out origin-top"
+              enterfromclass="transform scale-y-95 opacity-0"
+              entertoclass="transform scale-y-100 opacity-100"
+              leaveactiveclass="transition duration-75 ease-in origin-top"
+              leavefromclass="transform scale-y-100 opacity-100"
+              leavetoclass="transform scale-y-95 opacity-0"
+              persisted="false"
+            >
+              <div
+                class="w-full"
+              >
+                
+                <div>
+                  
+                  <div
+                    class="dropzone-item"
+                    data-stub="hover-hint"
+                    disabled="true"
+                    reference-class="w-full"
+                  >
+                    <div
+                      data-stub="hover-hint-reference"
+                    >
+                      <div
+                        class="dropzone-item relative flex"
+                        id="1-0"
+                      >
+                        <span
+                          class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                        />
+                        <button
+                          class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 font-normal opacity-75"
+                        >
+                          <span
+                            class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                          >
+                            <span
+                              class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                              data-v-206d3c28=""
+                            />
+                          </span>
+                          <span
+                            class="icon- w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                            data-v-206d3c28=""
+                          />
+                          <span
+                            class="flex-grow truncate text-left ml-4"
+                          >
+                            Capital Markets
+                          </span>
+                          <!--v-if-->
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      data-stub="hover-hint-content"
+                    >
+                      Desk access requires invite
+                    </div>
+                  </div>
+                  
+                </div>
+                <div>
+                  
+                  <div
+                    class="dropzone-item"
+                    data-stub="hover-hint"
+                    disabled="true"
+                    reference-class="w-full"
+                  >
+                    <div
+                      data-stub="hover-hint-reference"
+                    >
+                      <div
+                        class="dropzone-item relative flex"
+                        id="1-1"
+                      >
+                        <span
+                          class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                        />
+                        <button
+                          class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 font-normal opacity-75"
+                        >
+                          <span
+                            class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                          >
+                            <span
+                              class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                              data-v-206d3c28=""
+                            />
+                          </span>
+                          <span
+                            class="icon- w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                            data-v-206d3c28=""
+                          />
+                          <span
+                            class="flex-grow truncate text-left ml-4"
+                          >
+                            Currency
+                          </span>
+                          <!--v-if-->
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      data-stub="hover-hint-content"
+                    >
+                      Desk access requires invite
+                    </div>
+                  </div>
+                  
+                </div>
+                <div>
+                  
+                  <div
+                    class="dropzone-item"
+                    data-stub="hover-hint"
+                    disabled="true"
+                    reference-class="w-full"
+                  >
+                    <div
+                      data-stub="hover-hint-reference"
+                    >
+                      <div
+                        class="dropzone-item relative flex"
+                        id="1-2"
+                      >
+                        <span
+                          class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                        />
+                        <button
+                          class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 font-normal opacity-75"
+                        >
+                          <span
+                            class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                          >
+                            <span
+                              class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                              data-v-206d3c28=""
+                            />
+                          </span>
+                          <span
+                            class="icon- w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                            data-v-206d3c28=""
+                          />
+                          <span
+                            class="flex-grow truncate text-left ml-4"
+                          >
+                            Derivatives
+                          </span>
+                          <!--v-if-->
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      data-stub="hover-hint-content"
+                    >
+                      Desk access requires invite
+                    </div>
+                  </div>
+                  
+                </div>
+                <div>
+                  
+                  <div
+                    class="dropzone-item"
+                    data-stub="hover-hint"
+                    disabled="true"
+                    reference-class="w-full"
+                  >
+                    <div
+                      data-stub="hover-hint-reference"
+                    >
+                      <div
+                        class="dropzone-item relative flex"
+                        id="1-3"
+                      >
+                        <span
+                          class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                        />
+                        <button
+                          class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 font-normal opacity-75"
+                        >
+                          <span
+                            class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                          >
+                            <span
+                              class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                              data-v-206d3c28=""
+                            />
+                          </span>
+                          <span
+                            class="icon- w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                            data-v-206d3c28=""
+                          />
+                          <span
+                            class="flex-grow truncate text-left ml-4"
+                          >
+                            Equities
+                          </span>
+                          <!--v-if-->
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      data-stub="hover-hint-content"
+                    >
+                      Desk access requires invite
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </transition-stub>
+            
+          </div>
+          <div
+            class="w-full"
+            data-testid="sub-desk"
+            id="sub-desk-2"
+          >
+            
+            <div
+              class="dropzone-item"
+              data-stub="hover-hint"
+              disabled="true"
+              reference-class="w-full"
+            >
+              <div
+                data-stub="hover-hint-reference"
+              >
+                <div
+                  class="dropzone-item relative flex"
+                  id="2"
+                >
+                  <span
+                    class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                  />
+                  <button
+                    class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+                  >
+                    <span
+                      class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                    >
+                      <span
+                        class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                        data-v-206d3c28=""
+                      />
+                    </span>
+                    <span
+                      class="icon-desk w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                      data-v-206d3c28=""
+                    />
+                    <span
+                      class="flex-grow truncate text-left ml-4"
+                    >
+                      Politics
+                    </span>
+                    <span
+                      class="icon-chevron_up ml-auto mr-4 scale-50 transform text-base"
+                      data-v-206d3c28=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                data-stub="hover-hint-content"
+              >
+                Desk access requires invite
+              </div>
+            </div>
+            
+            
+            <transition-stub
+              appear="false"
+              css="true"
+              enteractiveclass="transition duration-100 ease-out origin-top"
+              enterfromclass="transform scale-y-95 opacity-0"
+              entertoclass="transform scale-y-100 opacity-100"
+              leaveactiveclass="transition duration-75 ease-in origin-top"
+              leavefromclass="transform scale-y-100 opacity-100"
+              leavetoclass="transform scale-y-95 opacity-0"
+              persisted="false"
+            >
+              <!--v-if-->
+            </transition-stub>
+            
+          </div>
+          <div
+            class="w-full"
+            data-testid="sub-desk"
+            id="sub-desk-3"
+          >
+            
+            <div
+              class="dropzone-item"
+              data-stub="hover-hint"
+              disabled="true"
+              reference-class="w-full"
+            >
+              <div
+                data-stub="hover-hint-reference"
+              >
+                <div
+                  class="dropzone-item relative flex"
+                  id="3"
+                >
+                  <span
+                    class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                  />
+                  <button
+                    class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+                  >
+                    <span
+                      class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                    >
+                      <span
+                        class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                        data-v-206d3c28=""
+                      />
+                    </span>
+                    <span
+                      class="icon-desk w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                      data-v-206d3c28=""
+                    />
+                    <span
+                      class="flex-grow truncate text-left ml-4"
+                    >
+                      Environment
+                    </span>
+                    <!--v-if-->
+                  </button>
+                </div>
+              </div>
+              <div
+                data-stub="hover-hint-content"
+              >
+                Desk access requires invite
+              </div>
+            </div>
+            
+            
+            <transition-stub
+              appear="false"
+              css="true"
+              enteractiveclass="transition duration-100 ease-out origin-top"
+              enterfromclass="transform scale-y-95 opacity-0"
+              entertoclass="transform scale-y-100 opacity-100"
+              leaveactiveclass="transition duration-75 ease-in origin-top"
+              leavefromclass="transform scale-y-100 opacity-100"
+              leavetoclass="transform scale-y-95 opacity-0"
+              persisted="false"
+            >
+              <!--v-if-->
+            </transition-stub>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    <div
+      class="text-body flex-shrink flex-grow py-4 pl-5 pr-4 text-stone-800"
+    >
+      <span>
+        Welcome to your Publication. To customise your theme, 
+      </span>
+      <span
+        class="font-semibold"
+      >
+        click the big green button on the top right of the navbar and click ‘customise theme’.
+      </span>
+    </div>
+    <div
+      class="hidden flex-shrink-0 flex-grow-0 py-3.5 pl-3 md:flex"
+    >
+      <!--v-if-->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`leftHandNavPanel.vue > props features > selected a desk without child 1`] = `
+<div>
+  <div
+    class="flex h-screen w-[80vw] min-w-[14rem] flex-col border border-solid border-stone-200 bg-stone-100 pb-1 pr-2 pt-6 md:h-[calc(100vh-3.5rem+1px)] md:w-60"
+  >
+    <div
+      class="mb-[1.875rem] flex-shrink-0 flex-grow-0"
+    >
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="ALL"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-home w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                All
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="FEATURED"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-star w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                Featured
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="MY_ARTICLES"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-account_circle w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                My Articles
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+    </div>
+    <div
+      class="mb-1.5 flex flex-shrink-0 flex-grow-0 items-center justify-between pl-5 pr-2"
+    >
+      <span
+        class="text-xs font-semibold leading-7 text-stone-600"
+      >
+         DESKS 
+      </span>
+      <!--v-if-->
+    </div>
+    <div
+      class="desk-list overflow-auto"
+    >
+      <div
+        class="draggable-list overflow-y-auto overflow-x-hidden"
+        id="desk"
+      >
+        
+        <div
+          class="flex flex-col"
+          data-intercom-target="Desk List"
+          id="root-desk"
+        >
+          
+          
+        </div>
+        
+      </div>
+    </div>
+    <div
+      class="text-body flex-shrink flex-grow py-4 pl-5 pr-4 text-stone-800"
+    >
+      <span>
+        Welcome to your Publication. To customise your theme, 
+      </span>
+      <span
+        class="font-semibold"
+      >
+        click the big green button on the top right of the navbar and click ‘customise theme’.
+      </span>
+    </div>
+    <div
+      class="hidden flex-shrink-0 flex-grow-0 py-3.5 pl-3 md:flex"
+    >
+      <!--v-if-->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`leftHandNavPanel.vue > props features > selected a sub-desk  1`] = `
+<div>
+  <div
+    class="flex h-screen w-[80vw] min-w-[14rem] flex-col border border-solid border-stone-200 bg-stone-100 pb-1 pr-2 pt-6 md:h-[calc(100vh-3.5rem+1px)] md:w-60"
+  >
+    <div
+      class="mb-[1.875rem] flex-shrink-0 flex-grow-0"
+    >
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="ALL"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-home w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                All
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="FEATURED"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-star w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                Featured
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+      <div
+        data-stub="hover-hint"
+        disabled="true"
+        reference-class="w-full"
+      >
+        <div
+          data-stub="hover-hint-reference"
+        >
+          <div
+            class="relative flex"
+            id="MY_ARTICLES"
+          >
+            <span
+              class="absolute h-8 w-1 rounded-r-sm transition-all"
+            />
+            <button
+              class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+            >
+              <span
+                class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+              >
+                <span
+                  class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                  data-v-206d3c28=""
+                />
+              </span>
+              <span
+                class="icon-account_circle w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                data-v-206d3c28=""
+              />
+              <span
+                class="flex-grow truncate text-left ml-4"
+              >
+                My Articles
+              </span>
+              <!--v-if-->
+            </button>
+          </div>
+        </div>
+        <div
+          data-stub="hover-hint-content"
+        >
+          Desk access requires invite
+        </div>
+      </div>
+    </div>
+    <div
+      class="mb-1.5 flex flex-shrink-0 flex-grow-0 items-center justify-between pl-5 pr-2"
+    >
+      <span
+        class="text-xs font-semibold leading-7 text-stone-600"
+      >
+         DESKS 
+      </span>
+      <span
+        class="relative hidden h-full w-4 md:flex md:items-center"
+      >
+        <div
+          class="relative z-[21] inline-block text-left"
+          data-headlessui-state=""
+        >
+          <div
+            data-stub="hover-hint"
+            reference-class="add-button-tooltip"
+          >
+            <div
+              data-stub="hover-hint-reference"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="menu"
+                class="tooltip text-[#7f7f7f] hover:brightness-75"
+                data-headlessui-state=""
+                data-intercom-target="New Desk Button"
+                id="headlessui-menu-button-1"
+                type="button"
+              >
+                <span
+                  class="icon-plus_circle"
+                  data-v-206d3c28=""
+                />
+              </button>
+            </div>
+            <div
+              data-stub="hover-hint-content"
+            >
+              <span
+                class="text-body text-white"
+              >
+                New desk
+              </span>
+            </div>
+          </div>
+          <transition-stub
+            appear="false"
+            css="true"
+            enteractiveclass="transition duration-75 ease-in-out"
+            enterfromclass="transform scale-95 opacity-0"
+            entertoclass="transform scale-100 opacity-100"
+            leaveactiveclass="transition duration-75 ease-in"
+            leavefromclass="transform scale-100 opacity-100"
+            leavetoclass="transform scale-95 opacity-0"
+            persisted="false"
+          >
+            <!---->
+          </transition-stub>
+        </div>
+      </span>
+    </div>
+    <div
+      class="desk-list overflow-auto"
+    >
+      <div
+        class="draggable-list overflow-y-auto overflow-x-hidden"
+        id="desk"
+      >
+        
+        <div
+          class="flex flex-col"
+          data-intercom-target="Desk List"
+          id="root-desk"
+        >
+          
+          <div
+            class="w-full"
+            data-testid="sub-desk"
+            id="sub-desk-0"
+          >
+            
+            <div
+              class="dropzone-item"
+              data-stub="hover-hint"
+              disabled="true"
+              reference-class="w-full"
+            >
+              <div
+                data-stub="hover-hint-reference"
+              >
+                <div
+                  class="dropzone-item relative flex"
+                  id="0"
+                >
+                  <span
+                    class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                  />
+                  <button
+                    class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+                  >
+                    <span
+                      class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                    >
+                      <span
+                        class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                        data-v-206d3c28=""
+                      />
+                    </span>
+                    <span
+                      class="icon-desk w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                      data-v-206d3c28=""
+                    />
+                    <span
+                      class="flex-grow truncate text-left ml-4"
+                    >
+                      Opinion
+                    </span>
+                    <!--v-if-->
+                  </button>
+                </div>
+              </div>
+              <div
+                data-stub="hover-hint-content"
+              >
+                Desk access requires invite
+              </div>
+            </div>
+            
+            
+            <transition-stub
+              appear="false"
+              css="true"
+              enteractiveclass="transition duration-100 ease-out origin-top"
+              enterfromclass="transform scale-y-95 opacity-0"
+              entertoclass="transform scale-y-100 opacity-100"
+              leaveactiveclass="transition duration-75 ease-in origin-top"
+              leavefromclass="transform scale-y-100 opacity-100"
+              leavetoclass="transform scale-y-95 opacity-0"
+              persisted="false"
+            >
+              <!--v-if-->
+            </transition-stub>
+            
+          </div>
+          <div
+            class="w-full"
+            data-testid="sub-desk"
+            id="sub-desk-1"
+          >
+            
+            <div
+              class="dropzone-item"
+              data-stub="hover-hint"
+              disabled="true"
+              reference-class="w-full"
+            >
+              <div
+                data-stub="hover-hint-reference"
+              >
+                <div
+                  class="dropzone-item relative flex"
+                  id="1"
+                >
+                  <span
+                    class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                  />
+                  <button
+                    class="text-button flex h-8 w-full items-center rounded-r transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 text-emerald-700"
+                  >
+                    <span
+                      class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                    >
+                      <span
+                        class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                        data-v-206d3c28=""
+                      />
+                    </span>
+                    <span
+                      class="icon-desk w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                      data-v-206d3c28=""
+                    />
+                    <span
+                      class="flex-grow truncate text-left ml-4"
+                    >
+                      Business
+                    </span>
+                    <span
+                      class="icon-chevron_down ml-auto mr-4 scale-50 transform text-base"
+                      data-v-206d3c28=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                data-stub="hover-hint-content"
+              >
+                Desk access requires invite
+              </div>
+            </div>
+            
+            
+            <transition-stub
+              appear="false"
+              css="true"
+              enteractiveclass="transition duration-100 ease-out origin-top"
+              enterfromclass="transform scale-y-95 opacity-0"
+              entertoclass="transform scale-y-100 opacity-100"
+              leaveactiveclass="transition duration-75 ease-in origin-top"
+              leavefromclass="transform scale-y-100 opacity-100"
+              leavetoclass="transform scale-y-95 opacity-0"
+              persisted="false"
+            >
+              <div
+                class="w-full"
+              >
+                
+                <div>
+                  
+                  <div
+                    class="dropzone-item"
+                    data-stub="hover-hint"
+                    disabled="true"
+                    reference-class="w-full"
+                  >
+                    <div
+                      data-stub="hover-hint-reference"
+                    >
+                      <div
+                        class="dropzone-item relative flex"
+                        id="1-0"
+                      >
+                        <span
+                          class="absolute h-8 w-1 rounded-r-sm transition-all bg-emerald-700 dropzone-item"
+                        />
+                        <button
+                          class="text-button flex h-8 w-full items-center rounded-r transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 text-emerald-700 bg-stone-800/5 font-normal opacity-75"
+                        >
+                          <span
+                            class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                          >
+                            <span
+                              class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                              data-v-206d3c28=""
+                            />
+                          </span>
+                          <span
+                            class="icon- w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                            data-v-206d3c28=""
+                          />
+                          <span
+                            class="flex-grow truncate text-left ml-4"
+                          >
+                            Capital Markets
+                          </span>
+                          <!--v-if-->
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      data-stub="hover-hint-content"
+                    >
+                      Desk access requires invite
+                    </div>
+                  </div>
+                  
+                </div>
+                <div>
+                  
+                  <div
+                    class="dropzone-item"
+                    data-stub="hover-hint"
+                    disabled="true"
+                    reference-class="w-full"
+                  >
+                    <div
+                      data-stub="hover-hint-reference"
+                    >
+                      <div
+                        class="dropzone-item relative flex"
+                        id="1-1"
+                      >
+                        <span
+                          class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                        />
+                        <button
+                          class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 font-normal opacity-75"
+                        >
+                          <span
+                            class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                          >
+                            <span
+                              class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                              data-v-206d3c28=""
+                            />
+                          </span>
+                          <span
+                            class="icon- w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                            data-v-206d3c28=""
+                          />
+                          <span
+                            class="flex-grow truncate text-left ml-4"
+                          >
+                            Currency
+                          </span>
+                          <!--v-if-->
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      data-stub="hover-hint-content"
+                    >
+                      Desk access requires invite
+                    </div>
+                  </div>
+                  
+                </div>
+                <div>
+                  
+                  <div
+                    class="dropzone-item"
+                    data-stub="hover-hint"
+                    disabled="true"
+                    reference-class="w-full"
+                  >
+                    <div
+                      data-stub="hover-hint-reference"
+                    >
+                      <div
+                        class="dropzone-item relative flex"
+                        id="1-2"
+                      >
+                        <span
+                          class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                        />
+                        <button
+                          class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 font-normal opacity-75"
+                        >
+                          <span
+                            class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                          >
+                            <span
+                              class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                              data-v-206d3c28=""
+                            />
+                          </span>
+                          <span
+                            class="icon- w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                            data-v-206d3c28=""
+                          />
+                          <span
+                            class="flex-grow truncate text-left ml-4"
+                          >
+                            Derivatives
+                          </span>
+                          <!--v-if-->
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      data-stub="hover-hint-content"
+                    >
+                      Desk access requires invite
+                    </div>
+                  </div>
+                  
+                </div>
+                <div>
+                  
+                  <div
+                    class="dropzone-item"
+                    data-stub="hover-hint"
+                    disabled="true"
+                    reference-class="w-full"
+                  >
+                    <div
+                      data-stub="hover-hint-reference"
+                    >
+                      <div
+                        class="dropzone-item relative flex"
+                        id="1-3"
+                      >
+                        <span
+                          class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                        />
+                        <button
+                          class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5 font-normal opacity-75"
+                        >
+                          <span
+                            class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                          >
+                            <span
+                              class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                              data-v-206d3c28=""
+                            />
+                          </span>
+                          <span
+                            class="icon- w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                            data-v-206d3c28=""
+                          />
+                          <span
+                            class="flex-grow truncate text-left ml-4"
+                          >
+                            Equities
+                          </span>
+                          <!--v-if-->
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      data-stub="hover-hint-content"
+                    >
+                      Desk access requires invite
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </transition-stub>
+            
+          </div>
+          <div
+            class="w-full"
+            data-testid="sub-desk"
+            id="sub-desk-2"
+          >
+            
+            <div
+              class="dropzone-item"
+              data-stub="hover-hint"
+              disabled="true"
+              reference-class="w-full"
+            >
+              <div
+                data-stub="hover-hint-reference"
+              >
+                <div
+                  class="dropzone-item relative flex"
+                  id="2"
+                >
+                  <span
+                    class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                  />
+                  <button
+                    class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+                  >
+                    <span
+                      class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                    >
+                      <span
+                        class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                        data-v-206d3c28=""
+                      />
+                    </span>
+                    <span
+                      class="icon-desk w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                      data-v-206d3c28=""
+                    />
+                    <span
+                      class="flex-grow truncate text-left ml-4"
+                    >
+                      Politics
+                    </span>
+                    <span
+                      class="icon-chevron_up ml-auto mr-4 scale-50 transform text-base"
+                      data-v-206d3c28=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                data-stub="hover-hint-content"
+              >
+                Desk access requires invite
+              </div>
+            </div>
+            
+            
+            <transition-stub
+              appear="false"
+              css="true"
+              enteractiveclass="transition duration-100 ease-out origin-top"
+              enterfromclass="transform scale-y-95 opacity-0"
+              entertoclass="transform scale-y-100 opacity-100"
+              leaveactiveclass="transition duration-75 ease-in origin-top"
+              leavefromclass="transform scale-y-100 opacity-100"
+              leavetoclass="transform scale-y-95 opacity-0"
+              persisted="false"
+            >
+              <!--v-if-->
+            </transition-stub>
+            
+          </div>
+          <div
+            class="w-full"
+            data-testid="sub-desk"
+            id="sub-desk-3"
+          >
+            
+            <div
+              class="dropzone-item"
+              data-stub="hover-hint"
+              disabled="true"
+              reference-class="w-full"
+            >
+              <div
+                data-stub="hover-hint-reference"
+              >
+                <div
+                  class="dropzone-item relative flex"
+                  id="3"
+                >
+                  <span
+                    class="absolute h-8 w-1 rounded-r-sm transition-all dropzone-item"
+                  />
+                  <button
+                    class="text-button flex h-8 w-full items-center rounded-r text-stone-600 transition-colors duration-100 focus:outline-none hover:bg-stone-800/5"
+                  >
+                    <span
+                      class="transition delay-200 duration-100 ease-in-out invisible opacity-0"
+                    >
+                      <span
+                        class="icon-drag-handle w-[1.125rem] cursor-grab text-[1.125rem] text-stone-600/75"
+                        data-v-206d3c28=""
+                      />
+                    </span>
+                    <span
+                      class="icon-desk w-[1.125rem] text-[1.125rem] transition duration-300 ease-out translate-x-1"
+                      data-v-206d3c28=""
+                    />
+                    <span
+                      class="flex-grow truncate text-left ml-4"
+                    >
+                      Environment
+                    </span>
+                    <!--v-if-->
+                  </button>
+                </div>
+              </div>
+              <div
+                data-stub="hover-hint-content"
+              >
+                Desk access requires invite
+              </div>
+            </div>
+            
+            
+            <transition-stub
+              appear="false"
+              css="true"
+              enteractiveclass="transition duration-100 ease-out origin-top"
+              enterfromclass="transform scale-y-95 opacity-0"
+              entertoclass="transform scale-y-100 opacity-100"
+              leaveactiveclass="transition duration-75 ease-in origin-top"
+              leavefromclass="transform scale-y-100 opacity-100"
+              leavetoclass="transform scale-y-95 opacity-0"
+              persisted="false"
+            >
+              <!--v-if-->
+            </transition-stub>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    <div
+      class="text-body flex-shrink flex-grow py-4 pl-5 pr-4 text-stone-800"
+    >
+      <span>
+        Welcome to your Publication. To customise your theme, 
+      </span>
+      <span
+        class="font-semibold"
+      >
+        click the big green button on the top right of the navbar and click ‘customise theme’.
+      </span>
+    </div>
+    <div
+      class="hidden flex-shrink-0 flex-grow-0 py-3.5 pl-3 md:flex"
+    >
+      <!--v-if-->
+    </div>
+  </div>
+</div>
+`;

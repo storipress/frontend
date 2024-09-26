@@ -1,0 +1,11 @@
+mutation DeleteStage($id: ID!) {
+  deleteStage(id: $id) {
+    id
+    name
+    color
+    icon
+    order
+    ready
+    default
+  }
+}

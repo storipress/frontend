@@ -1,0 +1,3 @@
+mutation SortArticleBy($stageId: ID!, $sortBy: ArticleSortBy!) {
+  sortArticleBy(input: { stage_id: $stageId, sort_by: $sortBy })
+}

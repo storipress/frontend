@@ -1,0 +1,3 @@
+mutation SwapAppSubscription($input: SwapAppSubscriptionInput) {
+  swapAppSubscription(input: $input)
+}

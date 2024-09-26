@@ -1,0 +1,7 @@
+mutation RequestPresignedUploadURL($md5: String) {
+  requestPresignedUploadURL(md5: $md5) {
+    url
+    key
+    signature
+  }
+}

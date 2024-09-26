@@ -1,0 +1,26 @@
+query GetArticleContentBlock($id: ID!) {
+  article(id: $id) {
+    id
+    title
+    content_blocks {
+      id
+      key
+      group {
+        id
+        key
+      }
+      values {
+        __typename
+        ...CustomFieldTextValue
+        ...CustomFieldNumberValue
+        ...CustomFieldColorValue
+        ...CustomFieldUrlValue
+        ...CustomFieldBooleanValue
+        ...CustomFieldRichTextValue
+        ...CustomFieldFileValue
+        ...CustomFieldDateValue
+        ...CustomFieldJsonValue
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@mixin dropcap($name) {
+  .dropcap--#{$name} {
+    .main-content {
+      & > p {
+        &:first-of-type {
+          &::first-letter {
+            @content;
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin blockquote($name) {
+  .blockquote--#{$name} {
+    .main-content {
+      & > blockquote {
+        @content;
+      }
+    }
+  }
+}

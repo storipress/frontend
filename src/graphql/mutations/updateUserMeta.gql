@@ -1,0 +1,6 @@
+mutation UpdateUserMeta($meta: JSON) {
+  updateProfile(input: { meta: $meta }) {
+    id
+    meta
+  }
+}

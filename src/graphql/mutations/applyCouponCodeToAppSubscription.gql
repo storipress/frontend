@@ -1,0 +1,3 @@
+mutation ApplyCouponCodeToAppSubscription($code: String!) {
+  applyCouponCodeToAppSubscription(input: { promotion_code: $code })
+}

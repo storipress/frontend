@@ -1,0 +1,117 @@
+{
+  "results": [
+    {
+      "facet_counts": [],
+      "found": 0,
+      "hits": [],
+      "out_of": 265,
+      "page": 1,
+      "request_params": {
+        "collection_name": "D6RX98VXN-articles",
+        "per_page": 10,
+        "q": "*"
+      },
+      "search_cutoff": false,
+      "search_time_ms": 0
+    },
+    {
+      "facet_counts": [],
+      "found": 0,
+      "hits": [],
+      "out_of": 265,
+      "page": 1,
+      "request_params": {
+        "collection_name": "D6RX98VXN-articles",
+        "per_page": 10,
+        "q": "*"
+      },
+      "search_cutoff": false,
+      "search_time_ms": 0
+    },
+    {
+      "facet_counts": [],
+      "found": 2,
+      "hits": [
+        {
+          "document": {
+            "author_avatars": [
+              "https://avatars.dicebear.com/api/croodles-neutral/Harvey Liu.svg?b=%23F0F0F0",
+              "https://avatars.dicebear.com/api/croodles-neutral/harvey author.svg?b=%23F0F0F0",
+              "https://avatars.dicebear.com/api/croodles-neutral/harvey contributor.svg?b=%23F0F0F0"
+            ],
+            "author_ids": ["152", "169", "170"],
+            "author_names": ["Harvey Liu", "harvey author", "harvey contributor"],
+            "cover": "null",
+            "created_at": 1652239170,
+            "desk_id": 3,
+            "desk_name": "TEST: One Article",
+            "featured": true,
+            "id": "157",
+            "order": 89,
+            "published": false,
+            "slug": "draft-38",
+            "stage_id": 3,
+            "stage_name": "Reviewed",
+            "tag_ids": [],
+            "tag_names": [],
+            "title": "TOA-Draft",
+            "updated_at": 1652239170
+          },
+          "highlights": [],
+          "text_match": 33514496
+        },
+        {
+          "document": {
+            "author_avatars": [
+              "https://avatars.dicebear.com/api/croodles-neutral/Harvey Liu.svg?b=%23F0F0F0",
+              "https://avatars.dicebear.com/api/croodles-neutral/harvey author.svg?b=%23F0F0F0",
+              "https://avatars.dicebear.com/api/croodles-neutral/harvey contributor.svg?b=%23F0F0F0"
+            ],
+            "author_ids": ["152", "169", "170"],
+            "author_names": ["Harvey Liu", "harvey author", "harvey contributor"],
+            "cover": "null",
+            "created_at": 1652239170,
+            "desk_id": 3,
+            "desk_name": "TEST: One Article",
+            "featured": true,
+            "id": "158",
+            "order": 90,
+            "published": false,
+            "slug": "draft-38",
+            "stage_id": 3,
+            "stage_name": "Reviewed",
+            "tag_ids": [],
+            "tag_names": [],
+            "title": "TOA-Draft",
+            "updated_at": 1652239170
+          },
+          "highlights": [],
+          "text_match": 33514496
+        }
+      ],
+      "out_of": 265,
+      "page": 1,
+      "request_params": {
+        "collection_name": "D6RX98VXN-articles",
+        "per_page": 10,
+        "q": "*"
+      },
+      "search_cutoff": false,
+      "search_time_ms": 0
+    },
+    {
+      "facet_counts": [],
+      "found": 0,
+      "hits": [],
+      "out_of": 265,
+      "page": 1,
+      "request_params": {
+        "collection_name": "D6RX98VXN-articles",
+        "per_page": 10,
+        "q": "*"
+      },
+      "search_cutoff": false,
+      "search_time_ms": 0
+    }
+  ]
+}

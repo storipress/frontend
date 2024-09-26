@@ -1,0 +1,9 @@
+query Releases($first: Int, $page: Int) {
+  releases(first: $first, page: $page) {
+    data {
+      id
+      state
+      created_at
+    }
+  }
+}

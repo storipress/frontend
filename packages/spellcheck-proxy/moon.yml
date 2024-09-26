@@ -1,0 +1,23 @@
+tasks:
+  deploy:
+    command:
+      - wrangler
+      - deploy
+      - --minify
+      - src/index.ts
+    inputs:
+      - src/**/*.ts
+      - schema.ts
+      - wrangler.toml
+    platform: node
+  dev:
+    command:
+      - wrangler
+      - dev
+      - src/index.ts
+    local: true
+    inputs:
+      - src/**/*.ts
+      - schema.ts
+      - wrangler.toml
+    platform: node

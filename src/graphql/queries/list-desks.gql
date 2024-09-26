@@ -1,0 +1,25 @@
+query ListDesks {
+  desks {
+    id
+    name
+    description
+    slug
+    open_access
+    order
+    desk {
+      id
+      name
+    }
+    desks {
+      id
+      name
+      description
+      slug
+      order
+      desk {
+        id
+        name
+      }
+    }
+  }
+}

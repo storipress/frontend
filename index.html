@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.png" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/pwa-192x192.png" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00aba9" />
+    <link rel="stylesheet" href="https://assets.stori.press/storipress-next/styles/iconfont.css?ver=2.13.0" />
+    <link rel="stylesheet" href="https://assets.stori.press/storipress/css/preview-fonts.css?ver=1.3.0" />
+    <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es2022%2CIntl.ListFormat&flags=gated"></script>
+    <script
+      type="module"
+      src="https://cdn.zapier.com/packages/partner-sdk/v0/zapier-elements/zapier-elements.esm.js"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.zapier.com/packages/partner-sdk/v0/zapier-elements/zapier-elements.css" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="theme-color" content="#ffffff" />
+    <%- injectRobotsMeta %>
+    <script>
+      ;(function () {
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+        if (setting === 'dark' || (prefersDark && setting !== 'light'))
+          document.documentElement.classList.toggle('dark', true)
+      })()
+    </script>
+    <script>
+      ;(function (w, d, s, p, t) {
+        w.gr =
+          w.gr ||
+          function () {
+            w.gr.q = w.gr.q || []
+            w.gr.q.push(arguments)
+          }
+        p = d.getElementsByTagName(s)[0]
+        t = d.createElement(s)
+        t.async = true
+        t.src = 'https://app.getreditus.com/gr.js?_ce=60'
+        p.parentNode.insertBefore(t, p)
+      })(window, document, 'script')
+      gr('track', 'pageview')
+    </script>
+  </head>
+  <body class="overscroll-none">
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

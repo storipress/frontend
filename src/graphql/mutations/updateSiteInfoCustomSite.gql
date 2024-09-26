@@ -1,0 +1,7 @@
+mutation UpdateSiteInfoCustomSite($input: UpdateSiteInput!) {
+  updateSiteInfo(input: $input) {
+    id
+    name
+    custom_site_template
+  }
+}

@@ -1,0 +1,7 @@
+mutation UnsuspendUser($ids: [ID!]!) {
+  unsuspendUser(ids: $ids) {
+    id
+    status
+    suspended
+  }
+}
